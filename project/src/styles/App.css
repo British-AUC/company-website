@@ -7,3 +7,7 @@
   box-sizing: border-box;
   min-height: 100vh;
 }
+
+h1 {
+  color: #1C1B1F;
+}
