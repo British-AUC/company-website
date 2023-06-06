@@ -167,5 +167,78 @@ nav {
   flex-wrap: wrap;
 }
 
+.section-two {
+  display: flex;
+  flex-direction: column;
+  padding: $desktoppadding;
+  padding-bottom: 2em;
+  margin-bottom: 5em;
+  background-color: $companygreybg;
+  .section-two-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+  .section-two-left {
+    display: flex;
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  .section-two-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  padding: $desktoppadding;
+  .service {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5em;
+  }
+  .service-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: $compangreyblue;
+    padding: 3em 2.5em;
+    gap: 1em;
+    h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      letter-spacing: 0.05em;
+    }
+    p {
+      margin: 0;
+    }
+  }
+  .service-right {
+    display: flex;
+    width: 55%;
+    img {
+      width: 100%;
+    }
+  }
+  .service:nth-child(odd){
+    flex-direction: row-reverse;
+    .service-left {
+      background-color: $companyblack;
+      h3 {
+        color: white;
+      }
+      p {
+        color: #DFDFDF;
+      }
+    }
+  }
+}
+
+
 
 

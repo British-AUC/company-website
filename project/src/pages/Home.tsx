@@ -1,6 +1,7 @@
 import React from "react"
 import '../styles/App.css'
 import heroimage from "../assets/heroimage.webp"
+import groupimage from "../assets/groupimage.png"
 import ukflag from "../assets/ukflag.svg"
 import usflag from "../assets/usflag.svg"
 import canadaflag from "../assets/canadaflag.svg"
@@ -13,11 +14,12 @@ import turkeyflag from "../assets/turkeyflag.svg"
 import cyprusflag from "../assets/cyprusflag.svg"
 import polandflag from "../assets/polandflag.svg"
 // import ukraineflag from "../assets/ukraineflag.svg"
+import Service from "../components/Service"
 
 export default function Home(){
     return (
         <>
-        {/* HERO SECTION */}
+            {/* HERO SECTION */}
             <header className="hero">
                 <div className="hero-left">
                     <h1>Want to Study <span style={{color:"#005EBD"}}>Abroad?</span></h1>
@@ -59,6 +61,40 @@ export default function Home(){
                     <img src={polandflag} alt="poland Flag" />
                     {/* <img src={ukraineflag} alt="Ukraine Flag" /> */}
                 </div>
+            </section>
+
+            {/* SECTION TWO*/}
+            <section className="section-two">
+                <h2>About British AUC</h2>
+                <div className="section-two-bottom">
+                    <div className="section-two-left">
+                        <img src={groupimage} alt="Group Image" />
+                    </div>
+                    <div className="section-two-right">
+                        <p>
+                            <b>BRITISH AUC</b> is a Free Visa and Admission Application 
+                            Centre that support admission and visa application to 
+                            universities and countries around the world for WHOLLY 
+                            FREE OF CHARGE. 
+                        </p>
+                        <p>
+                            <b>BRITISH AUC</b>  Application Centre is a one-stop shop for 
+                            all your study abroad support services. The application 
+                            centres have helped thousands of international students 
+                            study in universities and colleges in the UK, USA, Canada, 
+                            Australia, Ireland, Germany, Turkey, Cyprus, etc.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            {/* SECTION THREE*/}
+            <section className="section-three">
+                <h2>How can we help?</h2>
+                <Service/>
+                <Service/>
+                <Service/>
+                <Service/>
             </section>
         </>
     )

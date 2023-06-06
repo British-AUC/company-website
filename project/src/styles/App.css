@@ -152,4 +152,76 @@ nav {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 4rem;
+  padding-bottom: 2em;
+  margin-bottom: 5em;
+  background-color: #F6F6F6;
+}
+.section-two .section-two-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+.section-two .section-two-left {
+  display: flex;
+  width: 50%;
+}
+.section-two .section-two-left img {
+  width: 100%;
+}
+.section-two .section-two-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 4rem;
+}
+.section-three .service {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5em;
+}
+.section-three .service-left {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  background-color: #DDE6F0;
+  padding: 3em 2.5em;
+  gap: 1em;
+}
+.section-three .service-left h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+}
+.section-three .service-left p {
+  margin: 0;
+}
+.section-three .service-right {
+  display: flex;
+  width: 55%;
+}
+.section-three .service-right img {
+  width: 100%;
+}
+.section-three .service:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.section-three .service:nth-child(odd) .service-left {
+  background-color: #1C1B1F;
+}
+.section-three .service:nth-child(odd) .service-left h3 {
+  color: white;
+}
+.section-three .service:nth-child(odd) .service-left p {
+  color: #DFDFDF;
 }/*# sourceMappingURL=App.css.map */
