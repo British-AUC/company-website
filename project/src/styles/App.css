@@ -136,10 +136,20 @@ nav {
   align-items: center;
   padding: 0rem 4rem;
   padding-top: 5em;
+  padding-bottom: 5em;
 }
 .section-one p {
   text-align: center;
   font-weight: 300;
   font-size: 1.5rem;
   width: 80%;
+}
+
+.flags-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=App.css.map */
