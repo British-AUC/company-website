@@ -1,7 +1,5 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0rem 4rem 0rem 4rem;
+  padding: 0;
   margin: 0;
   outline: 0;
   box-sizing: border-box;
@@ -11,3 +9,137 @@
 h1 {
   color: #1C1B1F;
 }
+
+h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+nav {
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 4rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.nav-top {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: flex-end;
+}
+.nav-top p {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0;
+}
+
+.nav-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-bottom-left {
+  width: 33%;
+}
+
+.nav-bottom-right {
+  display: flex;
+  width: 67%;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+.nav-bottom-right a {
+  color: #1C1B1F;
+  text-decoration: none;
+  padding-bottom: 0.5em;
+  font-weight: 600;
+}
+.nav-bottom-right .active {
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #005EBD;
+}
+.nav-bottom-right .active a {
+  color: #005EBD;
+}
+.nav-bottom-right a:hover {
+  color: #005EBD;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  gap: 2em;
+  background-color: #F6F6F6;
+  padding: 0rem 4rem;
+  padding-bottom: 2em;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.hero-left h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+.hero-left .button-container {
+  display: flex;
+  gap: 1em;
+}
+.hero-left .button-1, .hero-left .button-2 {
+  background-color: #005EBD;
+  width: 200px;
+  border: inherit;
+  outline: none;
+  padding: 0.9375em;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.hero-left .button-1:hover, .hero-left .button-2:hover {
+  background-color: #006edb;
+}
+.hero-left .button-2 {
+  background-color: inherit;
+  width: 130px;
+  color: #005EBD;
+  border: 1.5px solid #005EBD;
+}
+.hero-left .button-2:hover {
+  background-color: inherit;
+  border: 1.5px solid #1C1B1F;
+  color: #1C1B1F;
+}
+
+.hero-right {
+  display: flex;
+  width: 50%;
+}
+.hero-right img {
+  width: 100%;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 4rem;
+  padding-top: 5em;
+}
+.section-one p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.5rem;
+  width: 80%;
+}/*# sourceMappingURL=App.css.map */
