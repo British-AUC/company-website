@@ -17,9 +17,12 @@ import polandflag from "../assets/flags/polandflag.svg"
 import Service from "../components/Service"
 import servicedata from "../data/services";
 import Testimonial from "../components/Testimonials"
+import Metrics from "../components/Metrics"
+import metricsdata from "../data/metrics"
 
 export default function Home(){
     const services = servicedata.map(item => <Service key={item.id} {...item}/>)
+    const metrics = metricsdata.map(item => <Metrics key={item.id} {...item}/>)
 
     return (
         <>
@@ -67,7 +70,7 @@ export default function Home(){
                 </div>
             </section>
 
-            {/* SECTION TWO*/}
+            {/* SECTION TWO */}
             <section className="section-two">
                 <h2>About British AUC</h2>
                 <div className="section-two-bottom">
@@ -92,16 +95,24 @@ export default function Home(){
                 </div>
             </section>
 
-            {/* SECTION THREE*/}
+            {/* SECTION THREE */}
             <section className="section-three">
                 <h2>How can we help?</h2>
                 {services}
             </section>
 
-            {/* SECTION FOUR*/}
+            {/* SECTION FOUR */}
             <section className="section-four">
                 <h2>Testimonials from happy clients</h2>
                 <Testimonial/>
+            </section>
+
+            {/* SECTION FIVE */}
+            <section className="section-five">
+                <h2>Our Success</h2>
+                <div className="metrics-container">
+                    {metrics}
+                </div>
             </section>
         </>
     )

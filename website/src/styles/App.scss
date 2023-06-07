@@ -320,6 +320,39 @@ nav {
     }
   }
 }
+// SECTION FOUR END
+
+// SECTION FIVE START
+.section-five {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: url("../assets/graduates.png") center fixed;
+  background-size: cover;
+  height: 528px;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    font-weight: 700;
+    color: white;
+  }
+  .metrics-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .metric {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: white;
+    width: 250px;
+    b {
+      font-size: 2.25rem;
+    }
+  }
+}
+
 
 
 

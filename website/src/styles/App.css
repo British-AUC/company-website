@@ -294,4 +294,34 @@ nav {
 }
 .testimonial-container .testimonial-nav .nav-bubble.active {
   background-color: #1C1B1F;
+}
+
+.section-five {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: url("../assets/graduates.png") center fixed;
+  background-size: cover;
+  height: 528px;
+  align-items: center;
+  justify-content: center;
+}
+.section-five h2 {
+  font-weight: 700;
+  color: white;
+}
+.section-five .metrics-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.section-five .metric {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  color: white;
+  width: 250px;
+}
+.section-five .metric b {
+  font-size: 2.25rem;
 }/*# sourceMappingURL=App.css.map */
