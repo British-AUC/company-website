@@ -25,7 +25,7 @@ h2 {
   text-align: center;
 }
 
-// Navigation Start
+// NAVIGATION START
 nav {
   background-color: $companygreybg;
   display: flex;
@@ -79,7 +79,8 @@ nav {
   a:hover {
     color: $companyblue;
   }
-} // Navigation End
+}
+// NAVIGATION END
  
 
 // HOME PAGE
@@ -141,8 +142,10 @@ nav {
   img {
     width: 100%;
   }
-} // HERO SECTION ONE
+}
+// HERO SECTION END
 
+// SECTION ONE START
 .section-one {
   display: flex;
   flex-direction: column;
@@ -166,7 +169,9 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
 }
+// SECTION ONE END
 
+// SECTION TWO START
 .section-two {
   display: flex;
   flex-direction: column;
@@ -192,7 +197,9 @@ nav {
     width: 50%;
   }
 }
+// SECTION TWO END
 
+// SECTION THREE START
 .section-three {
   display: flex;
   flex-direction: column;
@@ -223,6 +230,7 @@ nav {
     width: 55%;
     img {
       width: 100%;
+      height: auto;
     }
   }
   .service:nth-child(odd){
@@ -235,6 +243,52 @@ nav {
       p {
         color: #DFDFDF;
       }
+    }
+  }
+}
+// SECTION THREE END
+
+// SECTION FOUR START
+.section-four {
+  display: flex;
+  flex-direction: column;
+  padding: $desktoppadding;
+  padding-bottom: 5em;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-container{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  height: auto;
+  .testimonial-container-left {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial-container-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    .message {
+      font-size: 1rem;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+    }
+    .details{
+      display: flex;
+      flex-direction: row;
+      gap: 1em;
+    }
+    .name {
+      font-weight: 700;
+      font-size: 1rem;
+    }
+    .university {
+      @extend .name;
     }
   }
 }

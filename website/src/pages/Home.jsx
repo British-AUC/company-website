@@ -2,23 +2,27 @@ import React from "react"
 import '../styles/App.css'
 import heroimage from "../assets/heroimage.webp"
 import groupimage from "../assets/groupimage.png"
-import ukflag from "../assets/ukflag.svg"
-import usflag from "../assets/usflag.svg"
-import canadaflag from "../assets/canadaflag.svg"
-import irelandflag from "../assets/irelandflag.svg"
-import scotlandflag from "../assets/scotlandflag.svg"
-import australiaflag from "../assets/australiaflag.svg"
-import newzealandflag from "../assets/newzealandflag.svg"
-import germanyflag from "../assets/germanyflag.svg"
-import turkeyflag from "../assets/turkeyflag.svg"
-import cyprusflag from "../assets/cyprusflag.svg"
-import polandflag from "../assets/polandflag.svg"
-// import ukraineflag from "../assets/ukraineflag.svg"
+import ukflag from "../assets/flags/ukflag.svg"
+import usflag from "../assets/flags/usflag.svg"
+import canadaflag from "../assets/flags/canadaflag.svg"
+import irelandflag from "../assets/flags/irelandflag.svg"
+import scotlandflag from "../assets/flags/scotlandflag.svg"
+import australiaflag from "../assets/flags/australiaflag.svg"
+import newzealandflag from "../assets/flags/newzealandflag.svg"
+import germanyflag from "../assets/flags/germanyflag.svg"
+import turkeyflag from "../assets/flags/turkeyflag.svg"
+import cyprusflag from "../assets/flags/cyprusflag.svg"
+import polandflag from "../assets/flags/polandflag.svg"
+// import ukraineflag from "../assets/flags/ukraineflag.svg"
 import Service from "../components/Service"
 import servicedata from "../data/services";
+import Testimonial from "../components/Testimonials"
+import testimonialdata from "../data/testimonials"
+
 
 export default function Home(){
-    const services = servicedata.map(item => (<Service key={item.id} {...item}/>))
+    const services = servicedata.map(item => <Service key={item.id} {...item}/>)
+    const testimonials = testimonialdata.map(item => <Testimonial key={item.id} {...item}/>)
 
     return (
         <>
@@ -95,6 +99,12 @@ export default function Home(){
             <section className="section-three">
                 <h2>How can we help?</h2>
                 {services}
+            </section>
+
+            {/* SECTION FOUR*/}
+            <section className="section-four">
+                <h2>Testimonials from happy clients</h2>
+                {testimonials}
             </section>
         </>
     )

@@ -212,6 +212,7 @@ nav {
 }
 .section-three .service-right img {
   width: 100%;
+  height: auto;
 }
 .section-three .service:nth-child(odd) {
   flex-direction: row-reverse;
@@ -224,4 +225,45 @@ nav {
 }
 .section-three .service:nth-child(odd) .service-left p {
   color: #DFDFDF;
+}
+
+.section-four {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 4rem;
+  padding-bottom: 5em;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  height: auto;
+}
+.testimonial-container .testimonial-container-left {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-container .testimonial-container-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.testimonial-container .testimonial-container-right .message {
+  font-size: 1rem;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+}
+.testimonial-container .testimonial-container-right .details {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+.testimonial-container .testimonial-container-right .name, .testimonial-container .testimonial-container-right .university {
+  font-weight: 700;
+  font-size: 1rem;
 }/*# sourceMappingURL=App.css.map */
