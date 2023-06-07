@@ -17,12 +17,9 @@ import polandflag from "../assets/flags/polandflag.svg"
 import Service from "../components/Service"
 import servicedata from "../data/services";
 import Testimonial from "../components/Testimonials"
-import testimonialdata from "../data/testimonials"
-
 
 export default function Home(){
     const services = servicedata.map(item => <Service key={item.id} {...item}/>)
-    const testimonials = testimonialdata.map(item => <Testimonial key={item.id} {...item}/>)
 
     return (
         <>
@@ -104,7 +101,7 @@ export default function Home(){
             {/* SECTION FOUR*/}
             <section className="section-four">
                 <h2>Testimonials from happy clients</h2>
-                {testimonials}
+                <Testimonial/>
             </section>
         </>
     )

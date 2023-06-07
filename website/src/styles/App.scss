@@ -254,41 +254,69 @@ nav {
   flex-direction: column;
   padding: $desktoppadding;
   padding-bottom: 5em;
-  align-items: center;
-  justify-content: center;
 }
 
 .testimonial-container{
   display: flex;
-  flex-direction: row;
-  width: 60%;
-  height: auto;
-  .testimonial-container-left {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  .testimonial-sub-container {
     display: flex;
-    width: 50%;
+    flex-direction: row;
+    width: 70%;
+    height: auto;
+    gap: 2rem;
+    .arrow {
+      width: 20px;
+    }
+    .arrow:hover {
+      width: 40px;
+    }
+    .testimonial-container-left {
+      display: flex;
+      width: 30%;
+      align-items: center;
+      justify-content: center;
+    }
+    .testimonial-container-right {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      .message {
+        font-size: 1rem;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+      }
+      .details{
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+      }
+      .name {
+        font-weight: 700;
+        font-size: 1rem;
+      }
+      .university {
+        @extend .name;
+      }
+    }
+  }
+  .testimonial-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
     align-items: center;
     justify-content: center;
-  }
-  .testimonial-container-right {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    .message {
-      font-size: 1rem;
-      line-height: 22px;
-      letter-spacing: 0.05em;
-    }
-    .details{
-      display: flex;
-      flex-direction: row;
-      gap: 1em;
-    }
-    .name {
-      font-weight: 700;
-      font-size: 1rem;
-    }
-    .university {
-      @extend .name;
+    .nav-bubble {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #E3E3E3;
+      &.active {
+        background-color: $companyblack;
+      }
     }
   }
 }

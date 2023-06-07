@@ -232,38 +232,66 @@ nav {
   flex-direction: column;
   padding: 0rem 4rem;
   padding-bottom: 5em;
-  align-items: center;
-  justify-content: center;
 }
 
 .testimonial-container {
   display: flex;
-  flex-direction: row;
-  width: 60%;
-  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
 }
-.testimonial-container .testimonial-container-left {
+.testimonial-container .testimonial-sub-container {
   display: flex;
-  width: 50%;
+  flex-direction: row;
+  width: 70%;
+  height: auto;
+  gap: 2rem;
+}
+.testimonial-container .testimonial-sub-container .arrow {
+  width: 20px;
+}
+.testimonial-container .testimonial-sub-container .arrow:hover {
+  width: 40px;
+}
+.testimonial-container .testimonial-sub-container .testimonial-container-left {
+  display: flex;
+  width: 30%;
   align-items: center;
   justify-content: center;
 }
-.testimonial-container .testimonial-container-right {
+.testimonial-container .testimonial-sub-container .testimonial-container-right {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 70%;
 }
-.testimonial-container .testimonial-container-right .message {
+.testimonial-container .testimonial-sub-container .testimonial-container-right .message {
   font-size: 1rem;
   line-height: 22px;
   letter-spacing: 0.05em;
 }
-.testimonial-container .testimonial-container-right .details {
+.testimonial-container .testimonial-sub-container .testimonial-container-right .details {
   display: flex;
   flex-direction: row;
   gap: 1em;
 }
-.testimonial-container .testimonial-container-right .name, .testimonial-container .testimonial-container-right .university {
+.testimonial-container .testimonial-sub-container .testimonial-container-right .name, .testimonial-container .testimonial-sub-container .testimonial-container-right .university {
   font-weight: 700;
   font-size: 1rem;
+}
+.testimonial-container .testimonial-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-container .testimonial-nav .nav-bubble {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #E3E3E3;
+}
+.testimonial-container .testimonial-nav .nav-bubble.active {
+  background-color: #1C1B1F;
 }/*# sourceMappingURL=App.css.map */
