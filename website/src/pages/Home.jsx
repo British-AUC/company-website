@@ -15,8 +15,11 @@ import cyprusflag from "../assets/cyprusflag.svg"
 import polandflag from "../assets/polandflag.svg"
 // import ukraineflag from "../assets/ukraineflag.svg"
 import Service from "../components/Service"
+import servicedata from "../data/services";
 
 export default function Home(){
+    const services = servicedata.map(item => (<Service key={item.id} {...item}/>))
+
     return (
         <>
             {/* HERO SECTION */}
@@ -91,10 +94,7 @@ export default function Home(){
             {/* SECTION THREE*/}
             <section className="section-three">
                 <h2>How can we help?</h2>
-                <Service/>
-                <Service/>
-                <Service/>
-                <Service/>
+                {services}
             </section>
         </>
     )
