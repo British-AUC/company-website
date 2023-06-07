@@ -19,10 +19,13 @@ import servicedata from "../data/services";
 import Testimonial from "../components/Testimonials"
 import Metrics from "../components/Metrics"
 import metricsdata from "../data/metrics"
+import ContactInfo from "../components/ContactInfo"
+import contactdata from "../data/contactinfo"
 
 export default function Home(){
     const services = servicedata.map(item => <Service key={item.id} {...item}/>)
     const metrics = metricsdata.map(item => <Metrics key={item.id} {...item}/>)
+    const contactinformation = contactdata.map(item => <ContactInfo key={item.id} {...item} />)
 
     return (
         <>
@@ -112,6 +115,33 @@ export default function Home(){
                 <h2>Our Success</h2>
                 <div className="metrics-container">
                     {metrics}
+                </div>
+            </section>
+
+            {/* SECTION SIX */}
+            <section className="section-six">
+                <h2>Speak to an advisor now</h2>
+                <p>
+                    Got questions? Leave your details below and a 
+                    customer representative will reach out to you 
+                    within 24 hours.
+                </p>
+                <div className="section-six-sub">
+                    <div className="section-six-left">
+                        {contactinformation}
+                    </div>
+                    <form className="section-six-right">
+                        <div className="inputs">
+                            <input type="text" name="" id="" placeholder="First Name*" />
+                            <input type="text" name="" id="" placeholder="Last Name*"/>
+                        </div>
+                        <div className="inputs">
+                            <input type="email" name="" id="" placeholder="Email Address*" />
+                            <input type="tel" name="" id="" placeholder="Phone Number*"/>
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message*">
+                        </textarea>
+                    </form>
                 </div>
             </section>
         </>

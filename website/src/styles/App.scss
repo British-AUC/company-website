@@ -332,6 +332,7 @@ nav {
   height: 528px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5em;
   h2 {
     font-weight: 700;
     color: white;
@@ -352,6 +353,89 @@ nav {
     }
   }
 }
+// SECTION FIVE END
+
+// SECTION SIX START
+.section-six {
+  display: flex;
+  flex-direction: column;
+  padding: $desktoppadding;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    margin: 0;
+  }
+  p {
+    margin-bottom: 3em;
+  }
+  .section-six-sub {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    .section-six-left {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 50%;
+      justify-content: space-between;
+      .information {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
+        width: 250px;
+        margin-bottom: 2em;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+        .details {
+          b {
+            font-size: 1.15rem;
+            line-height: 10px;
+            margin: 0;
+          }
+          p {
+            margin: 0;
+
+          }
+        }
+      }
+    }
+    .section-six-right {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      gap: 2em;
+      .inputs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 2em;
+        input {
+          width: 50%;
+          height: 50px;
+          background-color: #F6F6F6;
+          border: 0.5px solid #000000;
+          border-radius: 5px;
+          color: $companyblack;
+          padding: 0em 1em;
+        }
+      }
+      textarea {
+        width: 100%;
+        background-color: #F6F6F6;
+        border: 0.5px solid #000000;
+        border-radius: 5px;
+        resize: none;
+        color: $companyblack;
+        padding: 1em;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+
 
 
 

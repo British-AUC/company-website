@@ -305,6 +305,7 @@ nav {
   height: 528px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5em;
 }
 .section-five h2 {
   font-weight: 700;
@@ -324,4 +325,80 @@ nav {
 }
 .section-five .metric b {
   font-size: 2.25rem;
+}
+
+.section-six {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 4rem;
+  align-items: center;
+  justify-content: center;
+}
+.section-six h2 {
+  margin: 0;
+}
+.section-six p {
+  margin-bottom: 3em;
+}
+.section-six .section-six-sub {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+.section-six .section-six-sub .section-six-left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-between;
+}
+.section-six .section-six-sub .section-six-left .information {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  width: 250px;
+  margin-bottom: 2em;
+}
+.section-six .section-six-sub .section-six-left .information img {
+  width: 30px;
+  height: 30px;
+}
+.section-six .section-six-sub .section-six-left .information .details b {
+  font-size: 1.15rem;
+  line-height: 10px;
+  margin: 0;
+}
+.section-six .section-six-sub .section-six-left .information .details p {
+  margin: 0;
+}
+.section-six .section-six-sub .section-six-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 2em;
+}
+.section-six .section-six-sub .section-six-right .inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+.section-six .section-six-sub .section-six-right .inputs input {
+  width: 50%;
+  height: 50px;
+  background-color: #F6F6F6;
+  border: 0.5px solid #000000;
+  border-radius: 5px;
+  color: #1C1B1F;
+  padding: 0em 1em;
+}
+.section-six .section-six-sub .section-six-right textarea {
+  width: 100%;
+  background-color: #F6F6F6;
+  border: 0.5px solid #000000;
+  border-radius: 5px;
+  resize: none;
+  color: #1C1B1F;
+  padding: 1em;
+  font-size: 16px;
 }/*# sourceMappingURL=App.css.map */
