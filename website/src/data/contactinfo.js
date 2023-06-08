@@ -13,9 +13,9 @@ export default [
     {
         id: 2,
         icon: time,
-        title: "Hours of Operation",
-        content1: "+234 (0) 805 900 0097",
-        content2: "support@britishauc.com",
+        title: "Work Hours",
+        content1: "Monday - Friday",
+        content2: "8:00 am - 5:00 pm",
     },
     {
         id: 3,
@@ -32,13 +32,13 @@ export default [
     {
         id: 5,
         icon: location,
-        title: "Kano Address",
+        title: "Port-Harcourt Address",
         content1: "No 8 Ihiala Street, off Plateau Street, Area 2, Garki, Abuja, Nigeria.",
     },
     {
         id: 6,
         icon: location,
-        title: "Port-Harcourt Address",
+        title: "Kano Address",
         content1: "No 8 Ihiala Street, off Plateau Street, Area 2, Garki, Abuja, Nigeria.",
     },
     {

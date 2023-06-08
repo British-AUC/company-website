@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #root {
   padding: 0;
   margin: 0;
@@ -333,6 +334,7 @@ nav {
   padding: 0rem 4rem;
   align-items: center;
   justify-content: center;
+  padding-bottom: 15em;
 }
 .section-six h2 {
   margin: 0;
@@ -360,8 +362,9 @@ nav {
   margin-bottom: 2em;
 }
 .section-six .section-six-sub .section-six-left .information img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
+  margin-top: 0.15em;
 }
 .section-six .section-six-sub .section-six-left .information .details b {
   font-size: 1.15rem;
@@ -392,8 +395,61 @@ nav {
   color: #1C1B1F;
   padding: 0em 1em;
 }
+.section-six .section-six-sub .section-six-right .inputs2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section-six .section-six-sub .section-six-right .inputs2 .file-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 0.5em;
+}
+.section-six .section-six-sub .section-six-right .inputs2 .file-icon {
+  display: inline-block;
+  margin-right: 5px;
+}
+.section-six .section-six-sub .section-six-right .inputs2 .file-icon img {
+  width: 30px;
+}
+.section-six .section-six-sub .section-six-right .inputs2 .file-name {
+  display: inline-block;
+}
+.section-six .section-six-sub .section-six-right .inputs2 .hidden {
+  display: none;
+}
+.section-six .section-six-sub .section-six-right .inputs2 .checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.875rem;
+  gap: 0.25em;
+}
+.section-six .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 0.5px solid #000000;
+  border-radius: 2px;
+  background-color: #F6F6F6;
+}
+.section-six .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked {
+  background-color: #005EBD;
+}
+.section-six .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked::after {
+  content: "✓";
+  color: #fff;
+  font-size: 15px;
+  line-height: 14px;
+  text-align: center;
+  display: block;
+  margin: 1px 0 0 1px;
+}
 .section-six .section-six-sub .section-six-right textarea {
-  width: 100%;
   background-color: #F6F6F6;
   border: 0.5px solid #000000;
   border-radius: 5px;
@@ -401,4 +457,16 @@ nav {
   color: #1C1B1F;
   padding: 1em;
   font-size: 16px;
+}
+.section-six .section-six-sub .button-1, .section-six .section-six-sub .hero-left .button-2, .hero-left .section-six .section-six-sub .button-2 {
+  background-color: #005EBD;
+  width: 160px;
+  border: inherit;
+  outline: none;
+  padding: 0.95em 0.5em;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.section-six .section-six-sub .button-1:hover, .section-six .section-six-sub .hero-left .button-2:hover, .hero-left .section-six .section-six-sub .button-2:hover {
+  background-color: #006edb;
 }/*# sourceMappingURL=App.css.map */

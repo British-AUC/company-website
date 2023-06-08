@@ -14,6 +14,7 @@ import turkeyflag from "../assets/flags/turkeyflag.svg"
 import cyprusflag from "../assets/flags/cyprusflag.svg"
 import polandflag from "../assets/flags/polandflag.svg"
 // import ukraineflag from "../assets/flags/ukraineflag.svg"
+import file from "../assets/file.svg"
 import Service from "../components/Service"
 import servicedata from "../data/services";
 import Testimonial from "../components/Testimonials"
@@ -139,8 +140,21 @@ export default function Home(){
                             <input type="email" name="" id="" placeholder="Email Address*" />
                             <input type="tel" name="" id="" placeholder="Phone Number*"/>
                         </div>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Message*">
-                        </textarea>
+                        <textarea name="" id="" rows="10" placeholder="Message*"></textarea>
+                        <div className="inputs2">
+                            <label for="fileInput" class="file-label">
+                                <input type="file" id="fileInput" class="hidden" />
+                                <span class="file-icon"><img src={file} alt="File Icon" /></span>
+                                <span class="file-name">Choose a file</span>
+                            </label>
+                            <div className="checkbox">
+                                <input type="checkbox" name="terms" id="terms" />
+                                <label for="terms">I agree with the processing of personal data *</label>
+                            </div>
+                        </div>
+                        <button className="button-1">
+                            Submit message
+                        </button>
                     </form>
                 </div>
             </section>
