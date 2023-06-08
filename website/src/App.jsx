@@ -12,7 +12,7 @@ import Faqs from './pages/Faqs'
 import Terms from './pages/Terms'
 import Privacy from './pages/Privacy'
 import NotFound from './pages/NotFound'
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
           <Route path='/privacy-policy' element={<Privacy/>} />
           <Route path='*' element={<NotFound/>} />
         </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }

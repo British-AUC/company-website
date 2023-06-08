@@ -40,10 +40,10 @@ export default function Home(){
                     </p>
                     <div className="button-container">
                         <button className="button-1">
-                            Speak to an advisor
+                            <a href="#form">Speak to an advisor</a>
                         </button>
                         <button className="button-2">
-                            Learn more
+                            <a href="#service">Learn more</a>
                         </button>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ export default function Home(){
             </section>
 
             {/* SECTION THREE */}
-            <section className="section-three">
+            <section className="section-three" id="service">
                 <h2>How can we help?</h2>
                 {services}
             </section>
@@ -120,7 +120,7 @@ export default function Home(){
             </section>
 
             {/* SECTION SIX */}
-            <section className="section-six">
+            <section className="section-six" id="form">
                 <h2>Speak to an advisor now</h2>
                 <p>
                     Got questions? Leave your details below and a 

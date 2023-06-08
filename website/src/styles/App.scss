@@ -81,7 +81,51 @@ nav {
   }
 }
 // NAVIGATION END
- 
+
+// FOOTER START
+footer {
+  display: flex;
+  flex-direction: row;
+  padding: 6em 4em;
+  background-color: $compangreyblue;
+  gap: 7em;
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    p {
+      font-size: 0.875rem;
+    }
+    .social-icons {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5em;
+    }
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: row;
+    width: 77%;
+    justify-content: space-evenly;
+    .footer-info {
+      display: flex;
+      flex-direction: column;
+      width: 33.333%;
+      gap: 0.5em;
+      a {
+        text-decoration: none;
+        color: $companyblack;
+        font-size: 0.875rem;
+      }
+      a:hover {
+        font-weight: bold;
+        color: $companyblue;
+      }
+    }
+  }
+}
+// FOOTER END
+
 
 // HOME PAGE
 // HERO SECTION START
@@ -118,6 +162,10 @@ nav {
     padding: 0.9375em;
     border-radius: 10px;
     font-weight: 700;
+    a {
+      text-decoration: none;
+      color: white;
+    }
   }
   .button-1:hover {
     background-color: #006edb;
@@ -126,13 +174,18 @@ nav {
     @extend .button-1;
     background-color: inherit;
     width: 130px;
-    color: #005EBD;
     border: 1.5px solid $companyblue;
+    a {
+      text-decoration: none;
+      color: $companyblue;
+    }
   }
   .button-2:hover {
     background-color: inherit;
     border: 1.5px solid $companyblack;
-    color: $companyblack;
+    a {
+      color: $companyblack;
+    }
   }
 }
 
@@ -362,7 +415,7 @@ nav {
   padding: $desktoppadding;
   align-items: center;
   justify-content: center;
-  padding-bottom: 12em;
+  padding-bottom: 5em;
   h2 {
     margin: 0;
   }
@@ -515,6 +568,7 @@ nav {
   background: url("../assets/newsletter.png") center;
   border-radius: 50px;
   gap: 1em;
+  margin-bottom: 5em;
   h3 {
     font-weight: 700;
     font-size: 2rem;

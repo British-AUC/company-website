@@ -73,6 +73,48 @@ nav {
   color: #005EBD;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  padding: 6em 4em;
+  background-color: #DDE6F0;
+  gap: 7em;
+}
+footer .footer-left {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+footer .footer-left p {
+  font-size: 0.875rem;
+}
+footer .footer-left .social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+footer .footer-right {
+  display: flex;
+  flex-direction: row;
+  width: 77%;
+  justify-content: space-evenly;
+}
+footer .footer-right .footer-info {
+  display: flex;
+  flex-direction: column;
+  width: 33.333%;
+  gap: 0.5em;
+}
+footer .footer-right .footer-info a {
+  text-decoration: none;
+  color: #1C1B1F;
+  font-size: 0.875rem;
+}
+footer .footer-right .footer-info a:hover {
+  font-weight: bold;
+  color: #005EBD;
+}
+
 .hero {
   display: flex;
   flex-direction: row;
@@ -108,18 +150,27 @@ nav {
   border-radius: 10px;
   font-weight: 700;
 }
+.hero-left .button-1 a, .hero-left .button-2 a {
+  text-decoration: none;
+  color: white;
+}
 .hero-left .button-1:hover, .hero-left .button-2:hover {
   background-color: #006edb;
 }
 .hero-left .button-2 {
   background-color: inherit;
   width: 130px;
-  color: #005EBD;
   border: 1.5px solid #005EBD;
+}
+.hero-left .button-2 a {
+  text-decoration: none;
+  color: #005EBD;
 }
 .hero-left .button-2:hover {
   background-color: inherit;
   border: 1.5px solid #1C1B1F;
+}
+.hero-left .button-2:hover a {
   color: #1C1B1F;
 }
 
@@ -334,7 +385,7 @@ nav {
   padding: 0rem 4rem;
   align-items: center;
   justify-content: center;
-  padding-bottom: 12em;
+  padding-bottom: 5em;
 }
 .section-six h2 {
   margin: 0;
@@ -482,6 +533,7 @@ nav {
   background: url("../assets/newsletter.png") center;
   border-radius: 50px;
   gap: 1em;
+  margin-bottom: 5em;
 }
 .section-seven h3 {
   font-weight: 700;
