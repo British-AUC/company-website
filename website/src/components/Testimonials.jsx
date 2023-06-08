@@ -35,7 +35,7 @@ export default function Testimonial() {
           <p className="message">{testimonials[currentSlide].message}</p>
           <div className="details">
             <img src={testimonials[currentSlide].icon} alt="Social Icon" />
-            <b className="name">{testimonials[currentSlide].name}</b>
+            <em className="name">{testimonials[currentSlide].name}</em>
           </div>
           <p className="university">{testimonials[currentSlide].university}</p>
         </div>

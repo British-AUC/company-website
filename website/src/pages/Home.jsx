@@ -2,18 +2,6 @@ import React from "react"
 import '../styles/App.css'
 import heroimage from "../assets/heroimage.webp"
 import groupimage from "../assets/groupimage.png"
-import ukflag from "../assets/flags/ukflag.svg"
-import usflag from "../assets/flags/usflag.svg"
-import canadaflag from "../assets/flags/canadaflag.svg"
-import irelandflag from "../assets/flags/irelandflag.svg"
-import scotlandflag from "../assets/flags/scotlandflag.svg"
-import australiaflag from "../assets/flags/australiaflag.svg"
-import newzealandflag from "../assets/flags/newzealandflag.svg"
-import germanyflag from "../assets/flags/germanyflag.svg"
-import turkeyflag from "../assets/flags/turkeyflag.svg"
-import cyprusflag from "../assets/flags/cyprusflag.svg"
-import polandflag from "../assets/flags/polandflag.svg"
-import ukraineflag from "../assets/flags/ukraineflag.svg"
 import file from "../assets/file.svg";
 import Service from "../components/Service";
 import servicedata from "../data/services";

@@ -33,7 +33,7 @@ nav {
   gap: 1em;
   justify-content: flex-end;
 }
-.nav-top p {
+.nav-top p, .nav-top .section-eight h2, .section-eight .nav-top h2 {
   display: flex;
   align-items: center;
   gap: 0.5em;
@@ -85,7 +85,7 @@ footer .footer-left {
   flex-direction: column;
   width: 33%;
 }
-footer .footer-left p {
+footer .footer-left p, footer .footer-left .section-eight h2, .section-eight footer .footer-left h2 {
   font-size: 0.875rem;
 }
 footer .footer-left .social-icons {
@@ -190,7 +190,7 @@ footer .footer-right .footer-info a:hover {
   padding-top: 5em;
   padding-bottom: 5em;
 }
-.section-one p {
+.section-one p, .section-one .section-eight h2, .section-eight .section-one h2 {
   text-align: center;
   font-weight: 300;
   font-size: 1.5rem;
@@ -277,7 +277,7 @@ footer .footer-right .footer-info a:hover {
   font-size: 1.5rem;
   letter-spacing: 0.05em;
 }
-.section-three .service-left p {
+.section-three .service-left p, .section-three .service-left .section-eight h2, .section-eight .section-three .service-left h2 {
   margin: 0;
 }
 .section-three .service-right {
@@ -297,7 +297,7 @@ footer .footer-right .footer-info a:hover {
 .section-three .service:nth-child(odd) .service-left h3 {
   color: white;
 }
-.section-three .service:nth-child(odd) .service-left p {
+.section-three .service:nth-child(odd) .service-left p, .section-three .service:nth-child(odd) .service-left .section-eight h2, .section-eight .section-three .service:nth-child(odd) .service-left h2 {
   color: #DFDFDF;
 }
 
@@ -412,7 +412,7 @@ footer .footer-right .footer-info a:hover {
 .section-six h2 {
   margin: 0;
 }
-.section-six p {
+.section-six p, .section-six .section-eight h2, .section-eight .section-six h2 {
   margin-bottom: 3em;
 }
 .section-six .section-six-sub {
@@ -444,7 +444,7 @@ footer .footer-right .footer-info a:hover {
   line-height: 10px;
   margin: 0;
 }
-.section-six .section-six-sub .section-six-left .information .details p {
+.section-six .section-six-sub .section-six-left .information .details p, .section-six .section-six-sub .section-six-left .information .details .section-eight h2, .section-eight .section-six .section-six-sub .section-six-left .information .details h2 {
   margin: 0;
 }
 .section-six .section-six-sub .section-six-right {
@@ -565,7 +565,7 @@ footer .footer-right .footer-info a:hover {
   color: #EAF4FF;
   margin: 0;
 }
-.section-seven p {
+.section-seven p, .section-seven .section-eight h2, .section-eight .section-seven h2 {
   text-align: center;
   color: white;
   letter-spacing: 0.05em;
@@ -591,4 +591,84 @@ footer .footer-right .footer-info a:hover {
   background: inherit;
   border: 1.5px solid #FFFFFF;
   border-radius: 20px;
+}
+
+.section-eight {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 4rem;
+  margin-bottom: 10em;
+  gap: 1em;
+}
+.section-eight p, .section-eight h2 {
+  margin: 0;
+}
+.section-eight h2 {
+  margin-top: 1.5em;
+}
+
+.section-nine {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 4rem;
+  gap: 2em;
+}
+.section-nine h2 {
+  margin: 0;
+}
+.section-nine .section-nine-sub {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+.section-nine .section-nine-sub .section-nine-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 30%;
+}
+.section-nine .section-nine-sub .section-nine-left em {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.section-nine .section-nine-sub .section-nine-left strong {
+  margin: 0;
+}
+.section-nine .section-nine-sub .section-nine-right {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 1em;
+}
+.section-nine .section-nine-sub .section-nine-right p, .section-nine .section-nine-sub .section-nine-right .section-eight h2, .section-eight .section-nine .section-nine-sub .section-nine-right h2 {
+  margin: 0;
+  line-height: 30px;
+}
+
+.section-ten {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 0em 8em;
+}
+.section-ten .section-ten-sub {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+.section-ten .section-ten-sub .sub {
+  display: flex;
+  gap: 2em;
+}
+.section-ten .section-ten-sub .sub .values-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 33.333%;
+}
+.section-ten .section-ten-sub .sub .values-container img {
+  width: 30px;
+  height: 30px;
 }/*# sourceMappingURL=App.css.map */

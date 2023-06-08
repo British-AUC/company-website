@@ -629,6 +629,95 @@ footer {
     }
   }
 }
+// SECTION SEVEN END
+
+// SECTION EIGHT START
+.section-eight {
+  display: flex;
+  flex-direction: column;
+  padding: $desktoppadding;
+  margin-bottom: 10em;
+  gap: 1em;
+  p {
+    margin: 0;
+  }
+  h2 {
+    @extend p;
+    margin-top: 1.5em;
+  }
+}
+// SECTION EIGHT END
+
+// SECTION NINE START
+.section-nine {
+  display: flex;
+  flex-direction: column;
+  padding: $desktoppadding;
+  gap: 2em;
+  h2 {
+    margin: 0;
+  }
+  .section-nine-sub {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    .section-nine-left {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+      width: 30%;
+      em {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+      }
+      strong {
+        margin: 0;
+      }
+    }
+    .section-nine-right {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      gap: 1em;
+      p {
+        margin: 0;
+        line-height: 30px;
+      }
+    }
+  }
+}
+// SECTION NINE END
+
+
+// SECTION TEN START
+.section-ten {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 0em 8em;
+  .section-ten-sub {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    .sub {
+      display: flex;
+      gap: 2em;
+      .values-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        width: 33.333%;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    }
+  }
+}
+
 
 
 
