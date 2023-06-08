@@ -197,15 +197,37 @@ footer .footer-right .footer-info a:hover {
   width: 80%;
 }
 
-.flags-container {
+.flags-block {
+  left: 0;
+  height: auto;
+  background: #FFFFFF;
+  width: 100%;
+  overflow: hidden;
+}
+
+.flags-container-sub {
   display: flex;
   flex-direction: row;
   gap: 1em;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  /* Apply animation to this element */
+  animation-name: scrolling-left1;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
 }
 
+/* scrolling-left is continuous/repeatly text */
+@keyframes scrolling-left1 {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
 .section-two {
   display: flex;
   flex-direction: column;

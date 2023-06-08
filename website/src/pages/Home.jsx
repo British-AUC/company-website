@@ -13,20 +13,23 @@ import germanyflag from "../assets/flags/germanyflag.svg"
 import turkeyflag from "../assets/flags/turkeyflag.svg"
 import cyprusflag from "../assets/flags/cyprusflag.svg"
 import polandflag from "../assets/flags/polandflag.svg"
-// import ukraineflag from "../assets/flags/ukraineflag.svg"
-import file from "../assets/file.svg"
-import Service from "../components/Service"
+import ukraineflag from "../assets/flags/ukraineflag.svg"
+import file from "../assets/file.svg";
+import Service from "../components/Service";
 import servicedata from "../data/services";
-import Testimonial from "../components/Testimonials"
-import Metrics from "../components/Metrics"
-import metricsdata from "../data/metrics"
-import ContactInfo from "../components/ContactInfo"
-import contactdata from "../data/contactinfo"
+import Testimonial from "../components/Testimonials";
+import Metrics from "../components/Metrics";
+import metricsdata from "../data/metrics";
+import ContactInfo from "../components/ContactInfo";
+import contactdata from "../data/contactinfo";
+import Flags from "../components/Flags";
+import flagsdata from "../data/flags";
 
 export default function Home(){
     const services = servicedata.map(item => <Service key={item.id} {...item}/>)
     const metrics = metricsdata.map(item => <Metrics key={item.id} {...item}/>)
     const contactinformation = contactdata.map(item => <ContactInfo key={item.id} {...item} />)
+    const countryflags = flagsdata.map(item => <Flags key={item.id} {...item} />)
 
     return (
         <>
@@ -58,19 +61,10 @@ export default function Home(){
                     We’ve helped over 1000 Nigerian students gain university 
                     admission in over 25 countries across the globe.
                 </p>
-                <div className="flags-container">
-                    <img src={ukflag} alt="UK Flag" />
-                    <img src={usflag} alt="US Flag" />
-                    <img src={canadaflag} alt="Canada Flag" />
-                    <img src={irelandflag} alt="Ireland Flag" />
-                    <img src={scotlandflag} alt="Scotland Flag" />
-                    <img src={australiaflag} alt="Australia Flag" />
-                    <img src={newzealandflag} alt="New Zealand Flag" />
-                    <img src={germanyflag} alt="Germany Flag" />
-                    <img src={turkeyflag} alt="Turkey Flag" />
-                    <img src={cyprusflag} alt="Cyprus Flag" />
-                    <img src={polandflag} alt="poland Flag" />
-                    {/* <img src={ukraineflag} alt="Ukraine Flag" /> */}
+                <div className="flags-block">
+                    <div className="flags-container-sub">
+                        {countryflags}
+                    </div>
                 </div>
             </section>
 
@@ -142,14 +136,14 @@ export default function Home(){
                         </div>
                         <textarea name="" id="" rows="10" placeholder="Message*" required ></textarea>
                         <div className="inputs2">
-                            <label for="fileInput" class="file-label">
-                                <input type="file" id="fileInput" class="hidden" />
-                                <span class="file-icon"><img src={file} alt="File Icon" /></span>
-                                <span class="file-name">Choose a file</span>
+                            <label htmlFor="fileInput" className="file-label">
+                                <input type="file" id="fileInput" className="hidden" />
+                                <span className="file-icon"><img src={file} alt="File Icon" /></span>
+                                <span className="file-name">Choose a file</span>
                             </label>
                             <div className="checkbox">
                                 <input type="checkbox" name="terms" id="terms" required />
-                                <label for="terms">I agree with the processing of personal data*</label>
+                                <label htmlFor="terms">I agree with the processing of personal data*</label>
                             </div>
                         </div>
                         <button className="button-1" type="submit">
