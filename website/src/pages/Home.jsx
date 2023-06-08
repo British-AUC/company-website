@@ -133,14 +133,14 @@ export default function Home(){
                     </div>
                     <form className="section-six-right">
                         <div className="inputs">
-                            <input type="text" name="" id="" placeholder="First Name*" />
-                            <input type="text" name="" id="" placeholder="Last Name*"/>
+                            <input type="text" name="" id="" placeholder="First Name*" required />
+                            <input type="text" name="" id="" placeholder="Last Name*" required />
                         </div>
                         <div className="inputs">
-                            <input type="email" name="" id="" placeholder="Email Address*" />
-                            <input type="tel" name="" id="" placeholder="Phone Number*"/>
+                            <input type="email" name="" id="" placeholder="Email Address*" required />
+                            <input type="tel" name="" id="" placeholder="Phone Number*" required />
                         </div>
-                        <textarea name="" id="" rows="10" placeholder="Message*"></textarea>
+                        <textarea name="" id="" rows="10" placeholder="Message*" required ></textarea>
                         <div className="inputs2">
                             <label for="fileInput" class="file-label">
                                 <input type="file" id="fileInput" class="hidden" />
@@ -148,15 +148,29 @@ export default function Home(){
                                 <span class="file-name">Choose a file</span>
                             </label>
                             <div className="checkbox">
-                                <input type="checkbox" name="terms" id="terms" />
-                                <label for="terms">I agree with the processing of personal data *</label>
+                                <input type="checkbox" name="terms" id="terms" required />
+                                <label for="terms">I agree with the processing of personal data*</label>
                             </div>
                         </div>
-                        <button className="button-1">
+                        <button className="button-1" type="submit">
                             Submit message
                         </button>
                     </form>
                 </div>
+            </section>
+
+            {/* SECTION SEVEN */}
+            <section className="section-seven">
+                <h3>Join our newsletter</h3>
+                <p> 
+                    Stay informed and stay ahead. Subscribe 
+                    for exclusive study abroad insights, 
+                    resources, and exciting opportunities.
+                </p>
+                <form className="email-container">
+                    <input type="email" placeholder="Your Email Address" required />
+                    <button type="submit">Subscribe</button>
+                </form>
             </section>
         </>
     )
