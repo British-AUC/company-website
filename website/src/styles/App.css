@@ -259,6 +259,11 @@ footer .footer-right .footer-info a:hover {
   flex-direction: column;
   padding: 0rem 4rem;
 }
+.section-three #service-p {
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 4em;
+}
 .section-three .service {
   display: flex;
   flex-direction: row;
