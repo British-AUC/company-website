@@ -2,21 +2,18 @@ import React from "react"
 import '../styles/App.css'
 import heroimage from "../assets/heroimage.webp"
 import groupimage from "../assets/groupimage.png"
-import file from "../assets/file.svg";
 import Service from "../components/Service";
 import servicedata from "../data/services";
 import Testimonial from "../components/Testimonials";
 import Metrics from "../components/Metrics";
 import metricsdata from "../data/metrics";
-import ContactInfo from "../components/ContactInfo";
-import contactdata from "../data/contactinfo";
 import Flags from "../components/Flags";
 import flagsdata from "../data/flags";
+import ContactInfoForm from "../components/Contact_Info_Form";
 
 export default function Home(){
     const services = servicedata.map(item => <Service key={item.id} {...item}/>)
     const metrics = metricsdata.map(item => <Metrics key={item.id} {...item}/>)
-    const contactinformation = contactdata.map(item => <ContactInfo key={item.id} {...item} />)
     const countryflags = flagsdata.map(item => <Flags key={item.id} {...item} />)
 
     return (
@@ -110,34 +107,7 @@ export default function Home(){
                     within 24 hours.
                 </p>
                 <div className="section-six-sub">
-                    <div className="section-six-left">
-                        {contactinformation}
-                    </div>
-                    <form className="section-six-right">
-                        <div className="inputs">
-                            <input type="text" name="" id="" placeholder="First Name*" required />
-                            <input type="text" name="" id="" placeholder="Last Name*" required />
-                        </div>
-                        <div className="inputs">
-                            <input type="email" name="" id="" placeholder="Email Address*" required />
-                            <input type="tel" name="" id="" placeholder="Phone Number*" required />
-                        </div>
-                        <textarea name="" id="" rows="10" placeholder="Message*" required ></textarea>
-                        <div className="inputs2">
-                            <label htmlFor="fileInput" className="file-label">
-                                <input type="file" id="fileInput" className="hidden" />
-                                <span className="file-icon"><img src={file} alt="File Icon" /></span>
-                                <span className="file-name">Choose a file</span>
-                            </label>
-                            <div className="checkbox">
-                                <input type="checkbox" name="terms" id="terms" required />
-                                <label htmlFor="terms">I agree with the processing of personal data*</label>
-                            </div>
-                        </div>
-                        <button className="button-1" type="submit">
-                            Submit message
-                        </button>
-                    </form>
+                    <ContactInfoForm/>
                 </div>
             </section>
 

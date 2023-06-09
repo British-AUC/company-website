@@ -21,7 +21,7 @@ export default [
         target1: "/faqs",
         target2: "/contact",
         target3: "/terms-conditions",
-        target4: "/events",
+        target4: "/privacy-policy",
     },
     {
         id: 3,

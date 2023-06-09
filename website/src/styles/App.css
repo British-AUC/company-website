@@ -422,51 +422,52 @@ footer .footer-right .footer-info a:hover {
 .section-six p, .section-six .section-eight h2, .section-eight .section-six h2 {
   margin-bottom: 3em;
 }
-.section-six .section-six-sub {
+
+.section-six-sub {
   display: flex;
   flex-direction: row;
   gap: 2em;
 }
-.section-six .section-six-sub .section-six-left {
+.section-six-sub .section-six-left {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 50%;
   justify-content: space-between;
 }
-.section-six .section-six-sub .section-six-left .information {
+.section-six-sub .section-six-left .information {
   display: flex;
   flex-direction: row;
   gap: 0.5em;
   width: 250px;
-  margin-bottom: 2em;
+  margin: 0;
 }
-.section-six .section-six-sub .section-six-left .information img {
+.section-six-sub .section-six-left .information img {
   width: 25px;
   height: 25px;
   margin-top: 0.15em;
 }
-.section-six .section-six-sub .section-six-left .information .details b {
+.section-six-sub .section-six-left .information .details b {
   font-size: 1.15rem;
   line-height: 10px;
   margin: 0;
 }
-.section-six .section-six-sub .section-six-left .information .details p, .section-six .section-six-sub .section-six-left .information .details .section-eight h2, .section-eight .section-six .section-six-sub .section-six-left .information .details h2 {
+.section-six-sub .section-six-left .information .details p, .section-six-sub .section-six-left .information .details .section-eight h2, .section-eight .section-six-sub .section-six-left .information .details h2 {
   margin: 0;
 }
-.section-six .section-six-sub .section-six-right {
+.section-six-sub .section-six-right {
   display: flex;
   flex-direction: column;
   width: 50%;
-  gap: 2em;
+  gap: 1em;
 }
-.section-six .section-six-sub .section-six-right .inputs {
+.section-six-sub .section-six-right .inputs {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   gap: 2em;
 }
-.section-six .section-six-sub .section-six-right .inputs input {
+.section-six-sub .section-six-right .inputs input {
   width: 50%;
   height: 50px;
   background-color: #F6F6F6;
@@ -475,39 +476,39 @@ footer .footer-right .footer-info a:hover {
   color: #1C1B1F;
   padding: 0em 1em;
 }
-.section-six .section-six-sub .section-six-right .inputs2 {
+.section-six-sub .section-six-right .inputs2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.section-six .section-six-sub .section-six-right .inputs2 .file-label {
+.section-six-sub .section-six-right .inputs2 .file-label {
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   gap: 0.5em;
 }
-.section-six .section-six-sub .section-six-right .inputs2 .file-icon {
+.section-six-sub .section-six-right .inputs2 .file-icon {
   display: inline-block;
   margin-right: 5px;
 }
-.section-six .section-six-sub .section-six-right .inputs2 .file-icon img {
+.section-six-sub .section-six-right .inputs2 .file-icon img {
   width: 30px;
 }
-.section-six .section-six-sub .section-six-right .inputs2 .file-name {
+.section-six-sub .section-six-right .inputs2 .file-name {
   display: inline-block;
 }
-.section-six .section-six-sub .section-six-right .inputs2 .hidden {
+.section-six-sub .section-six-right .inputs2 .hidden {
   display: none;
 }
-.section-six .section-six-sub .section-six-right .inputs2 .checkbox {
+.section-six-sub .section-six-right .inputs2 .checkbox {
   display: flex;
   flex-direction: row;
   align-items: center;
   font-size: 0.875rem;
   gap: 0.25em;
 }
-.section-six .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox] {
+.section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox] {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -517,10 +518,10 @@ footer .footer-right .footer-info a:hover {
   border-radius: 2px;
   background-color: #F6F6F6;
 }
-.section-six .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked {
+.section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked {
   background-color: #005EBD;
 }
-.section-six .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked::after {
+.section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked::after {
   content: "✓";
   color: #fff;
   font-size: 15px;
@@ -529,7 +530,7 @@ footer .footer-right .footer-info a:hover {
   display: block;
   margin: 1px 0 0 1px;
 }
-.section-six .section-six-sub .section-six-right textarea {
+.section-six-sub .section-six-right textarea {
   background-color: #F6F6F6;
   border: 0.5px solid #000000;
   border-radius: 5px;
@@ -538,7 +539,7 @@ footer .footer-right .footer-info a:hover {
   padding: 1em;
   font-size: 16px;
 }
-.section-six .section-six-sub .button-1, .section-six .section-six-sub .hero-left .button-2, .hero-left .section-six .section-six-sub .button-2 {
+.section-six-sub .button-1, .section-six-sub .hero-left .button-2, .hero-left .section-six-sub .button-2 {
   background-color: #005EBD;
   width: 160px;
   border: inherit;
@@ -547,7 +548,7 @@ footer .footer-right .footer-info a:hover {
   border-radius: 10px;
   font-weight: 700;
 }
-.section-six .section-six-sub .button-1:hover, .section-six .section-six-sub .hero-left .button-2:hover, .hero-left .section-six .section-six-sub .button-2:hover {
+.section-six-sub .button-1:hover, .section-six-sub .hero-left .button-2:hover, .hero-left .section-six-sub .button-2:hover {
   background-color: #006edb;
 }
 
@@ -848,4 +849,18 @@ footer .footer-right .footer-info a:hover {
 .section-fourteen .blog-card .details button a {
   color: #005EBD;
   text-decoration: none;
+}
+
+.section-fifteen {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 4rem;
+  margin-bottom: 10em;
+  gap: 2em;
+}
+.section-fifteen h2 {
+  margin-bottom: 0;
+}
+.section-fifteen p#contact, .section-fifteen .section-eight h2#contact, .section-eight .section-fifteen h2#contact {
+  text-align: center;
 }/*# sourceMappingURL=App.css.map */
