@@ -908,4 +908,11 @@ footer .footer-right .footer-info a:hover {
   flex-direction: column;
   padding: 0rem 4rem;
   margin-bottom: 5em;
+}
+
+.section-eighteen {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 4rem;
+  margin-bottom: 5em;
 }/*# sourceMappingURL=App.css.map */

@@ -3,6 +3,7 @@ import React from "react";
 export default function Terms() {
   return (
     <>
+      {/* SECTION SEVENTEEN */}
       <section className="section-seventeen">
         <h2>Terms and Conditions</h2>
         <p>
