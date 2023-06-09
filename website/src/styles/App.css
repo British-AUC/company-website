@@ -211,7 +211,7 @@ footer .footer-right .footer-info a:hover {
   gap: 1em;
   /* Apply animation to this element */
   animation-name: scrolling-left1;
-  animation-duration: 15s;
+  animation-duration: 50s;
   animation-timing-function: linear;
   animation-delay: 0s;
   animation-iteration-count: infinite;
@@ -696,4 +696,35 @@ footer .footer-right .footer-info a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.section-twelve {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 433px;
+  align-items: center;
+  justify-content: center;
+  background: url("../assets/students.png");
+}
+.section-twelve h2 {
+  color: white;
+}
+.section-twelve button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 130px;
+  height: 50px;
+  color: #1C1B1F;
+  background: #FFFFFF;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+.section-twelve button:hover {
+  background-color: #005EBD;
+  color: white;
 }/*# sourceMappingURL=App.css.map */

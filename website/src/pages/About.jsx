@@ -100,6 +100,11 @@ export default function About(){
                 </div>
             </section>
 
+            {/* SECTION ELEVEN */}
+            <section className="section-twelve">
+                <h2>Lets Get You an Admission Today</h2>
+                <button>Get in touch</button>
+            </section>
         </>
     )
 }

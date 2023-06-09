@@ -228,7 +228,7 @@ footer {
   gap: 1em;
   /* Apply animation to this element */
   animation-name: scrolling-left1;
-  animation-duration: 15s;
+  animation-duration: 50s;
   animation-timing-function: linear;
   animation-delay: 0s;
   animation-iteration-count: infinite; 
@@ -739,6 +739,39 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+  }
+}
+// SECTION ELEVEN END
+
+// SECTION TWELVE START
+.section-twelve {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 433px;
+  align-items: center;
+  justify-content: center;
+  background: url("../assets/students.png");
+  h2 {
+    color: white;
+  }
+  button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 130px;
+    height: 50px;
+    color: $companyblack;
+    background: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+  }
+  button:hover {
+    background-color: $companyblue;
+    color: white;
   }
 }
 
