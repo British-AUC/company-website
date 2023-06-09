@@ -7,6 +7,7 @@ export default function Faqs(){
 
     return (
         <>
+        {/* SECTION SIXTEEN */}
             <section className="section-sixteen">
                 <h2>Frequently Asked Questions</h2>
                 <div className="section-sixteen-sub">

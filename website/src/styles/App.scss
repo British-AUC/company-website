@@ -935,7 +935,7 @@ footer {
     padding: 1em 0em;
     border-bottom: 0.5px solid #AAAAAA;
     .left {
-      width: 95%;
+      width: 90%;
       #question {
         font-size: 1rem;
         font-weight: 600;
@@ -952,11 +952,22 @@ footer {
       }
     }
     .right {
-      width: 5%;
+      display: flex;
+      justify-content: flex-end;
+      width: 10%;
     }
   }
 }
+// SECTION SIXTEEN END
 
+
+// SECTION SEVENTEEN START
+.section-seventeen {
+  display: flex;
+  flex-direction: column;
+  padding: $desktoppadding;
+  margin-bottom: 5em;
+}
 
 
 

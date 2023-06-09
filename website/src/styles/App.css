@@ -881,7 +881,7 @@ footer .footer-right .footer-info a:hover {
   border-bottom: 0.5px solid #AAAAAA;
 }
 .section-sixteen .question-container .left {
-  width: 95%;
+  width: 90%;
 }
 .section-sixteen .question-container .left #question {
   font-size: 1rem;
@@ -898,5 +898,14 @@ footer .footer-right .footer-info a:hover {
   display: none;
 }
 .section-sixteen .question-container .right {
-  width: 5%;
+  display: flex;
+  justify-content: flex-end;
+  width: 10%;
+}
+
+.section-seventeen {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 4rem;
+  margin-bottom: 5em;
 }/*# sourceMappingURL=App.css.map */

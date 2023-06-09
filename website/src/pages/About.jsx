@@ -100,7 +100,7 @@ export default function About(){
                 </div>
             </section>
 
-            {/* SECTION  */}
+            {/* SECTION TWELVE */}
             <section className="section-twelve">
                 <h2>Lets Get You an Admission Today</h2>
                 <button>Get in touch</button>

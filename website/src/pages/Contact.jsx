@@ -4,6 +4,7 @@ import ContactInfoForm from "../components/Contact_Info_Form"
 export default function Contact(){
     return (
         <>
+        {/* SECTION FIFTEEN */}
             <section className="section-fifteen">
                 <h2>Get in touch with us</h2>
                 <p id="contact">

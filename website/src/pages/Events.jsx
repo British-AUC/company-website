@@ -7,6 +7,7 @@ export default function Events(){
 
     return (
         <>
+        {/* SECTION THIRTEEN */}
             <section className="section-thirteen">
                 <h2>Upcoming Events</h2>
                 {eventscard}

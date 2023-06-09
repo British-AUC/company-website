@@ -7,6 +7,7 @@ export default function Blog(){
 
     return (
         <>
+        {/* SECTION FOURTEEN */}
             <section className="section-fourteen">
                 <h2>Latest Posts</h2>
                 <div className="section-fourteen-sub">
