@@ -863,4 +863,9 @@ footer .footer-right .footer-info a:hover {
 }
 .section-fifteen p#contact, .section-fifteen .section-eight h2#contact, .section-eight .section-fifteen h2#contact {
   text-align: center;
+}
+
+.section-sixteen {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=App.css.map */
