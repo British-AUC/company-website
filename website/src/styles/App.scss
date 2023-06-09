@@ -781,6 +781,59 @@ footer {
 }
 // SECTION TWELVE END
 
+// SECTION THIRTEEN START
+.section-thirteen{
+  display: flex;
+  flex-direction: column;
+  padding: $desktoppadding;
+  gap: 3em;
+  margin-bottom: 5em;
+  .event-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2.5em 1.5em;
+    border: 0.5px solid rgba(128, 128, 128, 0.315);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    img {
+      max-width: 445px;
+      border-radius: 5px;
+    }
+    strong {
+      font-size: 1.25rem;
+    }
+    p {
+      line-height: 30px;
+      margin: 0;
+    }
+    .details {
+      display: flex;
+      flex-direction: row;
+      gap: 2em;
+    }
+    a {
+      text-decoration: none;
+    }
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      height: 50px;
+      background: #005EBD;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #006edb;
+    }
+  }
+}
+
 
 
 

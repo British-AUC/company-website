@@ -732,4 +732,56 @@ footer .footer-right .footer-info a:hover {
 .section-twelve button:hover {
   background-color: #005EBD;
   color: white;
+}
+
+.section-thirteen {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 4rem;
+  gap: 3em;
+  margin-bottom: 5em;
+}
+.section-thirteen .event-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2.5em 1.5em;
+  border: 0.5px solid rgba(128, 128, 128, 0.315);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
+  border-radius: 10px;
+}
+.section-thirteen .event-container img {
+  max-width: 445px;
+  border-radius: 5px;
+}
+.section-thirteen .event-container strong {
+  font-size: 1.25rem;
+}
+.section-thirteen .event-container p, .section-thirteen .event-container .section-eight h2, .section-eight .section-thirteen .event-container h2 {
+  line-height: 30px;
+  margin: 0;
+}
+.section-thirteen .event-container .details {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+.section-thirteen .event-container a {
+  text-decoration: none;
+}
+.section-thirteen .event-container button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  height: 50px;
+  background: #005EBD;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+.section-thirteen .event-container button:hover {
+  background-color: #006edb;
 }/*# sourceMappingURL=App.css.map */
