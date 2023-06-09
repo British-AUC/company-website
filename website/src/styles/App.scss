@@ -756,7 +756,8 @@ footer {
   height: 433px;
   align-items: center;
   justify-content: center;
-  background: url("../assets/students.png");
+  background: url("../assets/students.png") fixed center;
+  background-size: cover;
   h2 {
     color: white;
   }
@@ -833,6 +834,73 @@ footer {
     }
   }
 }
+// SECTION THIRTEEN END
+
+// SECTION FOURTEEN START
+.section-fourteen {
+  display: flex;
+  flex-direction: column;
+  padding: $desktoppadding;
+  margin-bottom: 5em;
+  gap: 2em;
+  .section-fourteen-sub {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+  }
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: auto;
+    border: 0.5px solid rgba(128, 128, 128, 0.315);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
+    border-radius: 20px;
+    margin-bottom: 4em;
+    img {
+      max-width: 340px;
+      height: 180px;
+    }
+    .details {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      .details-sub {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        p {
+          display: flex;
+          align-items: center;
+          gap: 0.5em;
+          font-size: 0.875rem;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      button {
+        display: flex;
+        padding: 0;
+        width: auto;
+        letter-spacing: 0.05em;
+        background-color: inherit;
+        border: none;
+        outline: none;
+        margin-top: 1.25em;
+        a {
+          color: $companyblue;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+
 
 
 

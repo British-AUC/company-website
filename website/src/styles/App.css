@@ -710,7 +710,8 @@ footer .footer-right .footer-info a:hover {
   height: 433px;
   align-items: center;
   justify-content: center;
-  background: url("../assets/students.png");
+  background: url("../assets/students.png") fixed center;
+  background-size: cover;
 }
 .section-twelve h2 {
   color: white;
@@ -784,4 +785,67 @@ footer .footer-right .footer-info a:hover {
 }
 .section-thirteen .event-container button:hover {
   background-color: #006edb;
+}
+
+.section-fourteen {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 4rem;
+  margin-bottom: 5em;
+  gap: 2em;
+}
+.section-fourteen .section-fourteen-sub {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+.section-fourteen .blog-card {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: auto;
+  border: 0.5px solid rgba(128, 128, 128, 0.315);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
+  border-radius: 20px;
+  margin-bottom: 4em;
+}
+.section-fourteen .blog-card img {
+  max-width: 340px;
+  height: 180px;
+}
+.section-fourteen .blog-card .details {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.section-fourteen .blog-card .details .details-sub {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+.section-fourteen .blog-card .details .details-sub p, .section-fourteen .blog-card .details .details-sub .section-eight h2, .section-eight .section-fourteen .blog-card .details .details-sub h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 0.875rem;
+}
+.section-fourteen .blog-card .details .details-sub img {
+  width: 20px;
+  height: 20px;
+}
+.section-fourteen .blog-card .details button {
+  display: flex;
+  padding: 0;
+  width: auto;
+  letter-spacing: 0.05em;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  margin-top: 1.25em;
+}
+.section-fourteen .blog-card .details button a {
+  color: #005EBD;
+  text-decoration: none;
 }/*# sourceMappingURL=App.css.map */
