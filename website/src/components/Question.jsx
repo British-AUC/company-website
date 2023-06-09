@@ -12,7 +12,7 @@ export default function Question(props){
     return (
         <div className="question-container" onClick={toggleAnswer}>
             <div className="left">
-                <b>{props.question}</b>
+                <p id="question">{props.question}</p>
                 <p className={`${isAnswerVisible ? "visible" : "hidden"}`}>
                     {props.answer}
                 </p>

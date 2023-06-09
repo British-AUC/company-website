@@ -930,11 +930,20 @@ footer {
   .question-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    padding: 2em 0em;
+    padding: 1em 0em;
     border-bottom: 0.5px solid #AAAAAA;
     .left {
       width: 95%;
+      #question {
+        font-size: 1rem;
+        font-weight: 600;
+        color: $companyblack;
+      }
+      p {
+        font-size: 0.8735rem;
+      }
       .visible {
         display: block;
       }
