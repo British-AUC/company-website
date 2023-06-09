@@ -868,4 +868,26 @@ footer .footer-right .footer-info a:hover {
 .section-sixteen {
   display: flex;
   flex-direction: column;
+  padding: 0rem 4rem;
+  gap: 2em;
+  margin-bottom: 10em;
+}
+.section-sixteen .question-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em 0em;
+  border-bottom: 0.5px solid #AAAAAA;
+}
+.section-sixteen .question-container .left {
+  width: 95%;
+}
+.section-sixteen .question-container .left .visible {
+  display: block;
+}
+.section-sixteen .question-container .left .hidden {
+  display: none;
+}
+.section-sixteen .question-container .right {
+  width: 5%;
 }/*# sourceMappingURL=App.css.map */
