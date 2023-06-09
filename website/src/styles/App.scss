@@ -372,11 +372,11 @@ footer {
         gap: 1em;
       }
       .name {
-        font-weight: 700;
         font-size: 1rem;
       }
       .university {
         @extend .name;
+        font-weight: 700;
       }
     }
   }
@@ -689,13 +689,13 @@ footer {
 }
 // SECTION NINE END
 
-
 // SECTION TEN START
 .section-ten {
   display: flex;
   flex-direction: column;
   gap: 2em;
   padding: 0em 8em;
+  margin: 5em 0em;
   .section-ten-sub {
     display: flex;
     flex-direction: column;
@@ -715,6 +715,30 @@ footer {
       }
     }
     }
+  }
+}
+// SECTION TEN END
+
+// SECTION ELEVEN START
+.section-eleven {
+  display: flex;
+  flex-direction: column;
+  padding: 4em;
+  align-items: center;
+  justify-content: center;
+  background-color: $companygreybg;
+  gap: 2em;
+  margin-bottom: 5em;
+  h2 {
+    margin: 0;
+  }
+  .images-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
   }
 }
 

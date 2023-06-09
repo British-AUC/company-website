@@ -350,8 +350,10 @@ footer .footer-right .footer-info a:hover {
   gap: 1em;
 }
 .testimonial-container .testimonial-sub-container .testimonial-container-right .name, .testimonial-container .testimonial-sub-container .testimonial-container-right .university {
-  font-weight: 700;
   font-size: 1rem;
+}
+.testimonial-container .testimonial-sub-container .testimonial-container-right .university {
+  font-weight: 700;
 }
 .testimonial-container .testimonial-nav {
   display: flex;
@@ -651,6 +653,7 @@ footer .footer-right .footer-info a:hover {
   flex-direction: column;
   gap: 2em;
   padding: 0em 8em;
+  margin: 5em 0em;
 }
 .section-ten .section-ten-sub {
   display: flex;
@@ -671,4 +674,26 @@ footer .footer-right .footer-info a:hover {
 .section-ten .section-ten-sub .sub .values-container img {
   width: 30px;
   height: 30px;
+}
+
+.section-eleven {
+  display: flex;
+  flex-direction: column;
+  padding: 4em;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6F6F6;
+  gap: 2em;
+  margin-bottom: 5em;
+}
+.section-eleven h2 {
+  margin: 0;
+}
+.section-eleven .images-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=App.css.map */
