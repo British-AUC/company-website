@@ -73,6 +73,10 @@ nav {
   color: #005EBD;
 }
 
+.mobile-nav-toggle {
+  display: none;
+}
+
 footer {
   display: flex;
   flex-direction: row;
@@ -142,11 +146,14 @@ footer .footer-right .footer-info a:hover {
   gap: 1em;
 }
 .hero-left .button-1, .hero-left .button-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #005EBD;
   width: 200px;
+  height: 50px;
   border: inherit;
   outline: none;
-  padding: 0.9375em;
   border-radius: 10px;
   font-weight: 700;
 }
@@ -211,7 +218,7 @@ footer .footer-right .footer-info a:hover {
   gap: 1em;
   /* Apply animation to this element */
   animation-name: scrolling-left1;
-  animation-duration: 50s;
+  animation-duration: 40s;
   animation-timing-function: linear;
   animation-delay: 0s;
   animation-iteration-count: infinite;
@@ -272,7 +279,7 @@ footer .footer-right .footer-info a:hover {
 .section-three .service-left {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width: 50%;
   background-color: #DDE6F0;
   padding: 3em 2.5em;
   gap: 1em;
@@ -287,7 +294,7 @@ footer .footer-right .footer-info a:hover {
 }
 .section-three .service-right {
   display: flex;
-  width: 55%;
+  width: 50%;
 }
 .section-three .service-right img {
   width: 100%;
@@ -395,7 +402,7 @@ footer .footer-right .footer-info a:hover {
 .section-five .metrics-container {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 2em;
 }
 .section-five .metric {
   display: flex;
@@ -427,20 +434,23 @@ footer .footer-right .footer-info a:hover {
   display: flex;
   flex-direction: row;
   gap: 2em;
+  justify-content: space-evenly;
 }
 .section-six-sub .section-six-left {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 50%;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .section-six-sub .section-six-left .information {
   display: flex;
   flex-direction: row;
   gap: 0.5em;
-  width: 250px;
+  width: 45%;
+  height: auto;
   margin: 0;
+  margin-bottom: 20px;
 }
 .section-six-sub .section-six-left .information img {
   width: 25px;
@@ -453,6 +463,7 @@ footer .footer-right .footer-info a:hover {
   margin: 0;
 }
 .section-six-sub .section-six-left .information .details p, .section-six-sub .section-six-left .information .details .section-eight h2, .section-eight .section-six-sub .section-six-left .information .details h2 {
+  font-size: 1rem;
   margin: 0;
 }
 .section-six-sub .section-six-right {
@@ -480,6 +491,7 @@ footer .footer-right .footer-info a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .section-six-sub .section-six-right .inputs2 .file-label {
   display: flex;
@@ -517,6 +529,7 @@ footer .footer-right .footer-info a:hover {
   border: 0.5px solid #000000;
   border-radius: 2px;
   background-color: #F6F6F6;
+  margin: 0;
 }
 .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked {
   background-color: #005EBD;
@@ -540,11 +553,14 @@ footer .footer-right .footer-info a:hover {
   font-size: 16px;
 }
 .section-six-sub .button-1, .section-six-sub .hero-left .button-2, .hero-left .section-six-sub .button-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #005EBD;
   width: 160px;
+  height: 50px;
   border: inherit;
   outline: none;
-  padding: 0.95em 0.5em;
   border-radius: 10px;
   font-weight: 700;
 }

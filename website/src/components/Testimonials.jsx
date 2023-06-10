@@ -27,18 +27,18 @@ export default function Testimonial() {
   return (
     <div className="testimonial-container">
       <div className="testimonial-sub-container">
-      <img className="arrow" src={leftchevron} onClick={prevSlide} />
-        <div className="testimonial-container-left">
-          <img src={testimonials[currentSlide].image} alt="Testifier" />
-        </div>
-        <div className="testimonial-container-right">
-          <p className="message">{testimonials[currentSlide].message}</p>
-          <div className="details">
-            <img src={testimonials[currentSlide].icon} alt="Social Icon" />
-            <em className="name">{testimonials[currentSlide].name}</em>
+        <img className="arrow" src={leftchevron} onClick={prevSlide} />
+          <div className="testimonial-container-left">
+            <img src={testimonials[currentSlide].image} alt="Testifier" />
           </div>
-          <p className="university">{testimonials[currentSlide].university}</p>
-        </div>
+          <div className="testimonial-container-right">
+            <p className="message">{testimonials[currentSlide].message}</p>
+            <div className="details">
+              <img src={testimonials[currentSlide].icon} alt="Social Icon" />
+              <em className="name">{testimonials[currentSlide].name}</em>
+            </div>
+            <p className="university">{testimonials[currentSlide].university}</p>
+          </div>
         <img className="arrow" src={rightchevron} onClick={nextSlide} />
       </div>
 
