@@ -72,6 +72,30 @@ $testborder: 1px solid red;
   }
   // NAVIGATION END
 
+  // FOOTER START
+  footer {
+    flex-direction: column;
+    padding: $mobilepadding;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    gap: 1em;
+    .footer-left {
+      width: 100%;
+      img {
+        max-width: 300px
+      }
+    }
+    .footer-right {
+      width: 100%;
+      flex-direction: column;
+      gap: 1em;
+      .footer-info {
+        width: 100%;
+      }
+    }
+  }
+  // FOOTER END
+
   // HERO SECTION START
   .hero {
     flex-direction: column-reverse;
@@ -264,6 +288,8 @@ $testborder: 1px solid red;
     width: 90%;
     height: auto;
     padding: 3em 2em;
+    border-radius: 25px;
+    gap: 0.8em;
     h3 {
       font-size: 1.5rem;
     }
@@ -272,6 +298,8 @@ $testborder: 1px solid red;
       margin: 0;
     }
   }
+  // SECTION SEVEN END
 
+  // SECTION EIGHT START
 }
 
