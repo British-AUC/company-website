@@ -1,6 +1,7 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
 import './styles/App.css'
+import './styles/App_mobile.css'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'

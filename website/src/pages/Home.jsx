@@ -1,5 +1,4 @@
 import React from "react"
-import '../styles/App.css'
 import heroimage from "../assets/heroimage.webp"
 import groupimage from "../assets/groupimage.png"
 import Service from "../components/Service";
