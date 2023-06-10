@@ -609,7 +609,8 @@ footer {
   margin: 0 auto;
   width: 713px;
   height: 342px;
-  background: url("../assets/newsletter.png") center;
+  background-color: #005EBD;
+  background: url("../assets/newsletter.png") center no-repeat;
   border-radius: 50px;
   gap: 1em;
   margin-bottom: 5em;
@@ -632,20 +633,34 @@ footer {
     flex-direction: row;
     gap: 1em;
     input {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
       color: $companyblack;
       border: none;
-      padding: 0.95em 1.5em;
+      width: 180px;
+      height: 50px;
+      padding: 0em 1em;
       background: #FFFFFF;
       border: 1px solid #FFFFFF;
-      border-radius: 20px;
+      border-radius: 15px;
+    }
+    input:focus {
+      outline: none
     }
     button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
       color: white;
       border: none;
-      padding: 0.95em 1.5em;
+      width: 120px;
+      height: 50px;
       background: inherit;
       border: 1.5px solid #FFFFFF;
-      border-radius: 20px;
+      border-radius: 15px;
     }
   }
 }

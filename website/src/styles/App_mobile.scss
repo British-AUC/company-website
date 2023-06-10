@@ -259,5 +259,19 @@ $testborder: 1px solid red;
   }
   // SECTION SIX END
 
+  // SECTION SEVEN START
+  .section-seven {
+    width: 90%;
+    height: auto;
+    padding: 3em 2em;
+    h3 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 0.875rem;
+      margin: 0;
+    }
+  }
+
 }
 

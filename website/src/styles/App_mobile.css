@@ -216,4 +216,16 @@
   .section-six-sub .section-six-right .inputs2 .checkbox {
     gap: 1em;
   }
+  .section-seven {
+    width: 90%;
+    height: auto;
+    padding: 3em 2em;
+  }
+  .section-seven h3 {
+    font-size: 1.5rem;
+  }
+  .section-seven p {
+    font-size: 0.875rem;
+    margin: 0;
+  }
 }/*# sourceMappingURL=App_mobile.css.map */
