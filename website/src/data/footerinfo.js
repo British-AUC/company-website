@@ -13,7 +13,7 @@ export default [
     },
     {
         id: 2,
-        title: "INFORMATION",
+        title: "MORE",
         link1: "FAQs",
         link2: "Contact us",
         link3: "Terms and Conditions",

@@ -96,7 +96,7 @@ footer {
   .footer-left {
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 33.333%;
     p {
       font-size: 0.875rem;
     }
@@ -109,7 +109,7 @@ footer {
   .footer-right {
     display: flex;
     flex-direction: row;
-    width: 77%;
+    width: 66%;
     justify-content: space-evenly;
     .footer-info {
       display: flex;

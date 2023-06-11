@@ -1,0 +1,75 @@
+@media (min-width: 701px) and (max-width: 1000px) {
+  h2 {
+    font-size: 2rem;
+  }
+  nav {
+    padding: 0em 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  .nav-top {
+    display: none;
+  }
+  .nav-bottom-left img {
+    width: 250px;
+  }
+  .nav-bottom-right {
+    display: none;
+  }
+  .nav-bottom-right.open {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #f6f6f6;
+    padding: 1em;
+    position: absolute;
+    top: 86px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    border: 1px solid #1c1b1f;
+    box-shadow: 0px 8px 8px rgba(81, 79, 83, 0.541);
+  }
+  .nav-bottom-right.open a {
+    color: #1c1b1f;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .nav-bottom-right.open a:hover {
+    color: #005ebd;
+  }
+  .nav-bottom-right > div.active a {
+    color: #005ebd;
+  }
+  .mobile-nav-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 0;
+  }
+  footer {
+    padding: 0em 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    gap: 1.5em;
+    border: 1px solid red;
+    justify-content: space-between;
+  }
+  footer .footer-right {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  footer .footer-right .footer-info {
+    width: 30%;
+  }
+}/*# sourceMappingURL=App_tablet_large.css.map */

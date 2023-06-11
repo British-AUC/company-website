@@ -87,7 +87,7 @@ footer {
 footer .footer-left {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 33.333%;
 }
 footer .footer-left p, footer .footer-left .section-eight h2, .section-eight footer .footer-left h2 {
   font-size: 0.875rem;
@@ -100,7 +100,7 @@ footer .footer-left .social-icons {
 footer .footer-right {
   display: flex;
   flex-direction: row;
-  width: 77%;
+  width: 66%;
   justify-content: space-evenly;
 }
 footer .footer-right .footer-info {
