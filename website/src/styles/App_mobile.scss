@@ -442,4 +442,16 @@ $testborder: 1px solid red;
     margin-top: 5em;
   }
   // SECTION EIGHTEEN END
+
+  // WHATSAPP SECTION START
+  .whatsapp {
+    position: fixed;
+    bottom: 3em;
+    right: 1em;
+    z-index: 10;
+    img {
+      width: 50px;
+    }
+  }
+  // WHATSAPP SECTION END
 }
