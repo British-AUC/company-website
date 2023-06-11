@@ -27,11 +27,12 @@ export default function Footer(){
                     <img src={twitter} alt="Twitter Icon" />
                     <img src={youtube} alt="Youtube Icon" />
                 </div>
-                <p>© 2023. All Rights Reserved. British AUC</p>
+                <p id="copyright1">© 2023. All Rights Reserved. British AUC</p>
             </div>
             <div className="footer-right">
                 {footerinformation}
             </div>
+            <p id="copyright2">© 2023. All Rights Reserved. British AUC</p>
         </footer>
     )
 }

@@ -103,7 +103,11 @@ export default function About(){
             {/* SECTION TWELVE */}
             <section className="section-twelve">
                 <h2>Lets Get You an Admission Today</h2>
-                <button>Get in touch</button>
+                <button>
+                    <a href="#">
+                        Get in touch
+                    </a>
+                </button>
             </section>
         </>
     )

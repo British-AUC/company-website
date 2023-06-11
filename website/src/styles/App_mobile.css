@@ -62,7 +62,7 @@
     padding: 0em 1em;
     padding-top: 4em;
     padding-bottom: 4em;
-    gap: 1em;
+    gap: 2em;
   }
   footer .footer-left {
     width: 100%;
@@ -77,6 +77,13 @@
   }
   footer .footer-right .footer-info {
     width: 100%;
+  }
+  footer #copyright1 {
+    display: none;
+  }
+  footer #copyright2 {
+    display: block;
+    font-size: 0.875rem;
   }
   .hero {
     flex-direction: column-reverse;
@@ -250,5 +257,71 @@
   .section-seven p {
     font-size: 0.875rem;
     margin: 0;
+  }
+  .section-eight {
+    margin-top: 5em;
+    padding: 0em 1em;
+  }
+  .section-nine {
+    padding: 0em 1em;
+  }
+  .section-nine .section-nine-sub {
+    flex-direction: column;
+  }
+  .section-nine .section-nine-sub .section-nine-left {
+    width: 100%;
+  }
+  .section-nine .section-nine-sub .section-nine-right {
+    width: 100%;
+  }
+  .section-ten {
+    padding: 0em 1em;
+  }
+  .section-ten .section-ten-sub .sub {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-ten .section-ten-sub .sub .values-container {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+  }
+  .section-eleven {
+    padding: 3em 1em;
+  }
+  .section-eleven .images-container {
+    flex-direction: column;
+    gap: 2em;
+  }
+  .section-twelve {
+    height: 600px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/students2.png") fixed center no-repeat;
+    gap: 1em;
+  }
+  .section-twelve button {
+    height: 40px;
+  }
+  .services-section {
+    margin-top: 5em;
+  }
+  .section-thirteen {
+    padding: 0em 1em;
+    margin-top: 5em;
+  }
+  .section-thirteen .event-container {
+    padding: 1.5em 1em;
+  }
+  .section-thirteen .event-container strong {
+    font-size: 1.15rem;
+  }
+  .section-thirteen .event-container .details {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .section-fourteen {
+    padding: 0em 1em;
+    margin-top: 5em;
   }
 }/*# sourceMappingURL=App_mobile.css.map */

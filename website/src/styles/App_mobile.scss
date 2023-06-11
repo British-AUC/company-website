@@ -78,7 +78,7 @@ $testborder: 1px solid red;
     padding: $mobilepadding;
     padding-top: 4em;
     padding-bottom: 4em;
-    gap: 1em;
+    gap: 2em;
     .footer-left {
       width: 100%;
       img {
@@ -92,6 +92,13 @@ $testborder: 1px solid red;
       .footer-info {
         width: 100%;
       }
+    }
+    #copyright1 {
+      display: none;
+    }
+    #copyright2 {
+      display: block;
+      font-size: 0.875rem;
     }
   }
   // FOOTER END
@@ -301,5 +308,94 @@ $testborder: 1px solid red;
   // SECTION SEVEN END
 
   // SECTION EIGHT START
-}
+  .section-eight {
+    margin-top: 5em;
+    padding: $mobilepadding;
+  }
+  // SECTION EIGHT END
 
+  // SECTION NINE START
+  .section-nine {
+    padding: $mobilepadding;
+    .section-nine-sub {
+      flex-direction: column;
+      .section-nine-left {
+        width: 100%;
+      }
+      .section-nine-right {
+        width: 100%;
+      }
+    }
+  }
+  // SECTION NINE END
+
+  // SECTION TEN START
+  .section-ten {
+    padding: $mobilepadding;
+    .section-ten-sub {
+      .sub {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .values-container {
+          width: 100%;
+          align-items: center;
+          text-align: center;
+          gap: 0;
+        }
+      }
+    }
+  }
+  // SECTION TEN END
+
+  // SECTION ELEVEN START
+  .section-eleven {
+    padding: 3em 1em;
+    .images-container {
+      flex-direction: column;
+      gap: 2em;
+    }
+  }
+  // SECTION ELEVEN END
+
+  // SECTION TWELVE START
+  .section-twelve {
+    height: 600px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/students2.png") fixed center no-repeat;
+    gap: 1em;
+    button {
+      height: 40px;
+    }
+  }
+  // SECTION TWELVE END
+
+  // SERVICES SECTION START
+  .services-section{
+    margin-top: 5em;
+  }
+  // SERVICES SECTION END
+
+  // SECTION THIRTEEN START
+  .section-thirteen {
+    padding: $mobilepadding;
+    margin-top: 5em;
+    .event-container {
+      padding: 1.5em 1em;
+      strong {
+        font-size: 1.15rem;
+      }
+      .details {
+        flex-direction: column;
+        gap: 1em;
+      }
+    }
+  }
+  // SECTION THIRTEEN END
+
+  // SECTION FOURTEEN START
+  .section-fourteen {
+    padding: $mobilepadding;
+    margin-top: 5em;
+  }
+  // SECTION FOURTEEN END
+}
