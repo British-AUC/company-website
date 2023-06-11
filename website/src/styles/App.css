@@ -8,7 +8,7 @@
 }
 
 h1 {
-  color: #1C1B1F;
+  color: #1c1b1f;
 }
 
 h2 {
@@ -19,7 +19,7 @@ h2 {
 }
 
 nav {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   display: flex;
   flex-direction: column;
   padding: 0em 4em;
@@ -57,20 +57,20 @@ nav {
   justify-content: flex-end;
 }
 .nav-bottom-right a {
-  color: #1C1B1F;
+  color: #1c1b1f;
   text-decoration: none;
   padding-bottom: 0.5em;
   font-weight: 600;
 }
 .nav-bottom-right .active {
   padding-bottom: 0.5em;
-  border-bottom: 2px solid #005EBD;
+  border-bottom: 2px solid #005ebd;
 }
 .nav-bottom-right .active a {
-  color: #005EBD;
+  color: #005ebd;
 }
 .nav-bottom-right a:hover {
-  color: #005EBD;
+  color: #005ebd;
 }
 
 .mobile-nav-toggle {
@@ -81,7 +81,7 @@ footer {
   display: flex;
   flex-direction: row;
   padding: 6em 4em;
-  background-color: #DDE6F0;
+  background-color: #dde6f0;
   gap: 7em;
 }
 footer .footer-left {
@@ -111,12 +111,12 @@ footer .footer-right .footer-info {
 }
 footer .footer-right .footer-info a {
   text-decoration: none;
-  color: #1C1B1F;
+  color: #1c1b1f;
   font-size: 0.875rem;
 }
 footer .footer-right .footer-info a:hover {
   font-weight: bold;
-  color: #005EBD;
+  color: #005ebd;
 }
 
 .hero {
@@ -125,7 +125,7 @@ footer .footer-right .footer-info a:hover {
   align-items: center;
   height: auto;
   gap: 2em;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   padding: 0em 4em;
   padding-bottom: 2em;
 }
@@ -149,7 +149,7 @@ footer .footer-right .footer-info a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #005EBD;
+  background-color: #005ebd;
   width: 200px;
   height: 50px;
   border: inherit;
@@ -167,18 +167,18 @@ footer .footer-right .footer-info a:hover {
 .hero-left .button-2 {
   background-color: inherit;
   width: 130px;
-  border: 1.5px solid #005EBD;
+  border: 1.5px solid #005ebd;
 }
 .hero-left .button-2 a {
   text-decoration: none;
-  color: #005EBD;
+  color: #005ebd;
 }
 .hero-left .button-2:hover {
   background-color: inherit;
-  border: 1.5px solid #1C1B1F;
+  border: 1.5px solid #1c1b1f;
 }
 .hero-left .button-2:hover a {
-  color: #1C1B1F;
+  color: #1c1b1f;
 }
 
 .hero-right {
@@ -207,7 +207,7 @@ footer .footer-right .footer-info a:hover {
 .flags-block {
   left: 0;
   height: auto;
-  background: #FFFFFF;
+  background: #ffffff;
   width: 100%;
   overflow: hidden;
 }
@@ -241,7 +241,7 @@ footer .footer-right .footer-info a:hover {
   padding: 0em 4em;
   padding-bottom: 2em;
   margin-bottom: 5em;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 .section-two .section-two-bottom {
   display: flex;
@@ -280,7 +280,7 @@ footer .footer-right .footer-info a:hover {
   display: flex;
   flex-direction: column;
   width: 50%;
-  background-color: #DDE6F0;
+  background-color: #dde6f0;
   padding: 3em 2.5em;
   gap: 1em;
 }
@@ -304,13 +304,13 @@ footer .footer-right .footer-info a:hover {
   flex-direction: row-reverse;
 }
 .section-three .service:nth-child(odd) .service-left {
-  background-color: #1C1B1F;
+  background-color: #1c1b1f;
 }
 .section-three .service:nth-child(odd) .service-left h3 {
   color: white;
 }
 .section-three .service:nth-child(odd) .service-left p, .section-three .service:nth-child(odd) .service-left .section-eight h2, .section-eight .section-three .service:nth-child(odd) .service-left h2 {
-  color: #DFDFDF;
+  color: #dfdfdf;
 }
 
 .section-four {
@@ -378,10 +378,10 @@ footer .footer-right .footer-info a:hover {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #E3E3E3;
+  background-color: #e3e3e3;
 }
 .testimonial-container .testimonial-nav .nav-bubble.active {
-  background-color: #1C1B1F;
+  background-color: #1c1b1f;
 }
 
 .section-five {
@@ -481,10 +481,10 @@ footer .footer-right .footer-info a:hover {
 .section-six-sub .section-six-right .inputs input {
   width: 50%;
   height: 50px;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   border: 0.5px solid #000000;
   border-radius: 5px;
-  color: #1C1B1F;
+  color: #1c1b1f;
   padding: 0em 1em;
 }
 .section-six-sub .section-six-right .inputs2 {
@@ -528,11 +528,11 @@ footer .footer-right .footer-info a:hover {
   height: 20px;
   border: 0.5px solid #000000;
   border-radius: 2px;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   margin: 0;
 }
 .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked {
-  background-color: #005EBD;
+  background-color: #005ebd;
 }
 .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked::after {
   content: "✓";
@@ -544,11 +544,11 @@ footer .footer-right .footer-info a:hover {
   margin: 1px 0 0 1px;
 }
 .section-six-sub .section-six-right textarea {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   border: 0.5px solid #000000;
   border-radius: 5px;
   resize: none;
-  color: #1C1B1F;
+  color: #1c1b1f;
   padding: 1em;
   font-size: 16px;
 }
@@ -556,7 +556,7 @@ footer .footer-right .footer-info a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #005EBD;
+  background-color: #005ebd;
   width: 160px;
   height: 50px;
   border: inherit;
@@ -576,7 +576,7 @@ footer .footer-right .footer-info a:hover {
   margin: 0 auto;
   width: 713px;
   height: 342px;
-  background-color: #08437E;
+  background-color: #08437e;
   background: url("../assets/newsletter.png") center no-repeat;
   border-radius: 50px;
   gap: 1em;
@@ -587,7 +587,7 @@ footer .footer-right .footer-info a:hover {
   font-size: 2rem;
   display: flex;
   text-align: center;
-  color: #EAF4FF;
+  color: #eaf4ff;
   margin: 0;
 }
 .section-seven p, .section-seven .section-eight h2, .section-eight .section-seven h2 {
@@ -610,13 +610,13 @@ footer .footer-right .footer-info a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #1C1B1F;
+  color: #1c1b1f;
   border: none;
   width: auto;
   height: 50px;
   padding: 0em 1em;
-  background: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  background: #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 15px;
 }
 .section-seven .email-container input:focus {
@@ -633,7 +633,7 @@ footer .footer-right .footer-info a:hover {
   padding: 0em 2em;
   height: 50px;
   background: inherit;
-  border: 1.5px solid #FFFFFF;
+  border: 1.5px solid #ffffff;
   border-radius: 15px;
 }
 
@@ -724,7 +724,7 @@ footer .footer-right .footer-info a:hover {
   padding: 4em;
   align-items: center;
   justify-content: center;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   gap: 2em;
   margin-bottom: 5em;
 }
@@ -760,18 +760,18 @@ footer .footer-right .footer-info a:hover {
   align-items: center;
   width: 130px;
   height: 50px;
-  color: #1C1B1F;
-  background: #FFFFFF;
+  color: #1c1b1f;
+  background: #ffffff;
   font-weight: bold;
   border: none;
   border-radius: 10px;
 }
 .section-twelve button a {
   text-decoration: none;
-  color: #1C1B1F;
+  color: #1c1b1f;
 }
 .section-twelve button:hover {
-  background-color: #005EBD;
+  background-color: #005ebd;
   color: white;
 }
 
@@ -817,7 +817,7 @@ footer .footer-right .footer-info a:hover {
   align-items: center;
   padding: 15px;
   height: 50px;
-  background: #005EBD;
+  background: #005ebd;
   border-radius: 10px;
   outline: none;
   border: none;
@@ -886,7 +886,7 @@ footer .footer-right .footer-info a:hover {
   margin-top: 1.25em;
 }
 .section-fourteen .blog-card .details button a {
-  color: #005EBD;
+  color: #005ebd;
   text-decoration: none;
 }
 
@@ -917,7 +917,7 @@ footer .footer-right .footer-info a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 1em 0em;
-  border-bottom: 0.5px solid #AAAAAA;
+  border-bottom: 0.5px solid #aaaaaa;
 }
 .section-sixteen .question-container .left {
   width: 90%;
@@ -925,7 +925,7 @@ footer .footer-right .footer-info a:hover {
 .section-sixteen .question-container .left #question {
   font-size: 1rem;
   font-weight: 600;
-  color: #1C1B1F;
+  color: #1c1b1f;
 }
 .section-sixteen .question-container .left p, .section-sixteen .question-container .left .section-eight h2, .section-eight .section-sixteen .question-container .left h2 {
   font-size: 0.8735rem;
