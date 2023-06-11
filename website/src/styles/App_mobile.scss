@@ -398,4 +398,45 @@ $testborder: 1px solid red;
     margin-top: 5em;
   }
   // SECTION FOURTEEN END
+
+  // SECTION FIFTEEN START
+  .section-fifteen {
+    padding: $mobilepadding;
+    margin-top: 5em;
+  }
+  // SECTION FIFTEEN END
+
+  // SECTION SIXTEEN START
+  .section-sixteen {
+    padding: $mobilepadding;
+    margin-top: 5em;
+    .question-container {
+      padding: 0;
+      .left {
+        #question {
+          font-size: 0.9rem;
+          font-weight: 600;
+        }
+      }
+      .right {
+        img {
+          width: 15px;
+        }
+      }
+    }
+  }
+  // SECTION SIXTEEN END
+
+  // SECTION SEVENTEEN START
+  .section-seventeen {
+    padding: $mobilepadding;
+    margin-top: 5em;
+  }
+  // SECTION SEVENTEEN START
+
+  // SECTION EIGHTEEN START
+  .section-eighteen {
+    padding: $mobilepadding;
+    margin-top: 5em;
+  }
 }

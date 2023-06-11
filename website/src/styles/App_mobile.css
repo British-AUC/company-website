@@ -324,4 +324,30 @@
     padding: 0em 1em;
     margin-top: 5em;
   }
+  .section-fifteen {
+    padding: 0em 1em;
+    margin-top: 5em;
+  }
+  .section-sixteen {
+    padding: 0em 1em;
+    margin-top: 5em;
+  }
+  .section-sixteen .question-container {
+    padding: 0;
+  }
+  .section-sixteen .question-container .left #question {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .section-sixteen .question-container .right img {
+    width: 15px;
+  }
+  .section-seventeen {
+    padding: 0em 1em;
+    margin-top: 5em;
+  }
+  .section-eighteen {
+    padding: 0em 1em;
+    margin-top: 5em;
+  }
 }/*# sourceMappingURL=App_mobile.css.map */
