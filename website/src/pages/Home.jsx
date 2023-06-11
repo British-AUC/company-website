@@ -100,7 +100,7 @@ export default function Home(){
             {/* SECTION SIX */}
             <section className="section-six" id="form">
                 <h2>Speak to an advisor now</h2>
-                <p>
+                <p className="six-p">
                     Got questions? Leave your details below and a 
                     customer representative will reach out to you 
                     within 24 hours.

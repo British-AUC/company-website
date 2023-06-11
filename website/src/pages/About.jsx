@@ -41,7 +41,7 @@ export default function About(){
                 <h2>A word from our <span style={{color: "#005EBD" }}>CEO</span></h2>
                 <div className="section-nine-sub">
                     <div className="section-nine-left">
-                        <img src={CEO} alt="Mr Collins" />
+                        <img src={CEO} alt="Mr Collins" id="CEO" />
                         <em><img src={linkedin} alt="Linkedin Icon" /> Dr. Collins Onyeaji</em>
                         <strong>Chief Executive Officer - British AUC</strong>
                     </div>
