@@ -15,6 +15,7 @@ import Privacy from './pages/Privacy'
 import NotFound from './pages/NotFound'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
+import WhatsApp from './components/Whatsapp'
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
             <Route path='/privacy-policy' element={<Privacy/>} />
             <Route path='*' element={<NotFound/>} />
           </Routes>
+        <WhatsApp/>
       <Footer/>
     </>
   )
