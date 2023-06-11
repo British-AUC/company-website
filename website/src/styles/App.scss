@@ -623,7 +623,8 @@ footer {
   width: 713px;
   height: 342px;
   background-color: #08437e;
-  background: url("../assets/newsletter.png") center no-repeat;
+  background: linear-gradient(0deg, rgba(0, 64, 128, 0.9), rgba(0, 64, 128, 0.9)),
+    url("../assets/newsletter.png") center no-repeat;
   border-radius: 50px;
   gap: 1em;
   margin-bottom: 5em;
