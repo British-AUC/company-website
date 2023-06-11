@@ -9,6 +9,7 @@ import metricsdata from "../data/metrics";
 import Flags from "../components/Flags";
 import flagsdata from "../data/flags";
 import ContactInfoForm from "../components/Contact_Info_Form";
+import WhatsApp from "../components/Whatsapp";
 
 export default function Home(){
     const services = servicedata.map(item => <Service key={item.id} {...item}/>)
@@ -123,6 +124,8 @@ export default function Home(){
                     <button type="submit">Subscribe</button>
                 </form>
             </section>
+
+            <WhatsApp/>
         </>
     )
 }

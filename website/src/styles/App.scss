@@ -127,6 +127,12 @@ footer {
       }
     }
   }
+  #copyright1 {
+    display: block;
+  }
+  #copyright2 {
+    display: none;
+  }
 }
 // FOOTER END
 
@@ -1019,3 +1025,15 @@ footer {
   margin-bottom: 5em;
 }
 // SECTION EIGHTEEN END
+
+// WHATSAPP SECTION START
+.whatsapp {
+  position: fixed;
+  bottom: 3em;
+  right: 2em;
+  z-index: 10;
+  img {
+    width: 50px;
+  }
+}
+// WHATSAPP SECTION START
