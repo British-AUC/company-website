@@ -20,7 +20,7 @@ export default function Home(){
             {/* HERO SECTION */}
             <header className="hero">
                 <div className="hero-left">
-                    <h1>Want to Study <span style={{color:"#005EBD"}}>Abroad?</span></h1>
+                    <h1>Want to Study <span style={{color:"#007FFF"}}>Abroad?</span></h1>
                     <p>
                         Lets take the stress off you! We will get you into any 
                         university or college around the world.

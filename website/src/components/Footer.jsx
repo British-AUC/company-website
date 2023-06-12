@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import linkedin from "../assets/linkedin_black.svg";
 import facebook from "../assets/facebook_black.svg";
@@ -15,7 +16,9 @@ export default function Footer(){
     return (
         <footer>
             <div className="footer-left">
-                <img src={logo} alt="Logo Icon" />
+                <Link to="/">
+                    <img src={logo} alt="Logo Icon" />
+                </Link>
                 <p>
                     Connect with Us for Vital Study Abroad Tips 
                     and Unlock Your Global Potential.

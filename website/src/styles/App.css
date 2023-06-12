@@ -64,13 +64,13 @@ nav {
 }
 .nav-bottom-right .active {
   padding-bottom: 0.5em;
-  border-bottom: 2px solid #005ebd;
+  border-bottom: 2px solid #007FFF;
 }
 .nav-bottom-right .active a {
-  color: #005ebd;
+  color: #007FFF;
 }
 .nav-bottom-right a:hover {
-  color: #005ebd;
+  color: #007FFF;
 }
 
 .mobile-nav-toggle {
@@ -116,7 +116,7 @@ footer .footer-right .footer-info a {
 }
 footer .footer-right .footer-info a:hover {
   font-weight: bold;
-  color: #005ebd;
+  color: #007FFF;
 }
 footer #copyright1 {
   display: block;
@@ -155,7 +155,7 @@ footer #copyright2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #005ebd;
+  background-color: #007FFF;
   width: 200px;
   height: 50px;
   border: inherit;
@@ -173,11 +173,11 @@ footer #copyright2 {
 .hero-left .button-2 {
   background-color: inherit;
   width: 130px;
-  border: 1.5px solid #005ebd;
+  border: 1.5px solid #007FFF;
 }
 .hero-left .button-2 a {
   text-decoration: none;
-  color: #005ebd;
+  color: #007FFF;
 }
 .hero-left .button-2:hover {
   background-color: inherit;
@@ -543,7 +543,7 @@ footer #copyright2 {
   align-items: flex-start;
 }
 .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked {
-  background-color: #005ebd;
+  background-color: #007FFF;
 }
 .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked::after {
   content: "✓";
@@ -567,7 +567,7 @@ footer #copyright2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #005ebd;
+  background-color: #007FFF;
   width: 160px;
   height: 50px;
   border: inherit;
@@ -782,7 +782,9 @@ footer #copyright2 {
   color: #1c1b1f;
 }
 .section-twelve button:hover {
-  background-color: #005ebd;
+  background-color: #007FFF;
+}
+.section-twelve button:hover a {
   color: white;
 }
 
@@ -828,7 +830,7 @@ footer #copyright2 {
   align-items: center;
   padding: 15px;
   height: 50px;
-  background: #005ebd;
+  background: #007FFF;
   border-radius: 10px;
   outline: none;
   border: none;
@@ -897,7 +899,7 @@ footer #copyright2 {
   margin-top: 1.25em;
 }
 .section-fourteen .blog-card .details button a {
-  color: #005ebd;
+  color: #007FFF;
   text-decoration: none;
 }
 

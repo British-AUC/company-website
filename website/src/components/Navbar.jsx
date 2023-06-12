@@ -24,7 +24,9 @@ export default function Navbar(){
 
             <div className="nav-bottom">
                 <div className="nav-bottom-left">
-                    <img src={logo} alt="Logo Icon" />
+                    <Link to="/">
+                        <img src={logo} alt="Logo Icon" />
+                    </Link>
                 </div>
                 
                 <div className={`nav-bottom-right ${isMobileNavOpen ? "open" : ""}`}>

@@ -42,10 +42,10 @@
     padding: 10px;
   }
   .nav-bottom-right.open a:hover {
-    color: #005ebd;
+    color: #007FFF;
   }
   .nav-bottom-right > div.active a {
-    color: #005ebd;
+    color: #007FFF;
   }
   .mobile-nav-toggle {
     display: flex;

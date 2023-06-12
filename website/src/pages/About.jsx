@@ -18,7 +18,7 @@ export default function About(){
         <>
             {/* SECTION EIGHT */}
             <section className="section-eight">
-                <h2>Meet <span style={{color: "#005EBD" }}>British AUC</span></h2>
+                <h2>Meet <span style={{color: "#007FFF" }}>British AUC</span></h2>
                 <p>
                     BRITISH AUC is a leading organization that offers comprehensive 
                     support for students aspiring to study abroad. Our expert team 
@@ -38,7 +38,7 @@ export default function About(){
 
             {/* SECTION NINE */}
             <section className="section-nine">
-                <h2>A word from our <span style={{color: "#005EBD" }}>CEO</span></h2>
+                <h2>A word from our <span style={{color: "#007FFF" }}>CEO</span></h2>
                 <div className="section-nine-sub">
                     <div className="section-nine-left">
                         <img src={CEO} alt="Mr Collins" id="CEO" />
