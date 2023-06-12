@@ -526,6 +526,7 @@ footer #copyright2 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   font-size: 0.875rem;
   gap: 0.25em;
 }
@@ -539,6 +540,7 @@ footer #copyright2 {
   border-radius: 2px;
   background-color: #f6f6f6;
   margin: 0;
+  align-items: flex-start;
 }
 .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked {
   background-color: #005ebd;

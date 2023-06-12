@@ -194,7 +194,7 @@ $testborder: 1px solid red;
     .section-five {
         gap: 2em;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-         url("../assets/graduates4.png");
+         url("../assets/graduates4.png") center fixed;
         .metrics-container {
             padding: 0em 3em;
             .metric {
@@ -210,4 +210,60 @@ $testborder: 1px solid red;
     }
     // SECTION FIVE START
 
+    // SECTION SIX START
+    .section-six {
+        padding: $mobilepadding;
+        margin-bottom: 5em;
+    }
+    .section-six-sub {
+        gap: 2em;
+        .section-six-left {
+            justify-content: space-between;
+            width: 55%;
+            .information {
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+                .details {
+                    b {
+                        font-size: 1rem;
+                    }
+                    p {
+                        font-size: 0.875rem;
+                    }
+                }
+            }
+        }
+        .section-six-right {
+            width: 45%;
+            .inputs {
+                gap: 1em;
+            }
+            .inputs2 {
+                gap: 1em;
+                .file-icon {
+                    img {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+                .file-name {
+                    font-size: 0.875rem;
+                }
+                .checkbox {
+                    align-items: flex-start;
+                    gap: 1.2em;
+                    label {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+    }
+    // SECTION SIX END
+
+    // SECTION SEVEN START
+    .section-seven {
+    }
 }

@@ -129,7 +129,7 @@
   }
   .section-five {
     gap: 2em;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/graduates4.png");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/graduates4.png") center fixed;
   }
   .section-five .metrics-container {
     padding: 0em 3em;
@@ -142,5 +142,49 @@
   }
   .section-five .metrics-container .metric p {
     font-size: 0.875rem;
+  }
+  .section-six {
+    padding: 0em 2em;
+    margin-bottom: 5em;
+  }
+  .section-six-sub {
+    gap: 2em;
+  }
+  .section-six-sub .section-six-left {
+    justify-content: space-between;
+    width: 55%;
+  }
+  .section-six-sub .section-six-left .information img {
+    width: 20px;
+    height: 20px;
+  }
+  .section-six-sub .section-six-left .information .details b {
+    font-size: 1rem;
+  }
+  .section-six-sub .section-six-left .information .details p {
+    font-size: 0.875rem;
+  }
+  .section-six-sub .section-six-right {
+    width: 45%;
+  }
+  .section-six-sub .section-six-right .inputs {
+    gap: 1em;
+  }
+  .section-six-sub .section-six-right .inputs2 {
+    gap: 1em;
+  }
+  .section-six-sub .section-six-right .inputs2 .file-icon img {
+    width: 25px;
+    height: 25px;
+  }
+  .section-six-sub .section-six-right .inputs2 .file-name {
+    font-size: 0.875rem;
+  }
+  .section-six-sub .section-six-right .inputs2 .checkbox {
+    align-items: flex-start;
+    gap: 1.2em;
+  }
+  .section-six-sub .section-six-right .inputs2 .checkbox label {
+    font-size: 0.8em;
   }
 }/*# sourceMappingURL=App_tablet_large.css.map */

@@ -18,8 +18,8 @@ export default function Navbar(){
     return (
         <nav>
             <div className="nav-top">
-                <p><img src={phone} alt="Phone Icon" /> +234 (0) 805 900 0097</p>
-                <p><img src={email} alt="Email Icon" /> support@britishauc.com</p>
+                <p><img src={phone} alt="Phone Icon" /> +234 (0) 903 394 2463</p>
+                <p><img src={email} alt="Email Icon" /> contact@britishauc.com</p>
             </div>
 
             <div className="nav-bottom">

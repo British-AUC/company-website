@@ -54,7 +54,7 @@ export default function Home(){
 
             {/* SECTION TWO */}
             <section className="section-two">
-                <h2>About British AUC</h2>
+                <h2>Who we are</h2>
                 <div className="section-two-bottom">
                     <div className="section-two-left">
                         <img src={groupimage} alt="Group Image" />
@@ -79,7 +79,7 @@ export default function Home(){
 
             {/* SECTION THREE */}
             <section className="section-three" id="service">
-                <h2>How can we help?</h2>
+                <h2>How we can help</h2>
                 {services}
             </section>
 

@@ -7,8 +7,8 @@ export default [
         id: 1,
         icon: phone,
         title: "Contact Info",
-        content1: "08035678932",
-        content2: "britishaucadmissions@gmail.com",
+        content1: "09033942463",
+        content2: "contact@britishauc.com",
     },
     {
         id: 2,
