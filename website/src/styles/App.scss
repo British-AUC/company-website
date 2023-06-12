@@ -220,16 +220,16 @@ footer {
 }
 
 #changing-text::after {
-  content: "|";
+  content: "_";
   display: inline-block;
-  animation: blink-caret 0.7s infinite;
+  animation: blink-caret 1.5s infinite;
+  color: #007FFF;
 }
 
 @keyframes blink-caret {
   from, to { opacity: 0; }
   50% { opacity: 1; }
 }
-
 
 // HERO SECTION END
 
