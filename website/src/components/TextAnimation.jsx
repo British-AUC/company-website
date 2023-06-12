@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 
 export default function TextAnimation() {
   const textRef = useRef(null);
-  const words = ["Abroad?", "in the USA?", "in the UK?", "in Canada?", "in Australia", "in Germany"];
+  const words = ["Abroad?", "in the USA?", "in the UK?", "in Canada?", "in Australia?", "in Germany?"];
   let currentWordIndex = 0;
 
   useEffect(() => {
