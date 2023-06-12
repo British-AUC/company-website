@@ -207,6 +207,30 @@ footer {
     width: 100%;
   }
 }
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+#changing-text {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 4s steps(40) infinite;
+}
+
+#changing-text::after {
+  content: "|";
+  display: inline-block;
+  animation: blink-caret 0.7s infinite;
+}
+
+@keyframes blink-caret {
+  from, to { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+
 // HERO SECTION END
 
 // SECTION ONE START
@@ -638,7 +662,7 @@ footer {
     font-size: 2rem;
     display: flex;
     text-align: center;
-    color: #eaf4ff;
+    color: white;
     margin: 0;
   }
   p {

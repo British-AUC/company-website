@@ -9,6 +9,7 @@ import metricsdata from "../data/metrics";
 import Flags from "../components/Flags";
 import flagsdata from "../data/flags";
 import ContactInfoForm from "../components/Contact_Info_Form";
+import TextAnimation from "../components/TextAnimation";
 
 export default function Home(){
     const services = servicedata.map(item => <Service key={item.id} {...item}/>)
@@ -20,7 +21,7 @@ export default function Home(){
             {/* HERO SECTION */}
             <header className="hero">
                 <div className="hero-left">
-                    <h1>Want to Study <span style={{color:"#007FFF"}}>Abroad?</span></h1>
+                    <h1>Want to Study <TextAnimation/> </h1>
                     <p>
                         Lets take the stress off you! We will get you into any 
                         university or college around the world.
