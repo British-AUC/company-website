@@ -333,5 +333,60 @@ $testborder: 1px solid red;
   }
   // SECTION TWELVE END
 
+  // SERVICES SECTION START
+  .services-section {
+    margin-top: 5em;
+  }
+  // SERVICES SECTION END
+    
+  // SECTION THIRTEEN START
+  .section-thirteen {
+    padding: $mobilepadding;
+    margin-top: 5em;
+    .event-container {
+        img {
+            margin: 0 auto;
+        }
+        strong {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }
+  }
+  // SECTION THIRTEEN END
 
+  // SECTION FOURTEEN END
+  .section-fourteen {
+    padding: $mobilepadding;
+    margin-top: 5em;
+  }
+  // SECTION FOURTEEN END
+
+  // SECTION FIFTEEN START
+  .section-fifteen {
+    padding: $mobilepadding;
+    margin-top: 5em;
+  }
+  // SECTION FIFTEEN START
+
+  // SECTION SIXTEEN START
+  .section-sixteen {
+    padding: $mobilepadding;
+    margin-top: 5em;
+  }
+  // SECTION SIXTEEN END
+
+  // SECTION SEVENTEEN START
+  .section-seventeen {
+    padding: $mobilepadding;
+    margin-top: 5em;
+  }
+  // SECTION SEVENTEEN END
+
+  // SECTION EIGHTEEN START
+  .section-eighteen {
+    padding: $mobilepadding;
+    margin-top: 5em;
+  }
+  // SECTION EIGHTEEN END
 }

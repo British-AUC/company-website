@@ -234,4 +234,38 @@
   .section-twelve {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/students4.png") fixed center;
   }
+  .services-section {
+    margin-top: 5em;
+  }
+  .section-thirteen {
+    padding: 0em 2em;
+    margin-top: 5em;
+  }
+  .section-thirteen .event-container img {
+    margin: 0 auto;
+  }
+  .section-thirteen .event-container strong {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .section-fourteen {
+    padding: 0em 2em;
+    margin-top: 5em;
+  }
+  .section-fifteen {
+    padding: 0em 2em;
+    margin-top: 5em;
+  }
+  .section-sixteen {
+    padding: 0em 2em;
+    margin-top: 5em;
+  }
+  .section-seventeen {
+    padding: 0em 2em;
+    margin-top: 5em;
+  }
+  .section-eighteen {
+    padding: 0em 2em;
+    margin-top: 5em;
+  }
 }/*# sourceMappingURL=App_tablet_large.css.map */
