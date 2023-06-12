@@ -6,7 +6,7 @@ $companygreybg: #f6f6f6;
 $mobilepadding: 0em 2em;
 $testborder: 1px solid red;
 
-@media (min-width: 701px) and (max-width: 1000px)  {
+@media (min-width: 701px) and (max-width: 1000px) {
     h2 {
         font-size: 2rem;
     }
@@ -22,17 +22,21 @@ $testborder: 1px solid red;
         right: 0;
         z-index: 100;
     }
+
     .nav-top {
         display: none;
     }
+
     .nav-bottom-left {
         img {
-        width: 250px;
+            width: 250px;
         }
     }
+
     .nav-bottom-right {
         display: none;
     }
+
     .nav-bottom-right.open {
         display: flex;
         flex-direction: column;
@@ -47,20 +51,24 @@ $testborder: 1px solid red;
         border: 1px solid $companyblack;
         box-shadow: 0px 8px 8px rgba(81, 79, 83, 0.541);
     }
+
     .nav-bottom-right.open a {
         color: $companyblack;
         text-decoration: none;
         font-size: 1rem;
         padding: 10px;
     }
+
     .nav-bottom-right.open a:hover {
         color: $companyblue;
     }
-    .nav-bottom-right > div.active {
+
+    .nav-bottom-right>div.active {
         a {
-        color: $companyblue;
+            color: $companyblue;
         }
     }
+
     .mobile-nav-toggle {
         display: flex;
         align-items: center;
@@ -71,6 +79,7 @@ $testborder: 1px solid red;
         margin-left: auto;
         padding: 0;
     }
+
     // NAVIGATION END
 
     // FOOTER START
@@ -81,12 +90,124 @@ $testborder: 1px solid red;
         gap: 1.5em;
         border: $testborder;
         justify-content: space-between;
+
         .footer-right {
             justify-content: flex-start;
             flex-wrap: wrap;
+
             .footer-info {
                 width: 30%;
             }
         }
     }
+
+    // FOOTER END
+
+    // HERO SECTION START
+    .hero {
+        padding: $mobilepadding;
+        margin-top: 5em;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+
+        .hero-left {
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    // HERO SECTION END
+
+    // SECTION ONE START
+    .section-one {
+        padding: $mobilepadding;
+        margin-top: 4em;
+        margin-bottom: 4em;
+
+        p {
+            font-size: 1.5rem;
+        }
+    }
+
+    // SECTION ONE END
+
+    // SECTION TWO START
+    .section-two {
+        padding: $mobilepadding;
+        margin-top: 5em;
+    }
+
+    // SECTION TWO END
+
+    // SECTION THREE START
+    .section-three {
+        padding: $mobilepadding;
+
+        .service {
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .service-left {
+                width: 70%;
+                padding: 2em 1.5em;
+
+                h3 {
+                    font-size: 1.375rem;
+                }
+
+                p {
+                    font-size: 0.875rem;
+                    line-height: 25px;
+                }
+            }
+
+            .service-right {
+                width: 70%;
+            }
+        }
+
+        .service:nth-child(odd) {
+            flex-direction: column-reverse;
+
+            h3 {
+                font-size: 1.375rem;
+            }
+        }
+    }
+
+    // SECTION THREE END
+
+    // SECTION FOUR START
+    .section-four {
+        padding: $mobilepadding;
+        padding-bottom: 5em;
+    }
+    .testimonial-container {
+        .testimonial-sub-container {
+            width: 90%;
+        }
+    }
+    // SECTION FOUR END
+
+    // SECTION FIVE START
+    .section-five {
+        gap: 2em;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+         url("../assets/graduates4.png");
+        .metrics-container {
+            padding: 0em 3em;
+            .metric {
+                width: 33.333%;
+                b {
+                    font-size: 1.75rem;
+                }
+                p {
+                    font-size: 0.875rem;
+                }
+            }
+        }
+    }
+    // SECTION FIVE START
+
 }

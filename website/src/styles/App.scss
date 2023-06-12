@@ -283,8 +283,11 @@ footer {
   .section-two-left {
     display: flex;
     width: 50%;
+    align-items: center;
+    justify-content: center;
     img {
       width: 100%;
+      height: auto;
     }
   }
   .section-two-right {

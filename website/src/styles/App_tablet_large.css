@@ -72,4 +72,75 @@
   footer .footer-right .footer-info {
     width: 30%;
   }
+  .hero {
+    padding: 0em 2em;
+    margin-top: 5em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+  .hero .hero-left h1 {
+    font-size: 2.5rem;
+  }
+  .section-one {
+    padding: 0em 2em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+  .section-one p {
+    font-size: 1.5rem;
+  }
+  .section-two {
+    padding: 0em 2em;
+    margin-top: 5em;
+  }
+  .section-three {
+    padding: 0em 2em;
+  }
+  .section-three .service {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .section-three .service .service-left {
+    width: 70%;
+    padding: 2em 1.5em;
+  }
+  .section-three .service .service-left h3 {
+    font-size: 1.375rem;
+  }
+  .section-three .service .service-left p {
+    font-size: 0.875rem;
+    line-height: 25px;
+  }
+  .section-three .service .service-right {
+    width: 70%;
+  }
+  .section-three .service:nth-child(odd) {
+    flex-direction: column-reverse;
+  }
+  .section-three .service:nth-child(odd) h3 {
+    font-size: 1.375rem;
+  }
+  .section-four {
+    padding: 0em 2em;
+    padding-bottom: 5em;
+  }
+  .testimonial-container .testimonial-sub-container {
+    width: 90%;
+  }
+  .section-five {
+    gap: 2em;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/graduates4.png");
+  }
+  .section-five .metrics-container {
+    padding: 0em 3em;
+  }
+  .section-five .metrics-container .metric {
+    width: 33.333%;
+  }
+  .section-five .metrics-container .metric b {
+    font-size: 1.75rem;
+  }
+  .section-five .metrics-container .metric p {
+    font-size: 0.875rem;
+  }
 }/*# sourceMappingURL=App_tablet_large.css.map */
