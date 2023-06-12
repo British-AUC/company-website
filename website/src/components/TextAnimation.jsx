@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 
 export default function TextAnimation() {
   const textRef = useRef(null);
-  const words = ["Abroad?", "in the USA?", "in the UK?", "in Canada?"];
+  const words = ["Abroad?", "in the USA?", "in the UK?", "in Canada?", "in Australia", "in Germany"];
   let currentWordIndex = 0;
 
   useEffect(() => {
@@ -14,7 +14,7 @@ export default function TextAnimation() {
       let letters = word.split("");
       let output = "";
       for (let i = 0; i < letters.length; i++) {
-        const delay = i * 400; // Adjust the delay to control typing speed
+        const delay = i * 100; // Adjust the delay to control typing speed
         output += `<span style="animation-delay:${delay}ms">${letters[i]}</span>`;
       }
       textElement.innerHTML = output;
