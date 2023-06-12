@@ -218,4 +218,20 @@
   .section-ten .section-ten-sub .sub {
     gap: 1.5em;
   }
+  .section-ten .section-ten-sub .sub .values-container img {
+    width: 35px;
+    height: 35px;
+  }
+  .section-ten .section-ten-sub .sub .values-container p {
+    font-size: 0.875rem;
+  }
+  .section-eleven {
+    padding: 3em;
+  }
+  .section-eleven .images-container {
+    gap: 2em;
+  }
+  .section-twelve {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/students4.png") fixed center;
+  }
 }/*# sourceMappingURL=App_tablet_large.css.map */

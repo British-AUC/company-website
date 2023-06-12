@@ -7,309 +7,331 @@ $mobilepadding: 0em 2em;
 $testborder: 1px solid red;
 
 @media (min-width: 701px) and (max-width: 1000px) {
-    h2 {
-        font-size: 2rem;
+  h2 {
+    font-size: 2rem;
+  }
+
+  // NAVIGATION START
+  nav {
+    padding: $mobilepadding;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+
+  .nav-top {
+    display: none;
+  }
+
+  .nav-bottom-left {
+    img {
+      width: 250px;
     }
+  }
 
-    // NAVIGATION START
-    nav {
-        padding: $mobilepadding;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 100;
+  .nav-bottom-right {
+    display: none;
+  }
+
+  .nav-bottom-right.open {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: $companygreybg;
+    padding: 1em;
+    position: absolute;
+    top: 86px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    border: 1px solid $companyblack;
+    box-shadow: 0px 8px 8px rgba(81, 79, 83, 0.541);
+  }
+
+  .nav-bottom-right.open a {
+    color: $companyblack;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .nav-bottom-right.open a:hover {
+    color: $companyblue;
+  }
+
+  .nav-bottom-right > div.active {
+    a {
+      color: $companyblue;
     }
+  }
 
-    .nav-top {
-        display: none;
+  .mobile-nav-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 0;
+  }
+
+  // NAVIGATION END
+
+  // FOOTER START
+  footer {
+    padding: $mobilepadding;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    gap: 1.5em;
+    justify-content: space-between;
+
+    .footer-right {
+      justify-content: flex-start;
+      flex-wrap: wrap;
+
+      .footer-info {
+        width: 30%;
+      }
     }
+  }
 
-    .nav-bottom-left {
-        img {
-            width: 250px;
-        }
+  // FOOTER END
+
+  // HERO SECTION START
+  .hero {
+    padding: $mobilepadding;
+    margin-top: 5em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+
+    .hero-left {
+      h1 {
+        font-size: 2.5rem;
+      }
     }
+  }
 
-    .nav-bottom-right {
-        display: none;
+  // HERO SECTION END
+
+  // SECTION ONE START
+  .section-one {
+    padding: $mobilepadding;
+    margin-top: 4em;
+    margin-bottom: 4em;
+
+    p {
+      font-size: 1.5rem;
     }
+  }
 
-    .nav-bottom-right.open {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-        background-color: $companygreybg;
-        padding: 1em;
-        position: absolute;
-        top: 86px;
-        left: 0;
-        width: 100%;
-        height: auto;
-        border: 1px solid $companyblack;
-        box-shadow: 0px 8px 8px rgba(81, 79, 83, 0.541);
-    }
+  // SECTION ONE END
 
-    .nav-bottom-right.open a {
-        color: $companyblack;
-        text-decoration: none;
-        font-size: 1rem;
-        padding: 10px;
-    }
+  // SECTION TWO START
+  .section-two {
+    padding: $mobilepadding;
+    margin-top: 5em;
+  }
 
-    .nav-bottom-right.open a:hover {
-        color: $companyblue;
-    }
+  // SECTION TWO END
 
-    .nav-bottom-right>div.active {
-        a {
-            color: $companyblue;
-        }
-    }
+  // SECTION THREE START
+  .section-three {
+    padding: $mobilepadding;
 
-    .mobile-nav-toggle {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        margin-left: auto;
-        padding: 0;
-    }
+    .service {
+      flex-direction: column-reverse;
+      align-items: center;
 
-    // NAVIGATION END
+      .service-left {
+        width: 70%;
+        padding: 2em 1.5em;
 
-    // FOOTER START
-    footer {
-        padding: $mobilepadding;
-        padding-top: 4em;
-        padding-bottom: 4em;
-        gap: 1.5em;
-        justify-content: space-between;
-
-        .footer-right {
-            justify-content: flex-start;
-            flex-wrap: wrap;
-
-            .footer-info {
-                width: 30%;
-            }
-        }
-    }
-
-    // FOOTER END
-
-    // HERO SECTION START
-    .hero {
-        padding: $mobilepadding;
-        margin-top: 5em;
-        padding-top: 2.5em;
-        padding-bottom: 2.5em;
-
-        .hero-left {
-            h1 {
-                font-size: 2.5rem;
-            }
-        }
-    }
-
-    // HERO SECTION END
-
-    // SECTION ONE START
-    .section-one {
-        padding: $mobilepadding;
-        margin-top: 4em;
-        margin-bottom: 4em;
-
-        p {
-            font-size: 1.5rem;
-        }
-    }
-
-    // SECTION ONE END
-
-    // SECTION TWO START
-    .section-two {
-        padding: $mobilepadding;
-        margin-top: 5em;
-    }
-
-    // SECTION TWO END
-
-    // SECTION THREE START
-    .section-three {
-        padding: $mobilepadding;
-
-        .service {
-            flex-direction: column-reverse;
-            align-items: center;
-
-            .service-left {
-                width: 70%;
-                padding: 2em 1.5em;
-
-                h3 {
-                    font-size: 1.375rem;
-                }
-
-                p {
-                    font-size: 0.875rem;
-                    line-height: 25px;
-                }
-            }
-
-            .service-right {
-                width: 70%;
-            }
-        }
-
-        .service:nth-child(odd) {
-            flex-direction: column-reverse;
-
-            h3 {
-                font-size: 1.375rem;
-            }
-        }
-    }
-
-    // SECTION THREE END
-
-    // SECTION FOUR START
-    .section-four {
-        padding: $mobilepadding;
-        padding-bottom: 5em;
-    }
-    .testimonial-container {
-        .testimonial-sub-container {
-            width: 90%;
-        }
-    }
-    // SECTION FOUR END
-
-    // SECTION FIVE START
-    .section-five {
-        gap: 2em;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-         url("../assets/graduates4.png") center fixed;
-        .metrics-container {
-            padding: 0em 3em;
-            .metric {
-                width: 33.333%;
-                b {
-                    font-size: 1.75rem;
-                }
-                p {
-                    font-size: 0.875rem;
-                }
-            }
-        }
-    }
-    // SECTION FIVE START
-
-    // SECTION SIX START
-    .section-six {
-        padding: $mobilepadding;
-        margin-bottom: 5em;
-    }
-    .section-six-sub {
-        gap: 2em;
-        .section-six-left {
-            justify-content: space-between;
-            width: 55%;
-            .information {
-                img {
-                    width: 20px;
-                    height: 20px;
-                }
-                .details {
-                    b {
-                        font-size: 1rem;
-                    }
-                    p {
-                        font-size: 0.875rem;
-                    }
-                }
-            }
-        }
-        .section-six-right {
-            width: 45%;
-            .inputs {
-                gap: 1em;
-            }
-            .inputs2 {
-                gap: 1em;
-                .file-icon {
-                    img {
-                        width: 25px;
-                        height: 25px;
-                    }
-                }
-                .file-name {
-                    font-size: 0.875rem;
-                }
-                .checkbox {
-                    align-items: flex-start;
-                    gap: 1.2em;
-                    label {
-                        font-size: 0.8em;
-                    }
-                }
-            }
-        }
-    }
-    // SECTION SIX END
-
-    // SECTION SEVEN START
-    .section-seven {
-        width: 650px;
-        border-radius: 40px;
         h3 {
-            font-size: 1.75rem;
+          font-size: 1.375rem;
+        }
+
+        p {
+          font-size: 0.875rem;
+          line-height: 25px;
+        }
+      }
+
+      .service-right {
+        width: 70%;
+      }
+    }
+
+    .service:nth-child(odd) {
+      flex-direction: column-reverse;
+
+      h3 {
+        font-size: 1.375rem;
+      }
+    }
+  }
+
+  // SECTION THREE END
+
+  // SECTION FOUR START
+  .section-four {
+    padding: $mobilepadding;
+    padding-bottom: 5em;
+  }
+  .testimonial-container {
+    .testimonial-sub-container {
+      width: 90%;
+    }
+  }
+  // SECTION FOUR END
+
+  // SECTION FIVE START
+  .section-five {
+    gap: 2em;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../assets/graduates4.png") center fixed;
+    .metrics-container {
+      padding: 0em 3em;
+      .metric {
+        width: 33.333%;
+        b {
+          font-size: 1.75rem;
         }
         p {
+          font-size: 0.875rem;
+        }
+      }
+    }
+  }
+  // SECTION FIVE START
+
+  // SECTION SIX START
+  .section-six {
+    padding: $mobilepadding;
+    margin-bottom: 5em;
+  }
+  .section-six-sub {
+    gap: 2em;
+    .section-six-left {
+      justify-content: space-between;
+      width: 55%;
+      .information {
+        img {
+          width: 20px;
+          height: 20px;
+        }
+        .details {
+          b {
+            font-size: 1rem;
+          }
+          p {
             font-size: 0.875rem;
+          }
         }
+      }
     }
-    // SECTION SEVEN END
-
-    // SECTION EIGHT START
-    .section-eight {
-        padding: $mobilepadding;
-        margin-top: 5em;
+    .section-six-right {
+      width: 45%;
+      .inputs {
+        gap: 1em;
+      }
+      .inputs2 {
+        gap: 1em;
+        .file-icon {
+          img {
+            width: 25px;
+            height: 25px;
+          }
+        }
+        .file-name {
+          font-size: 0.875rem;
+        }
+        .checkbox {
+          align-items: flex-start;
+          gap: 1.2em;
+          label {
+            font-size: 0.8em;
+          }
+        }
+      }
     }
-    // SECTION EIGHT END
+  }
+  // SECTION SIX END
 
-    // SECTION NINE START
-    .section-nine {
-        padding: $mobilepadding;
-        .section-nine-sub {
-            .section-nine-left {
-                width: 40%;
+  // SECTION SEVEN START
+  .section-seven {
+    width: 650px;
+    border-radius: 40px;
+    h3 {
+      font-size: 1.75rem;
+    }
+    p {
+      font-size: 0.875rem;
+    }
+  }
+  // SECTION SEVEN END
+
+  // SECTION EIGHT START
+  .section-eight {
+    padding: $mobilepadding;
+    margin-top: 5em;
+  }
+  // SECTION EIGHT END
+
+  // SECTION NINE START
+  .section-nine {
+    padding: $mobilepadding;
+    .section-nine-sub {
+      .section-nine-left {
+        width: 40%;
+      }
+      .section-nine-right {
+        width: 60%;
+      }
+    }
+  }
+  // SECTION NINE END
+
+  // SECTION TEN START
+  .section-ten {
+    padding: $mobilepadding;
+    .section-ten-sub {
+      justify-content: center;
+      .sub {
+        gap: 1.5em;
+        .values-container {
+            img {
+                width: 35px;
+                height: 35px;
             }
-            .section-nine-right {
-                width: 60%;
+            p {
+                font-size: 0.875rem;
             }
         }
+      }
     }
-    // SECTION NINE END
+  }
+  // SECTION TEN START
 
-    // SECTION TEN START
-    .section-ten {
-        padding: $mobilepadding;
-        .section-ten-sub {
-            justify-content: center;
-            .sub {
-                gap: 1.5em;
-                .values-container {
-                    p {
-                    }
-                }
-            }
-        }
+  // SECTION ELEVEN START
+  .section-eleven {
+    padding: 3em;
+    .images-container {
+        gap: 2em;
     }
-    // SECTION TEN START
+  }
+  // SECTION ELEVEN END
+
+  // SECTION TWELVE START
+  .section-twelve {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+     url("../assets/students4.png") fixed center;
+  }
+  // SECTION TWELVE END
+
 
 }
