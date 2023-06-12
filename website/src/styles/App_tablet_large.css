@@ -62,7 +62,6 @@
     padding-top: 4em;
     padding-bottom: 4em;
     gap: 1.5em;
-    border: 1px solid red;
     justify-content: space-between;
   }
   footer .footer-right {
@@ -186,5 +185,15 @@
   }
   .section-six-sub .section-six-right .inputs2 .checkbox label {
     font-size: 0.8em;
+  }
+  .section-seven {
+    width: 650px;
+    border-radius: 40px;
+  }
+  .section-seven h3 {
+    font-size: 1.75rem;
+  }
+  .section-seven p {
+    font-size: 0.875rem;
   }
 }/*# sourceMappingURL=App_tablet_large.css.map */
