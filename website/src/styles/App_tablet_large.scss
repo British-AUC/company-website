@@ -273,4 +273,43 @@ $testborder: 1px solid red;
             font-size: 0.875rem;
         }
     }
+    // SECTION SEVEN END
+
+    // SECTION EIGHT START
+    .section-eight {
+        padding: $mobilepadding;
+        margin-top: 5em;
+    }
+    // SECTION EIGHT END
+
+    // SECTION NINE START
+    .section-nine {
+        padding: $mobilepadding;
+        .section-nine-sub {
+            .section-nine-left {
+                width: 40%;
+            }
+            .section-nine-right {
+                width: 60%;
+            }
+        }
+    }
+    // SECTION NINE END
+
+    // SECTION TEN START
+    .section-ten {
+        padding: $mobilepadding;
+        .section-ten-sub {
+            justify-content: center;
+            .sub {
+                gap: 1.5em;
+                .values-container {
+                    p {
+                    }
+                }
+            }
+        }
+    }
+    // SECTION TEN START
+
 }

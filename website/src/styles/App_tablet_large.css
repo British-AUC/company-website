@@ -196,4 +196,26 @@
   .section-seven p {
     font-size: 0.875rem;
   }
+  .section-eight {
+    padding: 0em 2em;
+    margin-top: 5em;
+  }
+  .section-nine {
+    padding: 0em 2em;
+  }
+  .section-nine .section-nine-sub .section-nine-left {
+    width: 40%;
+  }
+  .section-nine .section-nine-sub .section-nine-right {
+    width: 60%;
+  }
+  .section-ten {
+    padding: 0em 2em;
+  }
+  .section-ten .section-ten-sub {
+    justify-content: center;
+  }
+  .section-ten .section-ten-sub .sub {
+    gap: 1.5em;
+  }
 }/*# sourceMappingURL=App_tablet_large.css.map */
