@@ -36,7 +36,7 @@ export default function ContactInfoForm(){
 
         try {
             const response = await axios.post("https://api.emailjs.com/api/v1.0/email/send", {
-            service_id: "service_sce8zlt",
+            service_id: "service_ms2fofk",
             template_id: "template_dci5ahb",
             user_id: "MLH1eO9nBHifSCH03",
             template_params: {
