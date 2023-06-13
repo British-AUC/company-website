@@ -55,7 +55,7 @@ export default function ContactInfoForm(){
         });
 
         if (response.status === 200) {
-            navigate("/thankyou");
+            navigate("/");
         }   else {
                 alert("Failed to send email. Please try again later.");
         }
