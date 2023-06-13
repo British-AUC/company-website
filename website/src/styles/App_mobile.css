@@ -296,6 +296,9 @@
     text-align: center;
     gap: 0;
   }
+  .section-ten .section-ten-sub .sub .values-container p {
+    font-size: 0.875rem;
+  }
   .section-eleven {
     padding: 3em 1em;
   }

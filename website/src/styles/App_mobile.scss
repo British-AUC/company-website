@@ -351,6 +351,9 @@ $testborder: 1px solid red;
           align-items: center;
           text-align: center;
           gap: 0;
+          p {
+            font-size: 0.875rem;
+          }
         }
       }
     }

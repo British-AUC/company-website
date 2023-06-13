@@ -729,6 +729,9 @@ footer #copyright2 {
   width: 40px;
   height: 40px;
 }
+.section-ten .section-ten-sub .sub .values-container img p, .section-ten .section-ten-sub .sub .values-container img .section-eight h2, .section-eight .section-ten .section-ten-sub .sub .values-container img h2 {
+  font-size: 1rem;
+}
 
 .section-eleven {
   display: flex;
