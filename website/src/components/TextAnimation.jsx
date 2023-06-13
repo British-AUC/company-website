@@ -2,13 +2,12 @@ import React, { useEffect, useRef } from "react";
 
 export default function TextAnimation() {
   const textRef = useRef(null);
-  const words = ["Abroad?", "in the USA?", "in the UK?", "in Canada?", "in Australia?", "in Scotland?", "in Ireland?", "in Germany?"];
+  const words = ["in the USA?", "in the UK?", "in Canada?", "in Australia?", "in Scotland?", "in Ireland?", "in Germany?"];
   let currentWordIndex = 0;
 
   useEffect(() => {
     const textElement = textRef.current;
     let typingAnimation;
-    let blinkingAnimation;
 
     function typeWord(word) {
       let letters = word.split("");
@@ -27,24 +26,18 @@ export default function TextAnimation() {
 
     function startAnimation() {
       typingAnimation = setInterval(changeWord, 4000);
-      blinkingAnimation = setInterval(() => {
-        const caret = textElement.querySelector(".caret");
-        caret.style.visibility =
-          caret.style.visibility === "visible" ? "hidden" : "visible";
-      }, 100);
     }
 
     startAnimation();
 
     return () => {
       clearInterval(typingAnimation);
-      clearInterval(blinkingAnimation);
     };
   }, []);
 
   return (
-    <h1 style={{ color: "#007FFF" }} ref={textRef}>
+    <div style={{ color: "#007FFF" }} ref={textRef}>
       Abroad?
-    </h1>
+    </div>
   );
 }

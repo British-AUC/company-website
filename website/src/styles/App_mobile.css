@@ -145,6 +145,7 @@
   }
   .section-three .service-right {
     width: 100%;
+    padding: 1.5em 0em;
   }
   .section-three .service:nth-child(odd) {
     flex-direction: column-reverse;

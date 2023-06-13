@@ -172,6 +172,7 @@ $testborder: 1px solid red;
     }
     .service-right {
       width: 100%;
+      padding: 1.5em 0em;
     }
     .service:nth-child(odd) {
       flex-direction: column-reverse;
@@ -180,7 +181,7 @@ $testborder: 1px solid red;
       }
     }
   }
-  // SECTION THREE START
+  // SECTION THREE END  
 
   // SECTION FOUR START
   .section-four {

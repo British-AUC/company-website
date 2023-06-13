@@ -305,7 +305,7 @@ footer #copyright2 {
   font-size: 1.25rem;
 }
 .section-three .service-left p, .section-three .service-left .section-eight h2, .section-eight .section-three .service-left h2 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin: 0;
 }
 .section-three .service-right {
@@ -700,7 +700,6 @@ footer #copyright2 {
 }
 .section-nine .section-nine-sub .section-nine-right p, .section-nine .section-nine-sub .section-nine-right .section-eight h2, .section-eight .section-nine .section-nine-sub .section-nine-right h2 {
   margin: 0;
-  line-height: 30px;
 }
 
 .section-ten {
@@ -814,7 +813,6 @@ footer #copyright2 {
   font-size: 1.25rem;
 }
 .section-thirteen .event-container p, .section-thirteen .event-container .section-eight h2, .section-eight .section-thirteen .event-container h2 {
-  line-height: 30px;
   margin: 0;
 }
 .section-thirteen .event-container .details {
