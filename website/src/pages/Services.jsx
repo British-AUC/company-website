@@ -10,7 +10,7 @@ export default function Services(){
             {/* SECTION THREE [IMPORTED CLASS]*/}
             <div className="services-section">
                 <section className="section-three">
-                    <h2>Our Services</h2>
+                    <h2 className="service-h2">Our Services</h2>
                     <p id="service-p">
                         At BRITISH AUC, we offer a range of exceptional services tailored to 
                         meet your study abroad needs. Our expert team provides free visa and 
