@@ -43,7 +43,7 @@ export default function Home(){
             {/* SECTION ONE - COUNTRY FLAGS */}
             <section className="section-one">
                 <p>
-                    We’ve helped over 1000 Nigerian students gain university 
+                    We have helped over 1000 Nigerian students gain university 
                     admission in over 25 countries across the globe.
                 </p>
                 <div className="flags-block">

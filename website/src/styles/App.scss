@@ -208,28 +208,28 @@ footer {
   }
 }
 
-@keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
-}
+// @keyframes typing {
+//   from { width: 0; }
+//   to { width: 100%; }
+// }
 
-#changing-text {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 4s steps(40) infinite;
-}
+// #changing-text {
+//   overflow: hidden;
+//   white-space: nowrap;
+//   animation: typing 4s steps(40) infinite;
+// }
 
-#changing-text::after {
-  content: "_";
-  display: inline-block;
-  animation: blink-caret 1.5s infinite;
-  color: #007FFF;
-}
+// #changing-text::after {
+//   content: "|";
+//   display: inline-block;
+//   animation: blink-caret 2s infinite;
+//   color: #007FFF;
+// }
 
-@keyframes blink-caret {
-  from, to { opacity: 0; }
-  50% { opacity: 1; }
-}
+// @keyframes blink-caret {
+//   from, to { opacity: 0; }
+//   50% { opacity: 1; }
+// }
 
 // HERO SECTION END
 
@@ -327,6 +327,8 @@ footer {
   display: flex;
   flex-direction: column;
   padding: $desktoppadding;
+  align-items: center;
+  margin-bottom: 5em;
   #service-p {
     line-height: 30px;
     margin: 0;
@@ -335,43 +337,43 @@ footer {
   .service {
     display: flex;
     flex-direction: row;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
+    border: 0.5px solid rgba(128, 128, 128, 0.315);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
   }
   .service-left {
     display: flex;
     flex-direction: column;
     width: 50%;
-    background-color: $compangreyblue;
-    padding: 3em 2.5em;
-    gap: 1em;
+    padding: 1em 1.5em;
+    gap: 0.5em;
+    justify-content: center;
     h3 {
       margin: 0;
-      font-size: 1.5rem;
-      letter-spacing: 0.05em;
+      font-size: 1.25rem;    
     }
     p {
+      font-size: 0.9rem;
       margin: 0;
     }
   }
   .service-right {
     display: flex;
     width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 1.5em;
     img {
-      width: 100%;
+      width: 90%;
       height: auto;
+      border-radius: 10px;
     }
   }
   .service:nth-child(odd) {
     flex-direction: row-reverse;
-    .service-left {
-      background-color: $companyblack;
-      h3 {
-        color: white;
-      }
-      p {
-        color: #dfdfdf;
-      }
-    }
   }
 }
 // SECTION THREE END

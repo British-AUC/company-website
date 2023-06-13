@@ -1,70 +1,50 @@
-import React from "react";
-import "../styles/App.css";
+import React, { useEffect, useRef } from "react";
 
 export default function TextAnimation() {
-  var TxtType = function (el, toRotate, period) {
-    this.toRotate = toRotate;
-    this.el = el;
-    this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
-    this.txt = "";
-    this.tick();
-    this.isDeleting = false;
-  };
+  const textRef = useRef(null);
+  const words = ["Abroad?", "in the USA?", "in the UK?", "in Canada?", "in Australia?", "in Scotland?", "in Ireland?", "in Germany?"];
+  let currentWordIndex = 0;
 
-  TxtType.prototype.tick = function () {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
+  useEffect(() => {
+    const textElement = textRef.current;
+    let typingAnimation;
+    let blinkingAnimation;
 
-    if (this.isDeleting) {
-      this.txt = fullTxt.substring(0, this.txt.length - 1);
-    } else {
-      this.txt = fullTxt.substring(0, this.txt.length + 1);
-    }
-
-    this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
-
-    var that = this;
-    var delta = 200 - Math.random() * 100;
-
-    if (this.isDeleting) {
-      delta /= 2;
-    }
-
-    if (!this.isDeleting && this.txt === fullTxt) {
-      delta = this.period;
-      this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === "") {
-      this.isDeleting = false;
-      this.loopNum++;
-      delta = 500;
-    }
-
-    setTimeout(function () {
-      that.tick();
-    }, delta);
-  };
-
-  window.onload = function () {
-    var elements = document.getElementsByClassName("typewrite");
-    for (var i = 0; i < elements.length; i++) {
-      var toRotate = elements[i].getAttribute("data-type");
-      var period = elements[i].getAttribute("data-period");
-      if (toRotate) {
-        new TxtType(elements[i], JSON.parse(toRotate), period);
+    function typeWord(word) {
+      let letters = word.split("");
+      let output = "";
+      for (let i = 0; i < letters.length; i++) {
+        const delay = i * 400; // Adjust the delay to control typing speed
+        output += `<span style="animation-delay:${delay}ms">${letters[i]}</span>`;
       }
+      textElement.innerHTML = output;
     }
-    
-  };
+
+    function changeWord() {
+      typeWord(words[currentWordIndex]);
+      currentWordIndex = (currentWordIndex + 1) % words.length;
+    }
+
+    function startAnimation() {
+      typingAnimation = setInterval(changeWord, 4000);
+      blinkingAnimation = setInterval(() => {
+        const caret = textElement.querySelector(".caret");
+        caret.style.visibility =
+          caret.style.visibility === "visible" ? "hidden" : "visible";
+      }, 100);
+    }
+
+    startAnimation();
+
+    return () => {
+      clearInterval(typingAnimation);
+      clearInterval(blinkingAnimation);
+    };
+  }, []);
+
   return (
-      <span
-        id="changing-text"
-        className="typewrite"
-        data-period="2000"
-        style={{color: "#007FFF"}}
-        data-type='["Abroad?", "in the USA?", "in the UK?", "in Australia?", "in Germany"]'
-      >
-        <span className="wrap"></span>
-      </span>
+    <h1 style={{ color: "#007FFF" }} ref={textRef}>
+      Abroad?
+    </h1>
   );
 }
