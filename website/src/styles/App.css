@@ -90,7 +90,7 @@ footer .footer-left {
   width: 33.333%;
 }
 footer .footer-left p, footer .footer-left .section-eight h2, .section-eight footer .footer-left h2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 footer .footer-left .social-icons {
   display: flex;
@@ -112,7 +112,7 @@ footer .footer-right .footer-info {
 footer .footer-right .footer-info a {
   text-decoration: none;
   color: #1c1b1f;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 footer .footer-right .footer-info a:hover {
   font-weight: bold;
