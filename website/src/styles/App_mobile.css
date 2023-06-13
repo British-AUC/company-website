@@ -137,6 +137,12 @@
     padding: 0em 1em;
     gap: 2.5em;
   }
+  .section-three h2 {
+    border: 1px solid red;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
   .section-three .service {
     flex-direction: column-reverse;
   }
