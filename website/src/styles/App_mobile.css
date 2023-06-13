@@ -101,6 +101,10 @@
   .hero-right {
     width: 100%;
   }
+  .hero-right img {
+    width: 95%;
+    margin: 0 auto;
+  }
   .section-one {
     padding: 0em 1em;
     margin-top: 4em;
@@ -149,6 +153,9 @@
   }
   .section-three .service:nth-child(odd) {
     flex-direction: column-reverse;
+  }
+  .section-three .service:nth-child(odd) .service-left {
+    padding: 1.5em 1em;
   }
   .section-three .service:nth-child(odd) h3 {
     font-size: 1.25rem;

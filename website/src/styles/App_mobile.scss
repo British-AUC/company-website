@@ -119,6 +119,10 @@ $testborder: 1px solid red;
   }
   .hero-right {
     width: 100%;
+    img {
+      width: 95%;
+      margin: 0 auto;
+    }
   }
   // HERO SECTION END
 
@@ -176,6 +180,9 @@ $testborder: 1px solid red;
     }
     .service:nth-child(odd) {
       flex-direction: column-reverse;
+      .service-left {
+        padding: 1.5em 1em;
+      }
       h3 {
         font-size: 1.25rem;
       }
