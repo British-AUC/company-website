@@ -19,7 +19,7 @@ h2 {
 }
 
 nav {
-  background-color: #f6f6f6;
+  background-color: white;
   display: flex;
   flex-direction: column;
   padding: 0em 4em;
@@ -131,7 +131,7 @@ footer #copyright2 {
   align-items: center;
   height: auto;
   gap: 2em;
-  background-color: #f6f6f6;
+  background-color: white;
   padding: 0em 4em;
   padding-bottom: 2em;
 }
@@ -190,9 +190,13 @@ footer #copyright2 {
 .hero-right {
   display: flex;
   width: 50%;
+  align-items: center;
+  justify-content: flex-end;
 }
 .hero-right img {
-  width: 100%;
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .section-one {

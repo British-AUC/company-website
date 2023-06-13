@@ -27,7 +27,7 @@ h2 {
 
 // NAVIGATION START
 nav {
-  background-color: $companygreybg;
+  background-color: white;
   display: flex;
   flex-direction: column;
   padding: $desktoppadding;
@@ -143,7 +143,7 @@ footer {
   align-items: center;
   height: auto;
   gap: 2em;
-  background-color: $companygreybg;
+  background-color: white;
   padding: $desktoppadding;
   padding-bottom: 2em;
 }
@@ -203,8 +203,12 @@ footer {
 .hero-right {
   display: flex;
   width: 50%;
+  align-items: center;
+  justify-content: flex-end;
   img {
-    width: 100%;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
   }
 }
 // HERO SECTION END
