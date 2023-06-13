@@ -26,11 +26,11 @@ export default [
     {
         id: 3,
         title: "CONTACT",
-        link1: "+234 (0) 805 900 0097",
-        link2: "+234 (0) 805 900 0097",
-        link3: "support@britishauc.com",
+        link1: "+234 (0) 903 394 2463",
+        link2: "+234 (0) 903 394 2463",
+        link3: "contact@britishauc.com",
         target1: "tel:+234 (0) 805 900 0097",
         target2: "tel:+234 (0) 805 900 0097",
-        target3: "mailto:support@britishauc.com",
+        target3: "mailto:contact@britishauc.com",
     },
 ]

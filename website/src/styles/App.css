@@ -273,6 +273,25 @@ footer #copyright2 {
   flex-direction: column;
   width: 50%;
 }
+.section-two .section-two-right .button-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007FFF;
+  width: 180px;
+  height: 50px;
+  border: inherit;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.section-two .section-two-right .button-3 a {
+  text-decoration: none;
+  color: white;
+}
+.section-two .section-two-right .button-3:hover {
+  background-color: #006edb;
+}
 
 .section-three {
   display: flex;
@@ -293,14 +312,14 @@ footer #copyright2 {
   border: 0.5px solid rgba(128, 128, 128, 0.315);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
   border-radius: 10px;
-  width: 90%;
+  width: 80%;
   height: auto;
 }
 .section-three .service-left {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  padding: 1em 1.5em;
+  width: 55%;
+  padding: 1em 0em 1em 1em;
   gap: 0.5em;
   justify-content: center;
 }
@@ -314,10 +333,10 @@ footer #copyright2 {
 }
 .section-three .service-right {
   display: flex;
-  width: 50%;
+  width: 45%;
   align-items: center;
   justify-content: center;
-  padding: 2em 1.5em;
+  padding: 1em 1.5em;
 }
 .section-three .service-right img {
   width: 90%;
@@ -326,6 +345,9 @@ footer #copyright2 {
 }
 .section-three .service:nth-child(odd) {
   flex-direction: row-reverse;
+}
+.section-three .service:nth-child(odd) .service-left {
+  padding: 1em 1em 1em 0em;
 }
 
 .section-four {

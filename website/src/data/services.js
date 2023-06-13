@@ -15,14 +15,14 @@ export default [
     },
     {
         id: 2,
-        title: "University Application and Visa Application Support",
+        title: "University and Visa Application Support",
         paragraph_one: "We take pride in providing comprehensive support throughout the university/college application process. Our team will assist you in accurately completing application forms, ensuring that all relevant information is included to increase your chances of admission.",
         paragraph_two: "Additionally, we take full charge of your visa application, ensuring that the correct documents are prepared, the application fee is paid, and achieving an outstanding 100% success rate.",
         image: image2,
     },
     {
         id: 3,
-        title: "Scholarship Information and Accommodation Arrangement",
+        title: "Scholarship and Accommodation Arrangement",
         paragraph_one: "At British AUC, we are committed to helping Nigerian students secure scholarships, whether they are need-based or athletic scholarships. We have established partnerships with institutions that offer generous scholarships, discounts, or bursaries. ",
         paragraph_two: "Additionally, we assist every student in finding high-quality accommodation options, ranging from university residential halls to private accommodations and host families, relieving students and parents from the stress of securing suitable housing near their chosen university.",
         image: image3,
