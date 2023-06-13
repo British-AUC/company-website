@@ -30,7 +30,7 @@ export default [
     {
         id: 4,
         title: "Passport, Visa and Travel Services",
-        paragraph_one: "Our dedicated team provides comprehensive assistance with essential travel documents and services. Whether you need assistance with procuring or renewing your international passport or require guidance with visitor visa applications or renewals for parents accompanying their child, we are here to support you throughout the process, ensuring a smooth and hassle-free travel experience.",
+        paragraph_one: "Our dedicated team provides extensive assistance with essential travel documents and services. Whether you need assistance with procuring or renewing your international passport or require guidance with visitor visa applications or renewals for parents accompanying their child, we are here to support you throughout the process, ensuring a smooth and hassle-free travel experience.",
         paragraph_two: "",
         image: image4,
     },

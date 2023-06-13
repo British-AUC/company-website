@@ -165,13 +165,13 @@ $testborder: 1px solid red;
     padding: $mobilepadding;
     gap: 2.5em;
     h2 {
-      border: $testborder;
       width: 100%;
       padding: 0;
       margin: 0;
     }
     .service {
       flex-direction: column-reverse;
+      width: 95%;
     }
     .service-left {
       padding: 1.5em 1em;
