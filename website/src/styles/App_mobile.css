@@ -16,7 +16,7 @@
     display: none;
   }
   .nav-bottom-left img {
-    width: 200px;
+    width: 250px;
   }
   .nav-bottom-right {
     display: none;
@@ -209,6 +209,9 @@
     padding: 0em 1em;
     margin-bottom: 5em;
   }
+  .section-six .six-p {
+    text-align: justify;
+  }
   .section-six-sub {
     flex-direction: column;
     gap: 3em;
@@ -271,6 +274,10 @@
   }
   .section-nine .section-nine-sub .section-nine-left {
     width: 100%;
+    align-items: center;
+  }
+  .section-nine .section-nine-sub .section-nine-left #CEO {
+    width: 80%;
   }
   .section-nine .section-nine-sub .section-nine-right {
     width: 100%;

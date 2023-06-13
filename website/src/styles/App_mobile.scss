@@ -26,7 +26,7 @@ $testborder: 1px solid red;
   }
   .nav-bottom-left {
     img {
-      width: 200px;
+      width: 250px;
     }
   }
   .nav-bottom-right {
@@ -248,6 +248,9 @@ $testborder: 1px solid red;
   .section-six {
     padding: $mobilepadding;
     margin-bottom: 5em;
+    .six-p {
+      text-align: justify;
+    }
   }
   .section-six-sub {
     flex-direction: column;
@@ -323,6 +326,10 @@ $testborder: 1px solid red;
       flex-direction: column;
       .section-nine-left {
         width: 100%;
+        align-items: center;
+        #CEO {
+          width: 80%;
+        }
       }
       .section-nine-right {
         width: 100%;
