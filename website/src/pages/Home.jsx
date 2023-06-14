@@ -1,6 +1,6 @@
 import React from "react"
 import heroimage from "../assets/heroimage.jpeg"
-import groupimage from "../assets/groupimage.png"
+import groupimage from "../assets/cleargroupimage.png"
 import Service from "../components/Service";
 import servicedata from "../data/services";
 import Testimonial from "../components/Testimonials";
@@ -68,8 +68,8 @@ export default function Home(){
                             FREE OF CHARGE. 
                         </p>
                         <p>
-                            <b>BRITISH AUC</b>  Application Centre is a one-stop shop for 
-                            all your study abroad support services. The application 
+                            <b>BRITISH AUC's</b> Free  Application Centre is a one-stop shop for 
+                            all your study abroad support services. Our application 
                             centres have helped thousands of international students 
                             study in universities and colleges in the UK, USA, Canada, 
                             Australia, Ireland, Germany, Turkey, Cyprus, etc.
@@ -89,7 +89,7 @@ export default function Home(){
 
             {/* SECTION FOUR */}
             <section className="section-four">
-                <h2>Testimonials from happy clients</h2>
+                <h2>Testimonials from happy students</h2>
                 <Testimonial/>
             </section>
 

@@ -1,6 +1,7 @@
 {
   "name": "website",
   "private": true,
+  "homepage": "https://britishauc.com/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
