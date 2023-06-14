@@ -1,35 +1,39 @@
-name: Deploy to cPanel
-
+name: 🚀 Deploy File to cPanel
 on:
   push:
     branches:
       - main
-
 jobs:
-  deploy:
+  FTP-Deploy-Action:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16]
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2.4.3
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
         with:
-            node-version: ${{ matrix.node-version }}
+          fetch-depth: 2
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Use Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
 
-      - name: Build the React app
-        run: npm run build
+      - name: Cache npm dependencies
+        uses: actions/cache@v3
+        id: cache-node-modules
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
 
-      - name: Deploy to cPanel
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      - name: 🔨 Install Dependencies
+        if: steps.npm-cache.outputs.cache-hit != 'true'
+        run: |
+          npm install
+          git reset --hard
+      - name: 📂 Sync folders and files to the server
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist
-          remote-dir: public_html
-          args: --delete
