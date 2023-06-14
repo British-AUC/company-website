@@ -241,6 +241,9 @@
     padding: 0em 2em;
     margin-top: 5em;
   }
+  .section-thirteen .event-container {
+    width: 90%;
+  }
   .section-thirteen .event-container img {
     margin: 0 auto;
   }

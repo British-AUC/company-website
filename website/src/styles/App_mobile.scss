@@ -406,6 +406,7 @@ $testborder: 1px solid red;
     padding: $mobilepadding;
     margin-top: 5em;
     .event-container {
+      width: 100%;
       padding: 1.5em 1em;
       strong {
         font-size: 1.15rem;
