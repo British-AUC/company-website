@@ -876,18 +876,20 @@ footer {
   display: flex;
   flex-direction: column;
   padding: $desktoppadding;
-  gap: 3em;
+  align-items: center;
+  gap: 4em;
   margin-bottom: 5em;
   .event-container {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    padding: 2.5em 1.5em;
+    width: 70%;
+    padding: 2.5em 1.5em 1em 1.5em;
     border: 0.5px solid rgba(128, 128, 128, 0.315);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
     border-radius: 10px;
     img {
-      max-width: 445px;
+      max-width: 300px;
       border-radius: 5px;
     }
     strong {
@@ -1074,3 +1076,36 @@ footer {
   }
 }
 // WHATSAPP SECTION END
+
+
+// SUBPAGES SECTION
+.event-page {
+  display: flex;
+  flex-direction: column;
+  padding: $desktoppadding;
+  margin-bottom: 5em;
+  p {
+    font-size: 1rem;
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 150px;
+    height: 50px;
+    background: #007FFF;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: #006edb;
+  }
+}

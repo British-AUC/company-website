@@ -18,6 +18,7 @@ import NotFound from './pages/NotFound'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
 import WhatsApp from './components/Whatsapp'
+import World_Education_Expo_2023 from './subpages/World_Education_Expo_2023'
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
             <Route path='/terms-conditions' element={<Terms/>} />
             <Route path='/privacy-policy' element={<Privacy/>} />
             <Route path='*' element={<NotFound/>} />
+            {/* SUBPAGES ROUTES*/}
+            <Route path='/world-education-expo-2023'element={<World_Education_Expo_2023/>} />
           </Routes>
         <WhatsApp/>
       <Footer/>

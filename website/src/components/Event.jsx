@@ -12,8 +12,8 @@ export default function Event(props){
                     <p><b>Date:</b> {props.date}</p>
                     <p><b>Time:</b> {props.time}</p>
                 </div>
-                <Link href={props.link}>
-                    <button>Register now</button>
+                <Link to={props.link}>
+                    <button>Learn more</button>
                 </Link>
                 <hr />
             </div>
