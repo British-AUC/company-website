@@ -1084,6 +1084,10 @@ footer {
   flex-direction: column;
   padding: $desktoppadding;
   margin-bottom: 5em;
+  img {
+    max-width: 400px;
+    border-radius: 10px;
+  }
   p {
     font-size: 1rem;
   }

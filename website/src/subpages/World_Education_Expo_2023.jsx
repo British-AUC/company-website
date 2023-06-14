@@ -1,10 +1,13 @@
 import React from "react";
+import expoimage from "../assets/events/expoevent.jpg";
+import expoimage2 from "../assets/events/expoevent2.jpg";
 
 export default function World_Education_Expo_2023() {
   return (
     <>
       <div className="event-page">
         <h2>Introducing the World Education Expo 2023</h2>
+        <img src={expoimage} alt="Expo Image" /><br />
         <p>
           Join us for the highly anticipated World Education Expo 2023, a
           remarkable event that brings together representatives from prestigious
@@ -41,7 +44,9 @@ export default function World_Education_Expo_2023() {
           with like-minded individuals. By bringing together the brightest minds
           in academia, the World Education Expo 2023 promises to be an immersive
           experience that opens doors to new possibilities.
-        </p>
+        </p><br />
+
+        <img src={expoimage2} alt="Expo Image" /><br />
 
         <h3>Event Schedule:</h3>
         <ul>
