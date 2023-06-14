@@ -487,12 +487,14 @@ footer #copyright2 {
   width: 45%;
   height: auto;
   margin: 0;
-  margin-bottom: 20px;
 }
 .section-six-sub .section-six-left .information img {
   width: 25px;
   height: 25px;
   margin-top: 0.15em;
+}
+.section-six-sub .section-six-left .information .details {
+  width: 100%;
 }
 .section-six-sub .section-six-left .information .details b {
   font-size: 1.15rem;

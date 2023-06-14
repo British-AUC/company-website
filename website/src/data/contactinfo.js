@@ -45,18 +45,18 @@ export default [
         content1: "Maiduguri Road, opposite Al-Yuma House, Tarauni 700223, Kano",
         content2: "",
     },
-    {
-        id: 7,
-        icon: location,
-        title: "Uyo Address",
-        content1: "No 8 Ihiala Street, off Plateau Street, Area 2, Garki, Abuja, Nigeria.",
-        content2: "",
-    },
-    {
-        id: 8,
-        icon: location,
-        title: "Enugu Address",
-        content1: "No 8 Ihiala Street, off Plateau Street, Area 2, Garki, Abuja, Nigeria.",
-        content2: "",
-    },
+    // {
+    //     id: 7,
+    //     icon: location,
+    //     title: "Uyo Address",
+    //     content1: "No 8 Ihiala Street, off Plateau Street, Area 2, Garki, Abuja, Nigeria.",
+    //     content2: "",
+    // },
+    // {
+    //     id: 8,
+    //     icon: location,
+    //     title: "Enugu Address",
+    //     content1: "No 8 Ihiala Street, off Plateau Street, Area 2, Garki, Abuja, Nigeria.",
+    //     content2: "",
+    // },
 ]
