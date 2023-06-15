@@ -42,7 +42,7 @@ export default function World_Education_Expo_2023() {
             <p>First Name:</p>
             <input
               type="text"
-              name="firstName"
+              name="from_firstname"
               placeholder="First Name*"
               required
             />
@@ -52,7 +52,7 @@ export default function World_Education_Expo_2023() {
             <p>Last Name:</p>
             <input
               type="text"
-              name="lastName"
+              name="from_lastname"
               placeholder="Last Name*"
               required
             />
@@ -62,7 +62,7 @@ export default function World_Education_Expo_2023() {
             <p>Institution:</p>
             <input
               type="text"
-              name="institution"
+              name="from_institution"
               placeholder="Your Institution"
               required
             />
@@ -72,7 +72,7 @@ export default function World_Education_Expo_2023() {
             <p>Email Address:</p>
             <input
               type="email"
-              name="email"
+              name="from_email"
               placeholder="Email Address*"
               required
             />
@@ -82,7 +82,7 @@ export default function World_Education_Expo_2023() {
             <p>Phone Number:</p>
             <input
               type="tel"
-              name="telephone"
+              name="from_telephone"
               placeholder="Phone Number*"
               required
             />
@@ -94,7 +94,7 @@ export default function World_Education_Expo_2023() {
               <label>
                 <input
                   type="checkbox"
-                  name="locations"
+                  name="from_locations"
                   value="Abuja"
                 />
                 Abuja
@@ -102,7 +102,7 @@ export default function World_Education_Expo_2023() {
               <label>
                 <input
                   type="checkbox"
-                  name="locations"
+                  name="from_locations"
                   value="Lagos"
                 />
                 Lagos
@@ -110,7 +110,7 @@ export default function World_Education_Expo_2023() {
               <label>
                 <input
                   type="checkbox"
-                  name="locations"
+                  name="from_locations"
                   value="Ibadan"
                 />
                 Ibadan
@@ -118,7 +118,7 @@ export default function World_Education_Expo_2023() {
               <label>
                 <input
                   type="checkbox"
-                  name="locations"
+                  name="from_locations"
                   value="Benin"
                 />
                 Benin
@@ -126,7 +126,7 @@ export default function World_Education_Expo_2023() {
               <label>
                 <input
                   type="checkbox"
-                  name="locations"
+                  name="from_locations"
                   value="Kano"
                 />
                 Kano
@@ -134,7 +134,7 @@ export default function World_Education_Expo_2023() {
               <label>
                 <input
                   type="checkbox"
-                  name="locations"
+                  name="from_locations"
                   value="Enugu"
                 />
                 Enugu
@@ -142,7 +142,7 @@ export default function World_Education_Expo_2023() {
               <label>
                 <input
                   type="checkbox"
-                  name="locations"
+                  name="from_locations"
                   value="Uyo"
                 />
                 Uyo
