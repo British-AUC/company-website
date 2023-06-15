@@ -63,7 +63,7 @@ export default function World_Education_Expo_2023() {
 
       if (response.status === 200) {
         setIsSubmitted(true);
-        alert("Congrats! Your form has been submitted. We will reach out to you with more details.")
+        alert("Congrats! Your form has been submitted. We will reach out to you with more details about the event.")
         navigate("/");
       } else {
         setIsError(true);
