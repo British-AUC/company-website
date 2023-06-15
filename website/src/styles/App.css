@@ -1019,6 +1019,12 @@ footer #copyright2 {
   align-items: center;
   margin-bottom: 5em;
 }
+.event-page h1 {
+  text-align: center;
+}
+.event-page h3 {
+  text-align: center;
+}
 .event-page .text {
   text-align: center;
 }

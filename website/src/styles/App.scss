@@ -1088,6 +1088,12 @@ footer {
   padding: $desktoppadding;
   align-items: center;
   margin-bottom: 5em;
+  h1 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
   .text {
     text-align: center;
   }

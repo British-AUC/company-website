@@ -45,7 +45,7 @@ export default function World_Education_Expo_2023() {
       const response = await axios.post(
         "https://api.emailjs.com/api/v1.0/email/send",
         {
-          service_id: "service_ms2fofk",
+          service_id: "service_8id31pw",
           template_id: "template_yzc64mj",
           user_id: "MLH1eO9nBHifSCH03",
           template_params: {
@@ -63,10 +63,10 @@ export default function World_Education_Expo_2023() {
         alert("Congrats! The form has been submitted. We will reach out to you with more details as soon as possible.")
         navigate("/");
       } else {
-        alert("Failed to send email. Please try again later.");
+        alert("Failed to submit form. Please try again later.");
       }
     } catch (error) {
-      alert("Failed to send email. Please try again later.");
+      alert("Failed to submit form. Please try again later.");
     }
   }
 
