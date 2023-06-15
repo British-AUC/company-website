@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, Route} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import './styles/App.css'
 import './styles/App_mobile.css'
 import './styles/App_tablet_small.css'
@@ -24,24 +24,23 @@ function App() {
   return (
     <>
       <Navbar />
-        <ScrollToTop/>
-          <Routes>
-            <Route path='/' element={<Home/>} />
-            <Route path='/home' element={<Home/>} />
-            <Route path='/about' element={<About/>} />
-            <Route path='/services' element={<Services/>} />
-            <Route path='/events' element={<Events/>} />
-            <Route path='/blog' element={<Blog/>} />
-            <Route path='/contact' element={<Contact/>} />
-            <Route path='/faqs' element={<Faqs/>} />
-            <Route path='/terms-conditions' element={<Terms/>} />
-            <Route path='/privacy-policy' element={<Privacy/>} />
-            <Route path='*' element={<NotFound/>} />
-            {/* SUBPAGES ROUTES*/}
-            <Route path='/world-education-expo-2023'element={<World_Education_Expo_2023/>} />
-          </Routes>
-        <WhatsApp/>
-      <Footer/>
+      <ScrollToTop />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/events' element={<Events />} />
+        <Route path='/blog' element={<Blog />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/faqs' element={<Faqs />} />
+        <Route path='/terms-conditions' element={<Terms />} />
+        <Route path='/privacy-policy' element={<Privacy />} />
+        <Route path='*' element={<NotFound />} />
+        <Route path='/world-education-expo-2023' element={<World_Education_Expo_2023 />} />
+      </Routes>
+      <WhatsApp />
+      <Footer />
     </>
   )
 }
