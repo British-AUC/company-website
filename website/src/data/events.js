@@ -6,11 +6,11 @@ export default [
     {
         id: 1,
         image: event1,
-        title: "World Education Expo 2023",
-        description: "Discover the World Education Expo 2023, a global event bringing top universities together to showcase programs, benefits, and future opportunities. Join us on July 4th in Abuja, July 6th in Port Harcourt, or July 8th in Lagos. Explore education's future and unlock your potential. Don't miss out!",
-        date: "July 4th, 6th and 8th 2023",
-        time: "9am",
-        link: "/world-education-expo-2023",
+        title: "BRITISH AUC STUDY TOUR 2023",
+        description: "Attention Delegates! Register your details now for the highly anticipated BritishAUC Study 2023. Showcase your esteemed institution and unlock countless opportunities to connect with Nigerian students aspiring to study abroad. Don't miss your chance to make lasting impressions, build invaluable partnerships, and contribute to shaping the educational landscape. Secure your spot today and be part of a transformative event that opens doors to a world of possibilities. Register now and embark on a remarkable journey of academic excellence and global impact!",
+        date: "September 17th to October 9th 2023",
+        // time: "9am",
+        link: "/study-tour-2023",
     },
     // {
     //     id: 2,

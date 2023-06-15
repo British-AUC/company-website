@@ -1017,16 +1017,22 @@ footer #copyright2 {
   flex-direction: column;
   padding: 0em 4em;
   align-items: center;
-  margin-bottom: 5em;
+  padding-bottom: 5em;
+  background-color: #dde6f0;
 }
 .event-page h1 {
   text-align: center;
 }
 .event-page h3 {
-  text-align: center;
+  margin: 0;
 }
-.event-page .text {
-  text-align: center;
+.event-page #text {
+  margin: 0;
+  font-size: 0.875rem;
+  color: rgb(66, 66, 66);
+}
+.event-page #text a {
+  color: #007fff;
 }
 .event-page form {
   display: flex;
@@ -1035,6 +1041,10 @@ footer #copyright2 {
   width: 100%;
   gap: 2em;
 }
+.event-page form #top {
+  border-top: 8px solid #007fff;
+  gap: 1em;
+}
 .event-page form .input-container {
   display: flex;
   flex-direction: column;
@@ -1042,7 +1052,7 @@ footer #copyright2 {
   border: 0.5px solid rgba(128, 128, 128, 0.315);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
   border-radius: 5px;
-  width: 50%;
+  width: 60%;
   padding: 1.5em;
   gap: 2em;
 }
