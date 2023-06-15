@@ -12,6 +12,8 @@ export default function World_Education_Expo_2023() {
     locations: [],
   });
 
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isError, setIsError] = useState(false);
   const navigate = useNavigate();
 
   function handleChange(event) {
@@ -60,13 +62,13 @@ export default function World_Education_Expo_2023() {
       );
 
       if (response.status === 200) {
-        alert("Congrats! The form has been submitted. We will reach out to you with more details as soon as possible.")
+        setIsSubmitted(true);
         navigate("/");
       } else {
-        alert("Failed to submit form. Please try again later.");
+        setIsError(true);
       }
     } catch (error) {
-      alert("Failed to submit form. Please try again later.");
+      setIsError(true);
     }
   }
 
@@ -223,6 +225,16 @@ export default function World_Education_Expo_2023() {
           <button className="button-1" type="submit">
             Submit
           </button>
+
+          {isSubmitted && (
+            <p style={{ color: "green" }}>Form submitted successfully!</p>
+          )}
+
+          {isError && (
+            <p style={{ color: "red" }}>
+              An error occurred. Please try again later.
+            </p>
+          )}
         </form>
       </div>
     </>
