@@ -46,7 +46,7 @@ export default function World_Education_Expo_2023() {
         "https://api.emailjs.com/api/v1.0/email/send",
         {
           service_id: "service_ms2fofk",
-          template_id: "template_dci5ahb",
+          template_id: "template_yzc64mj",
           user_id: "MLH1eO9nBHifSCH03",
           template_params: {
             from_firstname: formData.firstName,
@@ -60,6 +60,7 @@ export default function World_Education_Expo_2023() {
       );
 
       if (response.status === 200) {
+        alert("Congrats! The form has been submitted. We will reach out to you with more details as soon as possible.")
         navigate("/");
       } else {
         alert("Failed to send email. Please try again later.");
@@ -72,11 +73,17 @@ export default function World_Education_Expo_2023() {
   return (
     <>
       <div className="event-page">
-        <h2>World Education Expo 2023</h2>
-        <p>
+        <h1>World Education Expo 2023</h1>
+        <h3>DELEGATES REGISTRATION FORM</h3>
+        <p className="text">
           Register to be a part of our study tour. We will cover 64 Schools in 7
-          cities across Nigeria
+          cities across Nigeria.
         </p>
+        <ul>
+          <li>Abuja: July 4th, 2023 | Venue: Continental Hotel (Sheraton)</li>
+          <li>Port Harcourt: July 6th, 2023 | Venue: Golden Tulip Hotel GRA</li>
+          <li>Lagos: July 8th, 2023 | Venue: Radisson Blu Hotel, GRA Ikeja</li>
+        </ul>
         <form onSubmit={submitFormData}>
           <div className="input-container">
             <p>First Name:</p>

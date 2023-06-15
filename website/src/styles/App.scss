@@ -1088,6 +1088,9 @@ footer {
   padding: $desktoppadding;
   align-items: center;
   margin-bottom: 5em;
+  .text {
+    text-align: center;
+  }
   form {
     display: flex;
     flex-direction: column;

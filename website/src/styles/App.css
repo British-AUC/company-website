@@ -1019,6 +1019,9 @@ footer #copyright2 {
   align-items: center;
   margin-bottom: 5em;
 }
+.event-page .text {
+  text-align: center;
+}
 .event-page form {
   display: flex;
   flex-direction: column;
