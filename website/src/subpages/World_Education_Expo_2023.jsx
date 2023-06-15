@@ -49,7 +49,7 @@ export default function World_Education_Expo_2023() {
         {
           service_id: "service_8id31pw",
           template_id: "template_yzc64mj",
-          user_id: "MLH1eO9nBHifSCH03",
+          user_id: "zcTWJ57n54eYiLV5L",
           template_params: {
             from_firstname: formData.firstName,
             from_lastname: formData.lastName,
@@ -63,6 +63,7 @@ export default function World_Education_Expo_2023() {
 
       if (response.status === 200) {
         setIsSubmitted(true);
+        alert("Congrats! Your form has been submitted. We will reach out to you with more details.")
         navigate("/");
       } else {
         setIsError(true);
