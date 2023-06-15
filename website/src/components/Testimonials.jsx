@@ -33,10 +33,10 @@ export default function Testimonial() {
           </div>
           <div className="testimonial-container-right">
             <p className="message">{testimonials[currentSlide].message}</p>
-            <div className="details">
+            <a className="details" href={testimonials[currentSlide].link} target="_blank">
               <img src={testimonials[currentSlide].icon} alt="Social Icon" />
               <em className="name">{testimonials[currentSlide].name}</em>
-            </div>
+            </a>
             <p className="university">{testimonials[currentSlide].university}</p>
           </div>
         <img className="arrow" src={rightchevron} onClick={nextSlide} />

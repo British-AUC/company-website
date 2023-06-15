@@ -397,6 +397,8 @@ footer #copyright2 {
   display: flex;
   flex-direction: row;
   gap: 1em;
+  text-decoration: none;
+  color: #1c1b1f;
 }
 .testimonial-container .testimonial-sub-container .testimonial-container-right .name, .testimonial-container .testimonial-sub-container .testimonial-container-right .university {
   font-size: 1rem;

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { useNavigate } from "react-router-dom";
+import eventschedule from "../assets/BRITISH_AUC_STUDY_TOUR_2023.pdf";
 
 export default function StudyTour2023() {
   const form = useRef();
@@ -52,8 +53,8 @@ export default function StudyTour2023() {
               to October 9th 2023
             </p>
             <p id="text">
-              For more information about the event. Kindly view our{" "}
-              <a href="https://drive.google.com/file/d/1Y4UADggdhJ-KJqV5clr1GlcHdUYOfGoA/view?usp=sharing" target="_blank">
+              For more information about the event. Kindly download our{" "}
+              <a href={eventschedule} target="_blank" download>
                 event schedule
               </a>
             </p>
