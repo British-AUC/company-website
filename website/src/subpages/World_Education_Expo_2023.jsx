@@ -47,9 +47,9 @@ export default function World_Education_Expo_2023() {
       const response = await axios.post(
         "https://api.emailjs.com/api/v1.0/email/send",
         {
-          service_id: "service_8id31pw",
+          service_id: "service_ms2fofk",
           template_id: "template_yzc64mj",
-          user_id: "zcTWJ57n54eYiLV5L",
+          user_id: "MLH1eO9nBHifSCH03",
           template_params: {
             from_firstname: formData.firstName,
             from_lastname: formData.lastName,
