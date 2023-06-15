@@ -64,13 +64,13 @@ nav {
 }
 .nav-bottom-right .active {
   padding-bottom: 0.5em;
-  border-bottom: 2px solid #007FFF;
+  border-bottom: 2px solid #007fff;
 }
 .nav-bottom-right .active a {
-  color: #007FFF;
+  color: #007fff;
 }
 .nav-bottom-right a:hover {
-  color: #007FFF;
+  color: #007fff;
 }
 
 .mobile-nav-toggle {
@@ -116,7 +116,7 @@ footer .footer-right .footer-info a {
 }
 footer .footer-right .footer-info a:hover {
   font-weight: bold;
-  color: #007FFF;
+  color: #007fff;
 }
 footer #copyright1 {
   display: block;
@@ -155,7 +155,7 @@ footer #copyright2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #007FFF;
+  background-color: #007fff;
   width: 200px;
   height: 50px;
   border: inherit;
@@ -173,11 +173,11 @@ footer #copyright2 {
 .hero-left .button-2 {
   background-color: inherit;
   width: 130px;
-  border: 1.5px solid #007FFF;
+  border: 1.5px solid #007fff;
 }
 .hero-left .button-2 a {
   text-decoration: none;
-  color: #007FFF;
+  color: #007fff;
 }
 .hero-left .button-2:hover {
   background-color: inherit;
@@ -277,7 +277,7 @@ footer #copyright2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #007FFF;
+  background-color: #007fff;
   width: 180px;
   height: 50px;
   border: inherit;
@@ -573,7 +573,7 @@ footer #copyright2 {
   align-items: flex-start;
 }
 .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked {
-  background-color: #007FFF;
+  background-color: #007fff;
 }
 .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked::after {
   content: "✓";
@@ -597,7 +597,7 @@ footer #copyright2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #007FFF;
+  background-color: #007fff;
   width: 160px;
   height: 50px;
   border: inherit;
@@ -814,7 +814,7 @@ footer #copyright2 {
   color: #1c1b1f;
 }
 .section-twelve button:hover {
-  background-color: #007FFF;
+  background-color: #007fff;
 }
 .section-twelve button:hover a {
   color: white;
@@ -863,7 +863,7 @@ footer #copyright2 {
   align-items: center;
   padding: 15px;
   height: 50px;
-  background: #007FFF;
+  background: #007fff;
   border-radius: 10px;
   outline: none;
   border: none;
@@ -932,7 +932,7 @@ footer #copyright2 {
   margin-top: 1.25em;
 }
 .section-fourteen .blog-card .details button a {
-  color: #007FFF;
+  color: #007fff;
   text-decoration: none;
 }
 
@@ -1016,18 +1016,78 @@ footer #copyright2 {
   display: flex;
   flex-direction: column;
   padding: 0em 4em;
+  align-items: center;
   margin-bottom: 5em;
 }
-.event-page img {
-  max-width: 400px;
-  border-radius: 10px;
+.event-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 2em;
 }
-.event-page p, .event-page .section-eight h2, .section-eight .event-page h2 {
-  font-size: 1rem;
+.event-page form .input-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fcfcfc;
+  border: 0.5px solid rgba(128, 128, 128, 0.315);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
+  border-radius: 5px;
+  width: 50%;
+  padding: 1.5em;
+  gap: 2em;
 }
-.event-page a {
-  text-decoration: none;
-  color: #ffffff;
+.event-page form .input-container p, .event-page form .input-container .section-eight h2, .section-eight .event-page form .input-container h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+.event-page form .input-container input {
+  background-color: white;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  padding: 0em 0em 1em 0em;
+  color: #1c1b1f;
+}
+.event-page form .input-container .checkbox-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.event-page form .input-container .checkbox-group label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.event-page form .input-container .checkbox-group input[type=checkbox] {
+  margin-left: 0em;
+  margin-right: 1em;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.event-page form .input-container .checkbox-group input[type=checkbox]:checked {
+  background-color: white;
+}
+.event-page form .input-container .checkbox-group input[type=checkbox]::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  transition: background-color 0.3s ease;
+}
+.event-page form .input-container .checkbox-group input[type=checkbox]:checked::before {
+  background-color: #4285f4;
 }
 .event-page button {
   display: flex;
@@ -1037,7 +1097,7 @@ footer #copyright2 {
   padding: 15px;
   width: 150px;
   height: 50px;
-  background: #007FFF;
+  background: #007fff;
   border-radius: 10px;
   outline: none;
   border: none;

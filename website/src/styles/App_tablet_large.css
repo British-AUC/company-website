@@ -275,4 +275,7 @@
     padding: 0em 2em;
     margin-top: 5em;
   }
+  .event-page form .input-container {
+    width: 70%;
+  }
 }/*# sourceMappingURL=App_tablet_large.css.map */

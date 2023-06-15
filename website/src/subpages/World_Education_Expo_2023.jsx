@@ -1,92 +1,222 @@
-import React from "react";
-import expoimage from "../assets/events/expoevent.jpg";
-import expoimage2 from "../assets/events/expoevent2.jpg";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 export default function World_Education_Expo_2023() {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    institution: "",
+    email: "",
+    telephone: "",
+    locations: [],
+  });
+
+  const navigate = useNavigate();
+
+  function handleChange(event) {
+    const { name, value, type, checked } = event.target;
+    if (type === "checkbox") {
+      const updatedLocations = [...formData.locations];
+      if (checked) {
+        updatedLocations.push(value);
+      } else {
+        const index = updatedLocations.indexOf(value);
+        if (index !== -1) {
+          updatedLocations.splice(index, 1);
+        }
+      }
+      setFormData((prevState) => ({
+        ...prevState,
+        locations: updatedLocations,
+      }));
+    } else {
+      setFormData((prevState) => ({
+        ...prevState,
+        [name]: value,
+      }));
+    }
+  }
+
+  async function submitFormData(event) {
+    event.preventDefault();
+
+    try {
+      const response = await axios.post(
+        "https://api.emailjs.com/api/v1.0/email/send",
+        {
+          service_id: "service_ms2fofk",
+          template_id: "template_dci5ahb",
+          user_id: "MLH1eO9nBHifSCH03",
+          template_params: {
+            from_firstname: formData.firstName,
+            from_lastname: formData.lastName,
+            from_institution: formData.institution,
+            from_email: formData.email,
+            from_telephone: formData.telephone,
+            from_locations: formData.locations.join(", "),
+          },
+        }
+      );
+
+      if (response.status === 200) {
+        navigate("/");
+      } else {
+        alert("Failed to send email. Please try again later.");
+      }
+    } catch (error) {
+      alert("Failed to send email. Please try again later.");
+    }
+  }
+
   return (
     <>
       <div className="event-page">
-        <h2>Introducing the World Education Expo 2023</h2>
-        <img src={expoimage} alt="Expo Image" /><br />
+        <h2>World Education Expo 2023</h2>
         <p>
-          Join us for the highly anticipated World Education Expo 2023, a
-          remarkable event that brings together representatives from prestigious
-          universities around the world. This extraordinary expo is designed to
-          provide a platform for students, parents, and education enthusiasts to
-          explore a world of educational opportunities and gain invaluable
-          insights into the future of education, work, and the evolving job
-          landscape.
+          Register to be a part of our study tour. We will cover 64 Schools in 7
+          cities across Nigeria
         </p>
+        <form onSubmit={submitFormData}>
+          <div className="input-container">
+            <p>First Name:</p>
+            <input
+              type="text"
+              name="firstName"
+              placeholder="First Name*"
+              value={formData.firstName}
+              onChange={handleChange}
+              required
+            />
+          </div>
 
-        <p>
-          At this global gathering of academic visionaries, attendees will have
-          the exclusive opportunity to engage with representatives from renowned
-          universities in the UK, USA, Canada, and beyond. These esteemed
-          representatives will share comprehensive information about the diverse
-          programs offered by their institutions, the unique benefits they
-          provide, and the exciting prospects that lie ahead for students in
-          various fields.
-        </p>
+          <div className="input-container">
+            <p>Last Name:</p>
+            <input
+              type="text"
+              name="lastName"
+              placeholder="Last Name*"
+              value={formData.lastName}
+              onChange={handleChange}
+              required
+            />
+          </div>
 
-        <p>
-          The World Education Expo 2023 aims to empower aspiring students and
-          career enthusiasts by providing them with an in-depth understanding of
-          the educational pathways available to them. Attendees will gain
-          firsthand knowledge of the latest trends and innovations in education,
-          ensuring they stay ahead of the curve and make informed decisions
-          about their academic journeys.
-        </p>
+          <div className="input-container">
+            <p>Institution:</p>
+            <input
+              type="text"
+              name="institution"
+              placeholder="Your Institution"
+              value={formData.institution}
+              onChange={handleChange}
+            />
+          </div>
 
-        <p>
-          This event goes beyond the traditional educational fair format,
-          fostering a dynamic environment where participants can engage in
-          enlightening discussions, attend interactive workshops, and network
-          with like-minded individuals. By bringing together the brightest minds
-          in academia, the World Education Expo 2023 promises to be an immersive
-          experience that opens doors to new possibilities.
-        </p><br />
+          <div className="input-container">
+            <p>Email Address:</p>
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address*"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+          </div>
 
-        <img src={expoimage2} alt="Expo Image" /><br />
+          <div className="input-container">
+            <p>Phone Number:</p>
+            <input
+              type="tel"
+              name="telephone"
+              placeholder="Phone Number*"
+              value={formData.telephone}
+              onChange={handleChange}
+              required
+            />
+          </div>
 
-        <h3>Event Schedule:</h3>
-        <ul>
-          <li>
-            <b>Abuja:</b> July 4th, 2023 | Venue: Continental Hotel (Sheraton).
-          </li>
-          <li>
-            <b>Port Harcourt:</b> July 6th, 2023 | Venue: Golden Tulip Hotel GRA.
-          </li>
-          <li>
-            <b>Lagos:</b> July 8th, 2023 | Venue: Radisson Blu Hotel, GRA Ikeja.
-          </li>
-        </ul>
+          <div className="input-container">
+            <p>Locations to attend:</p>
+            <div className="checkbox-group">
+              <label>
+                <input
+                  type="checkbox"
+                  name="locations"
+                  value="Abuja"
+                  checked={formData.locations.includes("Abuja")}
+                  onChange={handleChange}
+                />
+                Abuja
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  name="locations"
+                  value="Lagos"
+                  checked={formData.locations.includes("Lagos")}
+                  onChange={handleChange}
+                />
+                Lagos
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  name="locations"
+                  value="Ibadan"
+                  checked={formData.locations.includes("Ibadan")}
+                  onChange={handleChange}
+                />
+                Ibadan
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  name="locations"
+                  value="Benin"
+                  checked={formData.locations.includes("Benin")}
+                  onChange={handleChange}
+                />
+                Benin
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  name="locations"
+                  value="Kano"
+                  checked={formData.locations.includes("Kano")}
+                  onChange={handleChange}
+                />
+                Kano
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  name="locations"
+                  value="Enugu"
+                  checked={formData.locations.includes("Enugu")}
+                  onChange={handleChange}
+                />
+                Enugu
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  name="locations"
+                  value="Uyo"
+                  checked={formData.locations.includes("Uyo")}
+                  onChange={handleChange}
+                />
+                Uyo
+              </label>
+            </div>
+          </div>
 
-        <p>
-          We invite students, parents, educators, and professionals to mark
-          their calendars and join us at the World Education Expo 2023. Discover
-          a world of educational excellence, gain valuable insights into the
-          future of jobs and education, and embark on a transformative
-          educational journey that will shape your future.
-        </p>
-
-        <p>
-          Don't miss this exceptional opportunity to connect with leading
-          universities, expand your horizons, and pave the way for a successful
-          and fulfilling career. The World Education Expo 2023 is your gateway
-          to a world of endless possibilities.
-        </p>
-
-        <p>
-          For more information and to register for the event, visit our website
-          or contact our event organizers. We look forward to welcoming you to
-          this unparalleled educational extravaganza!
-        </p>
-
-        <button>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScJMKUF_70pWILpqdfFQw0joY4oR75dyfjIm5zdol5Fanmp8A/viewform?pli=1" target="_blank">
-                Register now
-            </a>
-        </button>
+          <button className="button-1" type="submit">
+            Submit
+          </button>
+        </form>
       </div>
     </>
   );

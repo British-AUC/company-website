@@ -395,5 +395,10 @@ $testborder: 1px solid red;
   .event-page {
     padding: $mobilepadding;
     margin-top: 5em;
+    form {
+      .input-container {
+        width: 70%;
+      }
+    }
   }
 }

@@ -42,10 +42,10 @@
     padding: 10px;
   }
   .nav-bottom-right.open a:hover {
-    color: #007FFF;
+    color: #007fff;
   }
   .nav-bottom-right > div.active a {
-    color: #007FFF;
+    color: #007fff;
   }
   .mobile-nav-toggle {
     display: flex;
@@ -396,5 +396,8 @@
   .event-page {
     padding: 0em 1.5em;
     margin-top: 5em;
+  }
+  .event-page form .input-container {
+    width: 90%;
   }
 }/*# sourceMappingURL=App_tablet_small.css.map */

@@ -1,4 +1,4 @@
-$companyblue: #007FFF;
+$companyblue: #007fff;
 $companyred: #da241c;
 $companyblack: #1c1b1f;
 $compangreyblue: #dde6f0;
@@ -129,7 +129,7 @@ $testborder: 1px solid red;
       font-size: 2.25rem;
     }
     p {
-        text-align: center;
+      text-align: center;
     }
   }
   .hero-right {
@@ -137,7 +137,7 @@ $testborder: 1px solid red;
     align-items: center;
     justify-content: center;
     img {
-        width: 80%;
+      width: 80%;
     }
   }
   // HERO SECTION END
@@ -268,7 +268,7 @@ $testborder: 1px solid red;
     padding: $mobilepadding;
     margin-bottom: 5em;
     .six-p {
-        text-align: center;
+      text-align: center;
     }
   }
   .section-six-sub {
@@ -353,7 +353,7 @@ $testborder: 1px solid red;
       }
     }
     #CEO {
-        width: 80%;
+      width: 80%;
     }
   }
   // SECTION NINE END
@@ -489,10 +489,14 @@ $testborder: 1px solid red;
   }
   // WHATSAPP SECTION END
 
-  
   // SUBPAGES SECTION
   .event-page {
     padding: $mobilepadding;
     margin-top: 5em;
+    form {
+      .input-container {
+        width: 90%;
+      }
+    }
   }
 }
