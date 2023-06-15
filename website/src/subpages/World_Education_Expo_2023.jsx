@@ -1,8 +1,12 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
+import { useNavigate } from "react-router-dom";
 
 export default function World_Education_Expo_2023() {
   const form = useRef();
+  const navigate = useNavigate();
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isError, setIsError] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,13 +20,17 @@ export default function World_Education_Expo_2023() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          setIsSubmitted(true);
+          alert("Congrats! Your form has been submitted.");
+          navigate("/");
         },
         (error) => {
-          console.log(error.text);
+          setIsError(true);
+          alert("An error occurred. Please try again later.");
         }
       );
   };
+
   return (
     <>
       <div className="event-page">
@@ -38,6 +46,7 @@ export default function World_Education_Expo_2023() {
           <li>Lagos: July 8th, 2023 | Venue: Radisson Blu Hotel, GRA Ikeja</li>
         </ul>
         <form ref={form} onSubmit={sendEmail}>
+          {/* Form inputs */}
           <div className="input-container">
             <p>First Name:</p>
             <input
@@ -92,59 +101,31 @@ export default function World_Education_Expo_2023() {
             <p>Locations to attend:</p>
             <div className="checkbox-group">
               <label>
-                <input
-                  type="checkbox"
-                  name="from_locations"
-                  value="Abuja"
-                />
+                <input type="checkbox" name="from_locations" value="Abuja" />
                 Abuja
               </label>
               <label>
-                <input
-                  type="checkbox"
-                  name="from_locations"
-                  value="Lagos"
-                />
+                <input type="checkbox" name="from_locations" value="Lagos" />
                 Lagos
               </label>
               <label>
-                <input
-                  type="checkbox"
-                  name="from_locations"
-                  value="Ibadan"
-                />
+                <input type="checkbox" name="from_locations" value="Ibadan" />
                 Ibadan
               </label>
               <label>
-                <input
-                  type="checkbox"
-                  name="from_locations"
-                  value="Benin"
-                />
+                <input type="checkbox" name="from_locations" value="Benin" />
                 Benin
               </label>
               <label>
-                <input
-                  type="checkbox"
-                  name="from_locations"
-                  value="Kano"
-                />
+                <input type="checkbox" name="from_locations" value="Kano" />
                 Kano
               </label>
               <label>
-                <input
-                  type="checkbox"
-                  name="from_locations"
-                  value="Enugu"
-                />
+                <input type="checkbox" name="from_locations" value="Enugu" />
                 Enugu
               </label>
               <label>
-                <input
-                  type="checkbox"
-                  name="from_locations"
-                  value="Uyo"
-                />
+                <input type="checkbox" name="from_locations" value="Uyo" />
                 Uyo
               </label>
             </div>
@@ -153,6 +134,17 @@ export default function World_Education_Expo_2023() {
           <button className="button-1" type="submit">
             Submit
           </button>
+
+          {isSubmitted && (
+            <p style={{ color: "green" }}>Form submitted successfully!</p>
+          )}
+
+          {isError && (
+            <p style={{ color: "red" }}>
+              An error occurred. Check your network connection or try again
+              later.
+            </p>
+          )}
         </form>
       </div>
     </>
