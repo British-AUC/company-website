@@ -55,6 +55,7 @@ export default function ContactInfoForm(){
         });
 
         if (response.status === 200) {
+            alert ("Congrats!. Your message has been sent. We will reach out to you within 24 hours.");
             navigate("/");
         }   else {
                 alert("Failed to send email. Please try again later.");

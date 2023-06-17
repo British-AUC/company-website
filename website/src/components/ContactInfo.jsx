@@ -8,6 +8,7 @@ export default function ContactInfo(props){
                 <b>{props.title}</b>
                 <p>{props.content1}</p>
                 <p>{props.content2}</p>
+                <p>{props.content3}</p>
             </div>
         </div>
     )
