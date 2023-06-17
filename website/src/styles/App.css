@@ -390,8 +390,6 @@ footer #copyright2 {
 }
 .testimonial-container .testimonial-sub-container .testimonial-container-right .message {
   font-size: 1rem;
-  line-height: 22px;
-  letter-spacing: 0.05em;
 }
 .testimonial-container .testimonial-sub-container .testimonial-container-right .details {
   display: flex;
@@ -489,6 +487,7 @@ footer #copyright2 {
   width: 45%;
   height: auto;
   margin: 0;
+  margin-bottom: 15px;
 }
 .section-six-sub .section-six-left .information img {
   width: 25px;
@@ -1125,5 +1124,71 @@ footer #copyright2 {
   font-weight: bold;
 }
 .event-page button:hover {
+  background-color: #006edb;
+}
+
+.study-tour-page {
+  display: flex;
+  flex-direction: column;
+  padding: 0em 4em;
+  margin-bottom: 5em;
+}
+.study-tour-page p, .study-tour-page .section-eight h2, .section-eight .study-tour-page h2 {
+  font-size: 1rem;
+  margin: 0;
+}
+.study-tour-page h3 {
+  margin: 0;
+  margin-top: 2em;
+  color: #007fff;
+}
+.study-tour-page .schools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+  gap: 10%;
+}
+.study-tour-page .schools img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+.study-tour-page .schools h4, .study-tour-page .schools h3, .study-tour-page .schools ol {
+  margin: 0;
+}
+.study-tour-page .schools .left {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.study-tour-page .schools .right {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.study-tour-page .schools .uyo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.study-tour-page a {
+  text-decoration: none;
+}
+.study-tour-page button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  height: 50px;
+  background: #007fff;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  margin-top: 3em;
+}
+.study-tour-page button:hover {
   background-color: #006edb;
 }/*# sourceMappingURL=App.css.map */

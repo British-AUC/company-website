@@ -188,11 +188,16 @@
   }
   .testimonial-container .testimonial-sub-container .testimonial-container-right .message {
     text-align: center;
+    letter-spacing: normal;
+    line-height: normal;
   }
   .testimonial-container .testimonial-sub-container .testimonial-container-right .details {
     display: flex;
     align-items: center;
     gap: 0.5em;
+  }
+  .testimonial-container .testimonial-sub-container .testimonial-container-right .university {
+    text-align: center;
   }
   .section-five {
     height: auto;
@@ -393,5 +398,19 @@
   }
   .event-page form .input-container p {
     font-size: 1rem;
+  }
+  .study-tour-page {
+    padding: 0em 1em;
+    margin-top: 5em;
+  }
+  .study-tour-page .schools {
+    flex-direction: column;
+    gap: 2em;
+  }
+  .study-tour-page .schools .left, .study-tour-page .schools .right, .study-tour-page .schools .uyo {
+    width: 100%;
+  }
+  .study-tour-page .schools .left ol li, .study-tour-page .schools .right ol li, .study-tour-page .schools .uyo ol li {
+    font-size: 0.875rem;
   }
 }/*# sourceMappingURL=App_mobile.css.map */

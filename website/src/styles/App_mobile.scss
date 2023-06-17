@@ -218,11 +218,16 @@ $testborder: 1px solid red;
         align-items: center;
         .message {
           text-align: center;
+          letter-spacing: normal;
+          line-height: normal;
         }
         .details {
           display: flex;
           align-items: center;
           gap: 0.5em;
+        }
+        .university {
+          text-align: center;
         }
       }
     }
@@ -489,6 +494,23 @@ $testborder: 1px solid red;
         width: 95%;
         p {
           font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .study-tour-page {
+    padding: $mobilepadding;
+    margin-top: 5em;
+    .schools {
+      flex-direction: column;
+      gap: 2em;
+      .left, .right, .uyo {
+        width: 100%;
+        ol {
+          li {
+            font-size: 0.875rem;
+          }
         }
       }
     }

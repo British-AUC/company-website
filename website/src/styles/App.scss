@@ -418,8 +418,6 @@ footer {
       width: 70%;
       .message {
         font-size: 1rem;
-        line-height: 22px;
-        letter-spacing: 0.05em;
       }
       .details {
         display: flex;
@@ -523,6 +521,7 @@ footer {
       width: 45%;
       height: auto;
       margin: 0;
+      margin-bottom: 15px;
       img {
         width: 25px;
         height: 25px;
@@ -1198,6 +1197,72 @@ footer {
     outline: none;
     border: none;
     font-weight: bold;
+  }
+  button:hover {
+    background-color: #006edb;
+  }
+}
+
+.study-tour-page {
+  display: flex;
+  flex-direction: column;
+  padding: $desktoppadding;
+  margin-bottom: 5em;
+  p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  h3 {
+    margin: 0;
+    margin-top: 2em;
+    color: $companyblue;
+  }
+  .schools {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    gap: 10%;
+    img {
+      max-width: 300px;
+      border-radius: 10px;
+      margin-bottom: 2em;
+    }
+    h4, h3, ol {
+      margin: 0;
+    }
+    .left {
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+    }
+    .uyo {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 50px;
+    background: #007fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    margin-top: 3em;
   }
   button:hover {
     background-color: #006edb;
