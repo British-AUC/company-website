@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import coverimage from "../assets/events/coverimage.png";
+import coverimage from "../assets/events/coverimage.webp";
 
 
 export default function StudyTour2023() {
