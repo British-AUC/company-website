@@ -1278,3 +1278,16 @@ footer {
     background-color: #006edb;
   }
 }
+
+// TEAM CONTAINER
+.team-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  .sub {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3em;
+  }
+}

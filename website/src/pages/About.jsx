@@ -9,11 +9,13 @@ import partner2 from "../assets/partners/partner2.svg";
 import partner3 from "../assets/partners/partner3.svg";
 import partner4 from "../assets/partners/partner4.svg";
 import partner5 from "../assets/partners/partner5.svg";
-
+import TeamMember from "../components/TeamMember";
+import teamdata from "../data/team";
 
 export default function About(){
     const valuepropositon1 = data1.map(item => <Values1 key={item.id} {...item} />)
     const valuepropositon2 = data2.map(item => <Values2 key={item.id} {...item} />)
+    const teammembers = teamdata.map(item => <TeamMember key={item.id} {...item} />)
 
     return (
         <>
@@ -35,6 +37,13 @@ export default function About(){
                     we are committed to helping students make informed decisions, unlock their potential,
                     and embark on a transformative journey towards a brighter future.
                 </p>
+            </section>
+
+            <section className="team-container">
+                <h2>Our <span style={{color: "#007FFF"}}>Team</span></h2>
+                <div className="sub">
+                    {teammembers}
+                </div>
             </section>
 
             {/* SECTION NINE */}

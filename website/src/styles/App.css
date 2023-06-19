@@ -1201,4 +1201,16 @@ footer #copyright2 {
 }
 .study-tour-page button:hover {
   background-color: #006edb;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.team-container .sub {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3em;
 }/*# sourceMappingURL=App.css.map */
