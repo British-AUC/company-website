@@ -1,12 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import school1 from "../assets/events/school1.png"; 
-import school2 from "../assets/events/school2.png";  
-import school3 from "../assets/events/school3.png"; 
-import school4 from "../assets/events/school4.png"; 
-import school5 from "../assets/events/school5.png"; 
-import school6 from "../assets/events/school6.png"; 
-import school7 from "../assets/events/school7.png"; 
+import coverimage from "../assets/events/coverimage.png";
+
 
 export default function StudyTour2023() {
     return (
@@ -38,7 +33,9 @@ export default function StudyTour2023() {
                 The British AUC Study Tour 2023 will cover 64 Private High Schools
                 across the visited states. The schools covered during this tour are as
                 follow:
-            </p><hr />
+            </p>
+            <img src={coverimage} alt="Cover Image" />
+            <hr />
 
             <div className="schools">
                 <div className="left">

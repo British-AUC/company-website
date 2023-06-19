@@ -1142,6 +1142,15 @@ footer #copyright2 {
   margin-top: 2em;
   color: #007fff;
 }
+.study-tour-page img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 .study-tour-page .schools {
   display: flex;
   flex-direction: row;
