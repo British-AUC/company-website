@@ -728,7 +728,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding: $desktoppadding;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   gap: 1em;
   p {
     margin: 0;
@@ -1284,10 +1284,40 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 2em;
+  padding: $desktoppadding;
   .sub {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
     gap: 3em;
+    width: 100%;
+    height: auto;
+    .team-member {
+      display: flex;
+      flex-direction: column;
+      max-width: 280px;
+      height: max-content;
+      gap: 1em;
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+      p {
+        margin: 0;
+        width: 100%;
+        height: auto;
+      }
+      .title {
+        font-size: 1.1rem;
+        font-weight: 700;
+      }
+      .name {
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
   }
 }

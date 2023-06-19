@@ -515,5 +515,24 @@ $testborder: 1px solid red;
       }
     }
   }
+
+  .team-container {
+    padding: $mobilepadding;
+    .sub {
+      justify-content: center;
+      .team-member {
+        width: 80%;
+        img {
+          width: 100%;
+        }
+        .title {
+          font-size: 1rem;
+        }
+        .name {
+          font-size: 0.875rem;
+        }
+      }
+    }
+  }
 }
 

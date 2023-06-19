@@ -683,7 +683,7 @@ footer #copyright2 {
   display: flex;
   flex-direction: column;
   padding: 0em 4em;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   gap: 1em;
 }
 .section-eight p, .section-eight h2 {
@@ -1207,10 +1207,41 @@ footer #copyright2 {
   display: flex;
   flex-direction: column;
   gap: 2em;
+  padding: 0em 4em;
 }
 .team-container .sub {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
   gap: 3em;
+  width: 100%;
+  height: auto;
+}
+.team-container .sub .team-member {
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  height: -moz-max-content;
+  height: max-content;
+  gap: 1em;
+}
+.team-container .sub .team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.team-container .sub .team-member p, .team-container .sub .team-member .section-eight h2, .section-eight .team-container .sub .team-member h2 {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+.team-container .sub .team-member .title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.team-container .sub .team-member .name, .team-container .sub .team-member .testimonial-container .testimonial-sub-container .testimonial-container-right .university, .testimonial-container .testimonial-sub-container .testimonial-container-right .team-container .sub .team-member .university {
+  font-size: 1rem;
+  font-weight: 500;
 }/*# sourceMappingURL=App.css.map */

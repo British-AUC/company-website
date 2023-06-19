@@ -404,4 +404,10 @@
     padding: 0em 1.5em;
     margin-top: 5em;
   }
+  .team-container {
+    padding: 0em 1.5em;
+  }
+  .team-container .sub {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=App_tablet_small.css.map */

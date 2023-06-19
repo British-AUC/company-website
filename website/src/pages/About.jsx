@@ -39,51 +39,13 @@ export default function About(){
                 </p>
             </section>
 
+            {/* SECTION NINE */}
             <section className="team-container">
                 <h2>Our <span style={{color: "#007FFF"}}>Team</span></h2>
                 <div className="sub">
                     {teammembers}
                 </div>
-            </section>
-
-            {/* SECTION NINE */}
-            <section className="section-nine">
-                <h2>A word from our <span style={{color: "#007FFF" }}>CEO</span></h2>
-                <div className="section-nine-sub">
-                    <div className="section-nine-left">
-                        <img src={CEO} alt="Mr Collins" id="CEO" />
-                        <em><img src={linkedin} alt="Linkedin Icon" /> Dr. Collins Onyeaji</em>
-                        <strong>Chief Executive Officer - British AUC</strong>
-                    </div>
-                    <div className="section-nine-right">
-                        <p>
-                            “  Dear prospective students, Welcome to BRITISH AUC, where your dreams 
-                            of studying abroad become reality. As the CEO, I am honored to guide you 
-                            on this transformative journey. We are your trusted partner, offering free 
-                            visa and admission application services to universities worldwide.
-                        </p>
-                        <p>
-                            With a proven track record of success, we have helped thousands of students like 
-                            you fulfill their aspirations at renowned universities and colleges globally. 
-                            Our comprehensive support makes us your one-stop shop for all study abroad needs
-                        </p>
-                        <p>
-                            Our dedicated team of experts ensures a seamless and stress-free experience. 
-                            We provide personalized assistance tailored to your unique aspirations. 
-                            And the best part? Our services are completely free of charge. 
-                            We provide up-to-date information on universities, scholarships, accommodations, 
-                            and pre-departure support. Equipping you with the knowledge and resources needed 
-                            to make informed decisions is our priority.
-                        </p>
-                        <p>
-                            Join the successful students who trust BRITISH AUC to guide them towards their dreams. 
-                            Let us be your guiding light. Contact us today to embark on this exciting journey towards 
-                            a brighter future. “
-                        </p>
-                        <p>Warm regards.</p>
-                    </div>
-                </div>
-            </section>
+            </section>            
 
             {/* SECTION TEN */}
             <section className="section-ten">

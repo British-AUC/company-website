@@ -413,4 +413,22 @@
   .study-tour-page .schools .left ol li, .study-tour-page .schools .right ol li, .study-tour-page .schools .uyo ol li {
     font-size: 0.875rem;
   }
+  .team-container {
+    padding: 0em 1em;
+  }
+  .team-container .sub {
+    justify-content: center;
+  }
+  .team-container .sub .team-member {
+    width: 80%;
+  }
+  .team-container .sub .team-member img {
+    width: 100%;
+  }
+  .team-container .sub .team-member .title {
+    font-size: 1rem;
+  }
+  .team-container .sub .team-member .name {
+    font-size: 0.875rem;
+  }
 }/*# sourceMappingURL=App_mobile.css.map */

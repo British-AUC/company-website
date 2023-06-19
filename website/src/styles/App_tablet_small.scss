@@ -504,4 +504,11 @@ $testborder: 1px solid red;
     padding: $mobilepadding;
     margin-top: 5em;
   }
+
+  .team-container {
+    padding: $mobilepadding;
+    .sub {
+      justify-content: center;
+    }
+  }
 }
