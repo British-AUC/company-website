@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import CEO from "../assets/mrcollins.png";
 import linkedin from "../assets/testimonials/linkedin_icon.svg";
 import { Values1, Values2 } from "../components/Values";
@@ -6,8 +7,8 @@ import { data1, data2 } from "../data/valueprops";
 import partner1 from "../assets/partners/partner1.svg";
 import partner2 from "../assets/partners/partner2.svg";
 import partner3 from "../assets/partners/partner3.svg";
-import partner4 from "../assets/partners/partner4.svg"
-import partner5 from "../assets/partners/partner5.svg"
+import partner4 from "../assets/partners/partner4.svg";
+import partner5 from "../assets/partners/partner5.svg";
 
 
 export default function About(){
@@ -104,9 +105,9 @@ export default function About(){
             <section className="section-twelve">
                 <h2>Lets Get You an Admission Today</h2>
                 <button>
-                    <a href="#">
+                    <Link to="/contact">
                         Get in touch
-                    </a>
+                    </Link>
                 </button>
             </section>
         </>

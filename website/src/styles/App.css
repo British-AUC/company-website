@@ -1151,6 +1151,7 @@ footer #copyright2 {
 }
 .study-tour-page .schools img {
   max-width: 300px;
+  height: 315px;
   border-radius: 10px;
   margin-bottom: 2em;
 }

@@ -42,7 +42,6 @@ export default function StudyTour2023() {
 
             <div className="schools">
                 <div className="left">
-                    <img src={school1} alt="Image" />
                     <h4>ABUJA SCHOOLS</h4>
                     <ol>
                         <li>Lead British International School, Gwarimpa</li>
@@ -57,7 +56,6 @@ export default function StudyTour2023() {
                     </ol>
                 </div>
                 <div className="right">
-                    <img src={school2} alt="Image" />
                     <h4>LAGOS SCHOOLS</h4>
                     <ol>
                         <li>Corona Schools, Agbara</li>
@@ -73,7 +71,6 @@ export default function StudyTour2023() {
 
             <div className="schools">
                 <div className="left">
-                    <img src={school3} alt="Image" />
                     <h4>IBADAN SCHOOLS</h4>
                     <ol>
                         <li>The Vale College, Ibadan</li>
@@ -88,8 +85,7 @@ export default function StudyTour2023() {
                     </ol>
                 </div>
                 <div className="right">
-                    <img src={school7} alt="Image" />
-                    <h4>KANO SCHOOLS</h4>
+                    <h4>BENIN CITY SCHOOLS</h4>
                     <ol>
                         <li>Igbenidion Education Centre, Benin City</li>
                         <li>St Mary British International School, Benin City</li>
@@ -108,7 +104,6 @@ export default function StudyTour2023() {
 
             <div className="schools">
                 <div className="left">
-                    <img src={school4} alt="Image" />
                     <h4>KANO SCHOOLS</h4>
                     <ol>
                         <li>Lebanon School, Kano</li>
@@ -124,7 +119,6 @@ export default function StudyTour2023() {
                     </ol>
                 </div>
                 <div className="right">
-                    <img src={school5} alt="Image" />
                     <h4>ENUGU SCHOOLS</h4>
                     <ol>
                         <li>Pine Crest Secondary School, Enugu</li>
@@ -141,7 +135,6 @@ export default function StudyTour2023() {
 
             <div className="schools">
                 <div className="uyo">
-                    <img src={school6} alt="Image" />
                     <h4>UYO SCHOOLS</h4>
                     <ol>
                         <li>Pegasus Schools, Uyo</li>
