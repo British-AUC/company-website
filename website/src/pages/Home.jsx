@@ -35,9 +35,6 @@ export default function Home(){
                         </button>
                     </div>
                 </div>
-                <div className="hero-right">
-                    <img src={heroimage} alt="Hero Image" />
-                </div>
             </header>
 
             {/* SECTION ONE - COUNTRY FLAGS */}

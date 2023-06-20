@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CEO from "../assets/mrcollins.png";
-import linkedin from "../assets/testimonials/linkedin_icon.svg";
 import { Values1, Values2 } from "../components/Values";
 import { data1, data2 } from "../data/valueprops";
 import partner1 from "../assets/partners/partner1.svg";

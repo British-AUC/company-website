@@ -36,7 +36,7 @@ export default function TextAnimation() {
   }, []);
 
   return (
-    <div style={{ color: "#007FFF" }} ref={textRef}>
+    <div ref={textRef}>
       Abroad?
     </div>
   );

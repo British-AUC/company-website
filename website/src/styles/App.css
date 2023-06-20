@@ -129,9 +129,8 @@ footer #copyright2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: auto;
-  gap: 2em;
-  background-color: white;
+  height: 550px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/hero_alt.png") center no-repeat;
   padding: 0em 4em;
   padding-bottom: 2em;
 }
@@ -139,17 +138,23 @@ footer #copyright2 {
 .hero-left {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 52%;
+  gap: 1em;
 }
 .hero-left h1 {
-  font-size: 3rem;
+  font-size: 3.25rem;
   font-weight: 700;
+  color: white;
   letter-spacing: 0.05em;
   margin: 0;
 }
+.hero-left p, .hero-left .section-eight h2, .section-eight .hero-left h2 {
+  font-size: 1.15rem;
+  color: white;
+}
 .hero-left .button-container {
   display: flex;
-  gap: 1em;
+  gap: 1.5em;
 }
 .hero-left .button-1, .hero-left .button-2 {
   display: flex;
@@ -171,32 +176,19 @@ footer #copyright2 {
   background-color: #006edb;
 }
 .hero-left .button-2 {
-  background-color: inherit;
+  background-color: white;
   width: 130px;
-  border: 1.5px solid #007fff;
 }
 .hero-left .button-2 a {
   text-decoration: none;
-  color: #007fff;
+  color: #1c1b1f;
 }
 .hero-left .button-2:hover {
   background-color: inherit;
-  border: 1.5px solid #1c1b1f;
+  border: 1.5px solid white;
 }
 .hero-left .button-2:hover a {
-  color: #1c1b1f;
-}
-
-.hero-right {
-  display: flex;
-  width: 50%;
-  align-items: center;
-  justify-content: flex-end;
-}
-.hero-right img {
-  width: 90%;
-  height: auto;
-  border-radius: 10px;
+  color: white;
 }
 
 .section-one {
