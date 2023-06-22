@@ -257,8 +257,9 @@ footer #copyright2 {
   justify-content: center;
 }
 .section-two .section-two-left img {
-  width: 100%;
+  width: 90%;
   height: auto;
+  border-radius: 10px;
 }
 .section-two .section-two-right {
   display: flex;
@@ -1236,4 +1237,68 @@ footer #copyright2 {
 .team-container .sub .team-member .name, .team-container .sub .team-member .testimonial-container .testimonial-sub-container .testimonial-container-right .university, .testimonial-container .testimonial-sub-container .testimonial-container-right .team-container .sub .team-member .university {
   font-size: 1rem;
   font-weight: 500;
+}
+
+.blog-page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: right;
+  margin-bottom: 5em;
+}
+.blog-page .left {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  justify-content: flex-end;
+  gap: 1.5em;
+}
+.blog-page .left .tags-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5em;
+}
+.blog-page .left .tags-container span {
+  color: #006edb;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+.blog-page .left .tags-container span:first-child {
+  padding: 0.5em 0.75em;
+  background-color: rgba(0, 110, 219, 0.1921568627);
+  border-radius: 50px;
+  font-weight: 400;
+}
+.blog-page .left h2 {
+  font-size: 2.2rem;
+  text-align: left;
+  color: #1c1b1f;
+  font-weight: 700;
+  margin: 0;
+}
+.blog-page .left p, .blog-page .left .section-eight h2, .section-eight .blog-page .left h2 {
+  margin: 0;
+}
+.blog-page .left a {
+  color: #007fff;
+}
+.blog-page .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 20%;
+  height: 500px;
+  position: relative;
+}
+.blog-page .right .social-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 2em;
+  padding-left: 2em;
+  position: fixed;
+}
+.blog-page .right .social-icons img {
+  width: 30px;
 }/*# sourceMappingURL=App.css.map */
