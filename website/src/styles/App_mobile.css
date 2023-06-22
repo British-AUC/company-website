@@ -436,4 +436,33 @@
   .team-container .sub .team-member .name {
     font-size: 0.875rem;
   }
+  .blog-page {
+    margin-top: 7em;
+    padding: 0em 1em;
+  }
+  .blog-page .left {
+    width: 100%;
+  }
+  .blog-page .left .tags-container {
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+  .blog-page .left .tags-container > *:not(:first-child) {
+    display: block;
+  }
+  .blog-page .left h2 {
+    font-size: 1.25rem;
+  }
+  .blog-page .left .social-icons-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+  }
+  .blog-page .left .social-icons-2 img {
+    height: 20px;
+  }
+  .blog-page .right {
+    display: none;
+  }
 }/*# sourceMappingURL=App_mobile.css.map */

@@ -412,4 +412,26 @@ $testborder: 1px solid red;
   .team-container {
     padding: $mobilepadding;
   }
+  
+  // BLOGPAGE STYLE
+  .blog-page {
+    margin-top: 7em;
+    .left {
+      width: 70%;
+      h2 {
+        font-size: 2rem;
+      }
+    }
+    .right {
+      width: 20%;
+      .social-icons {
+        gap: 1.5em;
+        img {
+          width: 25px;
+        }
+      }
+
+    }
+  }
+
 }

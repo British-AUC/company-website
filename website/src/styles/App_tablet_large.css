@@ -286,4 +286,22 @@
   .team-container {
     padding: 0em 2em;
   }
+  .blog-page {
+    margin-top: 7em;
+  }
+  .blog-page .left {
+    width: 70%;
+  }
+  .blog-page .left h2 {
+    font-size: 2rem;
+  }
+  .blog-page .right {
+    width: 20%;
+  }
+  .blog-page .right .social-icons {
+    gap: 1.5em;
+  }
+  .blog-page .right .social-icons img {
+    width: 25px;
+  }
 }/*# sourceMappingURL=App_tablet_large.css.map */

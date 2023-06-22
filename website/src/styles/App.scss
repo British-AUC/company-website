@@ -1328,7 +1328,7 @@ footer {
   .left {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 60%;
     justify-content: flex-end;
     gap: 1.5em;
     .tags-container {
@@ -1342,6 +1342,10 @@ footer {
         font-size: 0.875rem;
       }
       span:first-child {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         padding: 0.5em 0.75em;
         background-color: #006edb31;
         border-radius: 50px;
@@ -1361,21 +1365,22 @@ footer {
     a {
       color: $companyblue;
     }
+    .social-icons-2 {
+      display: none;
+    }
   }
   .right {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 20%;
-    height: 500px;
-    position: relative;
+    margin-top: 5em;
     .social-icons {
       display: flex;
       flex-direction: column;
       justify-content: left;
       gap: 2em;
-      padding-left: 2em;
-      position: fixed;
+      padding-left: 3em;
       img {
         width: 30px;
       }

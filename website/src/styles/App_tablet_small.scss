@@ -514,4 +514,31 @@ $testborder: 1px solid red;
       justify-content: center;
     }
   }
+
+  // BLOGPAGE STYLE
+  .blog-page {
+    padding: $mobilepadding;
+    margin-top: 7em;
+    .left {
+      width: 100%;
+      .tags-container {
+        gap: 1em;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      .social-icons-2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1em;
+        img {
+          height: 25px;
+        }
+      }
+    }
+    .right {
+      display: none;
+    }
+  }
 }

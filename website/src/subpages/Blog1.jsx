@@ -33,10 +33,27 @@ export default function BlogOne() {
                     <span>Juliet D.</span>
                     <span>3min Read</span>
                 </div>
+                <div className="social-icons-2">
+                    <a href="#" id="copy-link" onclick="copyToClipboard('www.britishauc.com/blog/uk-dependant-visa-ban')">
+                        <img src={link} alt="Link" />
+                    </a>
+                    <a href="https://twitter.com/intent/tweet?url=https://www.britishauc.com/blog/uk-dependant-visa-ban" target="_blank" rel="noopener noreferrer">
+                        <img src={twitter} alt="Twitter" />
+                    </a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.britishauc.com/blog/uk-dependant-visa-ban" target="_blank" rel="noopener noreferrer">
+                        <img src={facebook} alt="Facebook" />
+                    </a>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.britishauc.com/blog/uk-dependant-visa-ban" target="_blank" rel="noopener noreferrer">
+                        <img src={linkedin} alt="LinkedIn" />
+                    </a>
+                    <a href="mailto:?subject=Check%20out%20this%20blog%20post&body=I%20found%20this%20interesting%20blog%20post%20and%20thought%20you%20might%20like%20it:%20https://www.britishauc.com/blog/uk-dependant-visa-ban">
+                        <img src={email} alt="Email" />
+                    </a>
+                </div>
                 <h2>
-                    The UK Ban on International Student Dependant Visa does not Affect You.
+                    Navigating the UK's Dependent Visa Ban: What Nigerian Students Need to Know
                 </h2>
-
+                <img src="" alt="Padlock on UK Flag" />
                 <p>
                     Since the Home Secretary, Suella Braverman, announced the ban on
                     dependent visas for people traveling to the UK for their master's

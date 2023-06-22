@@ -412,4 +412,29 @@
   .team-container .sub {
     justify-content: center;
   }
+  .blog-page {
+    padding: 0em 1.5em;
+    margin-top: 7em;
+  }
+  .blog-page .left {
+    width: 100%;
+  }
+  .blog-page .left .tags-container {
+    gap: 1em;
+  }
+  .blog-page .left h2 {
+    font-size: 1.5rem;
+  }
+  .blog-page .left .social-icons-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+  }
+  .blog-page .left .social-icons-2 img {
+    height: 25px;
+  }
+  .blog-page .right {
+    display: none;
+  }
 }/*# sourceMappingURL=App_tablet_small.css.map */
