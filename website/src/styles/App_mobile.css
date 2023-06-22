@@ -443,12 +443,15 @@
   .blog-page .left {
     width: 100%;
   }
+  .blog-page .left .cover-image {
+    width: 100%;
+  }
   .blog-page .left .tags-container {
     gap: 1em;
     flex-wrap: wrap;
   }
-  .blog-page .left .tags-container > *:not(:first-child) {
-    display: block;
+  .blog-page .left .tags-container span {
+    font-size: 0.75rem;
   }
   .blog-page .left h2 {
     font-size: 1.25rem;
@@ -460,6 +463,10 @@
     gap: 1em;
   }
   .blog-page .left .social-icons-2 img {
+    height: 20px;
+  }
+  .blog-page .left .social-icons-2 a:first-child img {
+    width: 35px;
     height: 20px;
   }
   .blog-page .right {

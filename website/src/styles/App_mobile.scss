@@ -546,13 +546,16 @@ $testborder: 1px solid red;
     padding: $mobilepadding;
     .left {
       width: 100%;
+      .cover-image {
+        width: 100%;
+      }
       .tags-container {
         gap: 1em;
         flex-wrap: wrap;
+        span {
+          font-size: 0.75rem;
+        }
       }
-      .tags-container > *:not(:first-child) {
-        display: block;
-      }  
       h2 {
         font-size: 1.25rem;
       }
@@ -564,7 +567,13 @@ $testborder: 1px solid red;
         img {
           height: 20px;
         }
-      }    
+        a:first-child{
+          img {
+            width: 35px;
+            height: 20px;
+          }
+        }
+      }   
     }
     .right {
       display: none;

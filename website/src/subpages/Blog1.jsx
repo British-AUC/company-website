@@ -5,6 +5,7 @@ import twitter from "../assets/twitter_black.svg";
 import facebook from "../assets/facebook_black.svg";
 import linkedin from "../assets/linkedin_black.svg";
 import email from "../assets/email_black.svg";
+import ukpadlock from "../assets/ukpadlock.webp";
 
 export default function BlogOne() {
     function copyToClipboard(text) {
@@ -53,7 +54,7 @@ export default function BlogOne() {
                 <h2>
                     Navigating the UK's Dependent Visa Ban: What Nigerian Students Need to Know
                 </h2>
-                <img src="" alt="Padlock on UK Flag" />
+                <img src={ukpadlock} alt="Padlock on UK Flag" className="cover-image" />
                 <p>
                     Since the Home Secretary, Suella Braverman, announced the ban on
                     dependent visas for people traveling to the UK for their master's

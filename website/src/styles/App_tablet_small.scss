@@ -535,6 +535,12 @@ $testborder: 1px solid red;
         img {
           height: 25px;
         }
+        a:first-child{
+          img {
+            width: 40px;
+            height: 25px;
+          }
+        }
       }
     }
     .right {

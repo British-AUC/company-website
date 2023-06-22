@@ -434,6 +434,10 @@
   .blog-page .left .social-icons-2 img {
     height: 25px;
   }
+  .blog-page .left .social-icons-2 a:first-child img {
+    width: 40px;
+    height: 25px;
+  }
   .blog-page .right {
     display: none;
   }

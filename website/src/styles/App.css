@@ -1253,6 +1253,10 @@ footer #copyright2 {
   justify-content: flex-end;
   gap: 1.5em;
 }
+.blog-page .left .cover-image {
+  width: 90%;
+  border-radius: 10px;
+}
 .blog-page .left .tags-container {
   display: flex;
   flex-direction: row;
