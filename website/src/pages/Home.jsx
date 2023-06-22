@@ -1,5 +1,5 @@
 import React from "react";
-import groupimage from "../assets/cleargroupimage.png";
+import groupimage from "../assets/newgroupimage.webp";
 import Service from "../components/Service";
 import servicedata from "../data/services";
 import Testimonial from "../components/Testimonials";
