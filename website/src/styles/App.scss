@@ -952,6 +952,8 @@ footer {
     img {
       max-width: 340px;
       height: 180px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
     }
     .details {
       display: flex;
@@ -1322,9 +1324,9 @@ footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  // padding: 3em 18em;
   justify-content: right;
   margin-bottom: 5em;
+  margin-top: 2em;
   .left {
     display: flex;
     flex-direction: column;

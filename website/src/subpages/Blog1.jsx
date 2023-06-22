@@ -9,21 +9,14 @@ import ukpadlock from "../assets/ukpadlock.webp";
 
 export default function BlogOne() {
     function copyToClipboard(text) {
-        // Create a temporary input element
-        const input = document.createElement('input');
-        input.value = text;
-        document.body.appendChild(input);
-
-        // Select the input field and copy the text
-        input.select();
-        document.execCommand('copy');
-
-        // Remove the temporary input element
-        document.body.removeChild(input);
-
-        alert('Link copied to clipboard!');
+        navigator.clipboard.writeText(text)
+            .then(() => {
+                alert('Link copied to clipboard!');
+            })
+            .catch((error) => {
+                console.error('Failed to copy text: ', error);
+            });
     }
-
 
     return (
         <section className="blog-page">
@@ -35,7 +28,7 @@ export default function BlogOne() {
                     <span>3min Read</span>
                 </div>
                 <div className="social-icons-2">
-                    <a href="#" id="copy-link" onclick="copyToClipboard('www.britishauc.com/blog/uk-dependant-visa-ban')">
+                    <a href="#" onClick={() => copyToClipboard('www.britishauc.com/blog/uk-dependant-visa-ban')}>
                         <img src={link} alt="Link" />
                     </a>
                     <a href="https://twitter.com/intent/tweet?url=https://www.britishauc.com/blog/uk-dependant-visa-ban" target="_blank" rel="noopener noreferrer">
@@ -174,7 +167,7 @@ export default function BlogOne() {
             </div>
             <div className="right">
                 <div className="social-icons">
-                    <a href="#" id="copy-link" onclick="copyToClipboard('www.britishauc.com/blog/uk-dependant-visa-ban')">
+                    <a href="#" onClick={() => copyToClipboard('www.britishauc.com/blog/uk-dependant-visa-ban')}>
                         <img src={link} alt="Link" />
                     </a>
                     <a href="https://twitter.com/intent/tweet?url=https://www.britishauc.com/blog/uk-dependant-visa-ban" target="_blank" rel="noopener noreferrer">

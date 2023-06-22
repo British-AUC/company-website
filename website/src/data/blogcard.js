@@ -1,12 +1,12 @@
-import flyer1 from "../assets/blog/flyer1.png"
+import ukpadlock from "../assets/ukpadlock.webp";
 
 export default [
     {
         id: 1,
-        image: flyer1,
-        title: "Lorem Ipsum Dolor Kemet Lorem Salako Palazo",
-        writer: "Tersoo Ahire",
-        date: "July 5th, 2023",
+        image: ukpadlock,
+        title: "Navigating the UK's Dependent Visa Ban: What Nigerian Students Need to Know",
+        writer: "Juliet Daniel",
+        date: "July 22, 2023",
         link: "/blog/uk-dependant-visa-ban",
     },
 ]

@@ -894,6 +894,8 @@ footer #copyright2 {
 .section-fourteen .blog-card img {
   max-width: 340px;
   height: 180px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .section-fourteen .blog-card .details {
   display: flex;
@@ -1245,6 +1247,7 @@ footer #copyright2 {
   width: 100%;
   justify-content: right;
   margin-bottom: 5em;
+  margin-top: 2em;
 }
 .blog-page .left {
   display: flex;
