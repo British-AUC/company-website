@@ -14,7 +14,7 @@ export default function StudyTourForm2023() {
 
     emailjs
       .sendForm(
-        "service_ms2fofk",
+        "service_sce8zlt",
         "template_h2wtf0v",
         form.current,
         "MLH1eO9nBHifSCH03"
