@@ -171,7 +171,7 @@ export default function SportsStudyTour2023() {
             </p><br />
             <strong style={{color: "red"}}>Please kindly register on or before 15th of July, 2023.</strong>
             
-            <Link to="/study-tour-form-2023">
+            <Link to="/sports-study-tour-form-2023">
                 <button>Register now</button>
             </Link>
         </section>

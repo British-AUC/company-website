@@ -22,6 +22,7 @@ import StudyTour2023 from './subpages/StudyTour2023'
 import StudyTourForm2023 from './subpages/StudyTourForm2023'
 import BlogOne from './subpages/Blog1'
 import SportsStudyTour2023 from './subpages/SportsStudyTour2023'
+import SportsStudyTourForm2023 from './subpages/SportsStudyTourForm2023'
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path='/study-tour-2023' element={<StudyTour2023/>}/>
         <Route path='/study-tour-form-2023' element={<StudyTourForm2023/>} />
         <Route path='/sports-study-tour-2023' element={<SportsStudyTour2023/>} />
+        <Route path='/sports-study-tour-form-2023' element={<SportsStudyTourForm2023/>} />
         {/* BLOG PAGES */}
         <Route path='/blog/uk-dependant-visa-ban' element={<BlogOne/>}/>
       </Routes>
