@@ -579,5 +579,13 @@ $testborder: 1px solid red;
       display: none;
     }
   }
+
+  .event-table {
+    tbody {
+      td {
+        font-size: 0.875rem;
+      }
+    }
+  }
 }
 

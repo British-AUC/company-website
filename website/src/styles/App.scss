@@ -1200,6 +1200,8 @@ footer {
   }
 }
 
+
+// STUDY TOUR SECTION
 .study-tour-page {
   display: flex;
   flex-direction: column;
@@ -1212,6 +1214,7 @@ footer {
   h3 {
     margin: 0;
     margin-top: 2em;
+    margin-bottom: 0.5em;
     color: $companyblue;
   }
   img {
@@ -1274,6 +1277,28 @@ footer {
   button:hover {
     background-color: #006edb;
   }
+}
+
+// EVENT TABLE
+.event-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.event-table th, .event-table td {
+  border: 1px solid rgb(24, 24, 24);
+  padding: 8px;
+}
+
+.event-table th {
+  background-color: #3a3a3a;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.event-table tbody tr:nth-child(odd) {
+  background-color: #d9d9d9;
 }
 
 // TEAM CONTAINER

@@ -472,4 +472,7 @@
   .blog-page .right {
     display: none;
   }
+  .event-table tbody td {
+    font-size: 0.875rem;
+  }
 }/*# sourceMappingURL=App_mobile.css.map */

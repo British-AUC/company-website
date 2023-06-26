@@ -21,6 +21,7 @@ import WhatsApp from './components/Whatsapp'
 import StudyTour2023 from './subpages/StudyTour2023'
 import StudyTourForm2023 from './subpages/StudyTourForm2023'
 import BlogOne from './subpages/Blog1'
+import SportsStudyTour2023 from './subpages/SportsStudyTour2023'
 
 function App() {
   return (
@@ -28,19 +29,20 @@ function App() {
       <Navbar />
       <ScrollToTop />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/home' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/services' element={<Services />} />
-        <Route path='/events' element={<Events />} />
-        <Route path='/blog' element={<Blog />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/faqs' element={<Faqs />} />
-        <Route path='/terms-conditions' element={<Terms />} />
-        <Route path='/privacy-policy' element={<Privacy />} />
-        <Route path='*' element={<NotFound />} />
+        <Route path='/' element={<Home/>} />
+        <Route path='/home' element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/services' element={<Services/>} />
+        <Route path='/events' element={<Events/>} />
+        <Route path='/blog' element={<Blog/>} />
+        <Route path='/contact' element={<Contact/>} />
+        <Route path='/faqs' element={<Faqs/>} />
+        <Route path='/terms-conditions' element={<Terms/>} />
+        <Route path='/privacy-policy' element={<Privacy/>} />
+        <Route path='*' element={<NotFound/>} />
         <Route path='/study-tour-2023' element={<StudyTour2023/>}/>
-        <Route path='/study-tour-form-2023' element={<StudyTourForm2023 />} />
+        <Route path='/study-tour-form-2023' element={<StudyTourForm2023/>} />
+        <Route path='/sports-study-tour-2023' element={<SportsStudyTour2023/>} />
         {/* BLOG PAGES */}
         <Route path='/blog/uk-dependant-visa-ban' element={<BlogOne/>}/>
       </Routes>
