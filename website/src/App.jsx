@@ -21,6 +21,7 @@ import WhatsApp from './components/Whatsapp'
 import StudyTour2023 from './subpages/StudyTour2023'
 import StudyTourForm2023 from './subpages/StudyTourForm2023'
 import BlogOne from './subpages/Blog1'
+import BlogTwo from './subpages/Blog2'
 import SportsStudyTour2023 from './subpages/SportsStudyTour2023'
 import SportsStudyTourForm2023 from './subpages/SportsStudyTourForm2023'
 
@@ -47,6 +48,7 @@ function App() {
         <Route path='/sports-study-tour-form-2023' element={<SportsStudyTourForm2023/>} />
         {/* BLOG PAGES */}
         <Route path='/blog/uk-dependant-visa-ban' element={<BlogOne/>}/>
+        <Route path='/blog/canada-postgraduate-work-visa-extension' element={<BlogTwo/>}/>
       </Routes>
       <WhatsApp />
       <Footer />
