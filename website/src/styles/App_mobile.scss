@@ -110,9 +110,9 @@ $testborder: 1px solid red;
     height: auto;
     margin-top: 4.5em;
     padding-top: 2.5em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../assets/hero_alt_mobile.png") center no-repeat;
+    url("../assets/hero_alt_mobile.webp") center no-repeat;
   }
   .hero-left {
     width: 100%;
@@ -247,7 +247,7 @@ $testborder: 1px solid red;
     justify-content: center;
     align-items: center;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("../assets/graduates2.png") center fixed no-repeat;
+      url("../assets/graduates2.webp") center fixed no-repeat;
     .metrics-container {
       flex-direction: column;
       margin-top: 2em;
@@ -398,7 +398,7 @@ $testborder: 1px solid red;
   .section-twelve {
     height: 600px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-      url("../assets/students2.png") fixed center no-repeat;
+      url("../assets/students2.webp") fixed center no-repeat;
     gap: 1em;
     button {
       height: 40px;

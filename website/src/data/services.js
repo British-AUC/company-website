@@ -1,9 +1,9 @@
-import image1 from "../assets/services/image1.png";
-import image2 from "../assets/services/image2.png";
-import image3 from "../assets/services/image3.png";
-import image4 from "../assets/services/image4.png";
-import image5 from "../assets/services/image5.png";
-import image6 from "../assets/services/image6.png";
+import image1 from "../assets/services/image1.webp";
+import image2 from "../assets/services/image2.webp";
+import image3 from "../assets/services/image3.webp";
+import image4 from "../assets/services/image4.webp";
+import image5 from "../assets/services/image5.webp";
+import image6 from "../assets/services/image6.webp";
 
 export default [
     {

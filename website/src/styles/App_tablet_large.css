@@ -77,7 +77,7 @@
     height: auto;
     padding-top: 2.5em;
     padding-bottom: 2.5em;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/hero_alt_tablet_large.png") center no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/hero_alt_tablet_large.webp") center no-repeat;
   }
   .hero .hero-left h1 {
     font-size: 2.5rem;
@@ -130,7 +130,7 @@
   }
   .section-five {
     gap: 2em;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/graduates4.png") center fixed;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/graduates4.webp") center fixed;
   }
   .section-five .metrics-container {
     padding: 0em 3em;
@@ -234,7 +234,7 @@
     gap: 2em;
   }
   .section-twelve {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/students4.png") fixed center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/students.webp") fixed center;
   }
   .services-section {
     margin-top: 5em;

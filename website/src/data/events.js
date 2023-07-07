@@ -1,5 +1,5 @@
-import expoevent from "../assets/events/expoevent.png"
-import sportsevent from "../assets/events/sportsevent.png"
+import expoevent from "../assets/events/expoevent.webp"
+import sportsevent from "../assets/events/sportsevent.webp"
 
 
 export default [

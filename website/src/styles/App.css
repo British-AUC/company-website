@@ -130,7 +130,7 @@ footer #copyright2 {
   flex-direction: row;
   align-items: center;
   height: 550px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/hero_alt.png") center no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/hero_alt.webp") center no-repeat;
   padding: 0em 4em;
   padding-bottom: 2em;
 }
@@ -418,7 +418,7 @@ footer #copyright2 {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background: url("../assets/graduates.png") center fixed;
+  background: url("../assets/graduates.webp") center fixed;
   background-size: cover;
   height: 528px;
   align-items: center;
@@ -612,7 +612,7 @@ footer #copyright2 {
   width: 713px;
   height: 342px;
   background-color: #08437e;
-  background: linear-gradient(0deg, rgba(0, 64, 128, 0.9), rgba(0, 64, 128, 0.9)), url("../assets/newsletter.png") center no-repeat;
+  background: linear-gradient(0deg, rgba(0, 64, 128, 0.9), rgba(0, 64, 128, 0.9)), url("../assets/newsletter.webp") center no-repeat;
   border-radius: 50px;
   gap: 1em;
   margin-bottom: 5em;
@@ -784,7 +784,7 @@ footer #copyright2 {
   height: 433px;
   align-items: center;
   justify-content: center;
-  background: url("../assets/students.png") fixed center;
+  background: url("../assets/students.webp") fixed center;
   background-size: cover;
 }
 .section-twelve h2 {
@@ -1003,9 +1003,6 @@ footer #copyright2 {
   bottom: 3em;
   right: 2em;
   z-index: 10;
-}
-.whatsapp img {
-  width: 50px;
 }
 
 .event-page {

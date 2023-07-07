@@ -110,7 +110,7 @@ $testborder: 1px solid red;
     padding-top: 2.5em;
     padding-bottom: 2.5em;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../assets/hero_alt_tablet_large.png") center no-repeat;
+    url("../assets/hero_alt_tablet_large.webp") center no-repeat;
 
     .hero-left {
       h1 {
@@ -196,7 +196,7 @@ $testborder: 1px solid red;
   .section-five {
     gap: 2em;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("../assets/graduates4.png") center fixed;
+      url("../assets/graduates4.webp") center fixed;
     .metrics-container {
       padding: 0em 3em;
       .metric {
@@ -332,7 +332,7 @@ $testborder: 1px solid red;
   // SECTION TWELVE START
   .section-twelve {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-     url("../assets/students4.png") fixed center;
+     url("../assets/students.webp") fixed center;
   }
   // SECTION TWELVE END
 

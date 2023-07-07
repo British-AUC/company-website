@@ -1,6 +1,6 @@
-import person1 from "../assets/testimonials/testifier1.png"
-import person2 from "../assets/testimonials/testifier2.png"
-import person3 from "../assets/testimonials/testifier3.png"
+import person1 from "../assets/testimonials/testifier1.webp"
+import person2 from "../assets/testimonials/testifier2.webp"
+import person3 from "../assets/testimonials/testifier3.webp"
 import icon2 from "../assets/testimonials/instagram_icon.svg"
 
 export default [

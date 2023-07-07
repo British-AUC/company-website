@@ -1,5 +1,5 @@
 import React from "react";
-import whatsapp from "../assets/whatsapp.png"
+import whatsapp from "../assets/whatsapp.svg"
 
 export default function WhatsApp(){
     return (
