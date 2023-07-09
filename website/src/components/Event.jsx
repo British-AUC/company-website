@@ -10,7 +10,6 @@ export default function Event(props){
                 <p>{props.description}</p>
                 <div className="details">
                     <p><b>Date:</b> {props.date}</p>
-                    {/* <p><b>Time:</b> {props.time}</p> */}
                 </div>
                 <Link to={props.link}>
                     <button>Learn more</button>

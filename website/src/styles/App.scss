@@ -1,4 +1,4 @@
-$companyblue: #007fff;
+$companyblue: rgb(0, 127, 255);
 $companyred: #da241c;
 $companyblack: #1c1b1f;
 $compangreyblue: #dde6f0;
@@ -918,6 +918,7 @@ footer {
       outline: none;
       border: none;
       font-weight: bold;
+      color: #fff; /* Set the text color to white */
     }
     button:hover {
       background-color: #006edb;

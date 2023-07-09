@@ -64,13 +64,13 @@ nav {
 }
 .nav-bottom-right .active {
   padding-bottom: 0.5em;
-  border-bottom: 2px solid #007fff;
+  border-bottom: 2px solid rgb(0, 127, 255);
 }
 .nav-bottom-right .active a {
-  color: #007fff;
+  color: rgb(0, 127, 255);
 }
 .nav-bottom-right a:hover {
-  color: #007fff;
+  color: rgb(0, 127, 255);
 }
 
 .mobile-nav-toggle {
@@ -116,7 +116,7 @@ footer .footer-right .footer-info a {
 }
 footer .footer-right .footer-info a:hover {
   font-weight: bold;
-  color: #007fff;
+  color: rgb(0, 127, 255);
 }
 footer #copyright1 {
   display: block;
@@ -160,7 +160,7 @@ footer #copyright2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #007fff;
+  background-color: rgb(0, 127, 255);
   width: 200px;
   height: 50px;
   border: inherit;
@@ -270,7 +270,7 @@ footer #copyright2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #007fff;
+  background-color: rgb(0, 127, 255);
   width: 180px;
   height: 50px;
   border: inherit;
@@ -567,7 +567,7 @@ footer #copyright2 {
   align-items: flex-start;
 }
 .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked {
-  background-color: #007fff;
+  background-color: rgb(0, 127, 255);
 }
 .section-six-sub .section-six-right .inputs2 .checkbox input[type=checkbox]:checked::after {
   content: "✓";
@@ -591,7 +591,7 @@ footer #copyright2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #007fff;
+  background-color: rgb(0, 127, 255);
   width: 160px;
   height: 50px;
   border: inherit;
@@ -808,7 +808,7 @@ footer #copyright2 {
   color: #1c1b1f;
 }
 .section-twelve button:hover {
-  background-color: #007fff;
+  background-color: rgb(0, 127, 255);
 }
 .section-twelve button:hover a {
   color: white;
@@ -862,6 +862,7 @@ footer #copyright2 {
   outline: none;
   border: none;
   font-weight: bold;
+  color: #fff; /* Set the text color to white */
 }
 .section-thirteen .event-container button:hover {
   background-color: #006edb;
@@ -928,7 +929,7 @@ footer #copyright2 {
   margin-top: 1.25em;
 }
 .section-fourteen .blog-card .details button a {
-  color: #007fff;
+  color: rgb(0, 127, 255);
   text-decoration: none;
 }
 
@@ -1025,7 +1026,7 @@ footer #copyright2 {
   color: rgb(66, 66, 66);
 }
 .event-page #text a {
-  color: #007fff;
+  color: rgb(0, 127, 255);
 }
 .event-page form {
   display: flex;
@@ -1035,7 +1036,7 @@ footer #copyright2 {
   gap: 2em;
 }
 .event-page form #top {
-  border-top: 8px solid #007fff;
+  border-top: 8px solid rgb(0, 127, 255);
   gap: 1em;
 }
 .event-page form .input-container {
@@ -1133,7 +1134,7 @@ footer #copyright2 {
   margin: 0;
   margin-top: 2em;
   margin-bottom: 0.5em;
-  color: #007fff;
+  color: rgb(0, 127, 255);
 }
 .study-tour-page img {
   width: 100%;
@@ -1311,7 +1312,7 @@ footer #copyright2 {
   margin: 0;
 }
 .blog-page .left a {
-  color: #007fff;
+  color: rgb(0, 127, 255);
 }
 .blog-page .left .social-icons-2 {
   display: none;
