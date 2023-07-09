@@ -849,6 +849,7 @@ footer #copyright2 {
 }
 .section-thirteen .event-container a {
   text-decoration: none;
+  color: #fff;
 }
 .section-thirteen .event-container button {
   display: flex;
