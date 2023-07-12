@@ -453,10 +453,11 @@ footer {
 
     .arrow {
       width: 20px;
-    }
+      transition: all 0.3s ease; /* Add transition for smooth effect */
 
-    .arrow:hover {
-      width: 40px;
+      &:hover {
+        transform: scale(1.4); /* Increase size on hover */
+      }
     }
 
     .testimonial-container-left {

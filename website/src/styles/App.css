@@ -370,9 +370,10 @@ footer #copyright2 {
 }
 .testimonial-container .testimonial-sub-container .arrow {
   width: 20px;
+  transition: all 0.3s ease; /* Add transition for smooth effect */
 }
 .testimonial-container .testimonial-sub-container .arrow:hover {
-  width: 40px;
+  transform: scale(1.4); /* Increase size on hover */
 }
 .testimonial-container .testimonial-sub-container .testimonial-container-left {
   display: flex;
