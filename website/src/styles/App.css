@@ -307,6 +307,10 @@ footer #copyright2 {
   border-radius: 10px;
   width: 80%;
   height: auto;
+  transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+.section-three .service:hover {
+  transform: scale(1.05); /* Increase size on hover */
 }
 .section-three .service-left {
   display: flex;
@@ -1006,6 +1010,10 @@ footer #copyright2 {
   bottom: 3em;
   right: 2em;
   z-index: 10;
+  transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+.whatsapp:hover {
+  transform: scale(1.1); /* Increase size on hover */
 }
 
 .event-page {
