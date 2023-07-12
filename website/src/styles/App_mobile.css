@@ -325,6 +325,9 @@
   .section-eleven {
     padding: 3em 1em;
   }
+  .section-eleven h2 {
+    width: 100%;
+  }
   .section-eleven .images-container {
     flex-direction: column;
     gap: 2em;

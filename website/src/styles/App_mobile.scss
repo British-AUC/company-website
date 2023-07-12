@@ -387,6 +387,9 @@ $testborder: 1px solid red;
   // SECTION ELEVEN START
   .section-eleven {
     padding: 3em 1em;
+    h2 {
+      width: 100%;
+    }
     .images-container {
       flex-direction: column;
       gap: 2em;
