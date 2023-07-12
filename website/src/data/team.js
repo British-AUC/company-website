@@ -22,7 +22,7 @@ export default [
         id: 3,
         image: rachel,
         name: "Rachel Borland",
-        title: "Director - Partnerships",
+        title: "Director - Business Partnerships",
     },
     {
         id: 4,

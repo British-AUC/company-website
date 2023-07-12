@@ -863,7 +863,8 @@ footer #copyright2 {
   outline: none;
   border: none;
   font-weight: bold;
-  color: #fff; /* Set the text color to white */
+  color: #fff;
+  /* Set the text color to white */
 }
 .section-thirteen .event-container button:hover {
   background-color: #006edb;
@@ -1159,7 +1160,9 @@ footer #copyright2 {
   border-radius: 10px;
   margin-bottom: 2em;
 }
-.study-tour-page .schools h4, .study-tour-page .schools h3, .study-tour-page .schools ol {
+.study-tour-page .schools h4,
+.study-tour-page .schools h3,
+.study-tour-page .schools ol {
   margin: 0;
 }
 .study-tour-page .schools .left {
@@ -1204,7 +1207,8 @@ footer #copyright2 {
   border: 1px solid black;
 }
 
-.event-table th, .event-table td {
+.event-table th,
+.event-table td {
   border: 1px solid rgb(24, 24, 24);
   padding: 8px;
 }
@@ -1242,6 +1246,14 @@ footer #copyright2 {
   height: -moz-max-content;
   height: max-content;
   gap: 1em;
+  padding: 1em;
+  border: 0.5px solid rgba(128, 128, 128, 0.315);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
+  border-radius: 10px;
+  transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+.team-container .sub .team-member:hover {
+  transform: scale(1.05); /* Increase size on hover */
 }
 .team-container .sub .team-member img {
   width: 100%;

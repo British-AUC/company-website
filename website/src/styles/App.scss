@@ -40,6 +40,7 @@ nav {
   flex-direction: row;
   gap: 1em;
   justify-content: flex-end;
+
   p {
     display: flex;
     align-items: center;
@@ -63,19 +64,23 @@ nav {
   width: 67%;
   gap: 1rem;
   justify-content: flex-end;
+
   a {
     color: $companyblack;
     text-decoration: none;
     padding-bottom: 0.5em;
     font-weight: 600;
   }
+
   .active {
     padding-bottom: 0.5em;
     border-bottom: 2px solid $companyblue;
+
     a {
       color: $companyblue;
     }
   }
+
   a:hover {
     color: $companyblue;
   }
@@ -84,6 +89,7 @@ nav {
 .mobile-nav-toggle {
   display: none;
 }
+
 // NAVIGATION END
 
 // FOOTER START
@@ -93,47 +99,57 @@ footer {
   padding: 6em 4em;
   background-color: $compangreyblue;
   gap: 7em;
+
   .footer-left {
     display: flex;
     flex-direction: column;
     width: 33.333%;
+
     p {
       font-size: 1rem;
     }
+
     .social-icons {
       display: flex;
       flex-direction: row;
       gap: 0.5em;
     }
   }
+
   .footer-right {
     display: flex;
     flex-direction: row;
     width: 66%;
     justify-content: space-evenly;
+
     .footer-info {
       display: flex;
       flex-direction: column;
       width: 33.333%;
       gap: 0.5em;
+
       a {
         text-decoration: none;
         color: $companyblack;
         font-size: 1rem;
       }
+
       a:hover {
         font-weight: bold;
         color: $companyblue;
       }
     }
   }
+
   #copyright1 {
     display: block;
   }
+
   #copyright2 {
     display: none;
   }
 }
+
 // FOOTER END
 
 // HERO SECTION START
@@ -143,7 +159,7 @@ footer {
   align-items: center;
   height: 550px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("../assets/hero_alt.webp") center no-repeat;
+    url("../assets/hero_alt.webp") center no-repeat;
   padding: $desktoppadding;
   padding-bottom: 2em;
 }
@@ -153,6 +169,7 @@ footer {
   flex-direction: column;
   width: 52%;
   gap: 1em;
+
   h1 {
     font-size: 3.25rem;
     font-weight: 700;
@@ -160,14 +177,17 @@ footer {
     letter-spacing: 0.05em;
     margin: 0;
   }
+
   p {
     font-size: 1.15rem;
     color: white;
   }
+
   .button-container {
     display: flex;
     gap: 1.5em;
   }
+
   .button-1 {
     display: flex;
     align-items: center;
@@ -179,32 +199,39 @@ footer {
     outline: none;
     border-radius: 10px;
     font-weight: 700;
+
     a {
       text-decoration: none;
       color: white;
     }
   }
+
   .button-1:hover {
     background-color: #006edb;
   }
+
   .button-2 {
     @extend .button-1;
     background-color: white;
     width: 130px;
+
     // border: 1.5px solid $companyblue;
     a {
       text-decoration: none;
       color: $companyblack;
     }
   }
+
   .button-2:hover {
     background-color: inherit;
     border: 1.5px solid white;
+
     a {
       color: white;
     }
   }
 }
+
 // HERO SECTION END
 
 // SECTION ONE START
@@ -215,6 +242,7 @@ footer {
   padding: $desktoppadding;
   padding-top: 5em;
   padding-bottom: 5em;
+
   p {
     text-align: center;
     font-weight: 300;
@@ -249,6 +277,7 @@ footer {
     transform: translateX(100%);
     -webkit-transform: translateX(100%);
   }
+
   100% {
     transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
@@ -259,10 +288,12 @@ footer {
   0% {
     -webkit-transform: translateX(100%);
   }
+
   100% {
     -webkit-transform: translateX(-100%);
   }
 }
+
 // SECTION ONE END
 
 // SECTION TWO START
@@ -273,26 +304,31 @@ footer {
   padding-bottom: 2em;
   margin-bottom: 5em;
   background-color: $companygreybg;
+
   .section-two-bottom {
     display: flex;
     flex-direction: row;
     gap: 2em;
   }
+
   .section-two-left {
     display: flex;
     width: 50%;
     align-items: center;
     justify-content: center;
+
     img {
       width: 90%;
       height: auto;
       border-radius: 10px;
     }
   }
+
   .section-two-right {
     display: flex;
     flex-direction: column;
     width: 50%;
+
     .button-3 {
       display: flex;
       align-items: center;
@@ -304,16 +340,19 @@ footer {
       outline: none;
       border-radius: 10px;
       font-weight: 700;
+
       a {
         text-decoration: none;
         color: white;
       }
     }
+
     .button-3:hover {
       background-color: #006edb;
     }
   }
 }
+
 // SECTION TWO END
 
 // SECTION THREE START
@@ -323,11 +362,13 @@ footer {
   padding: $desktoppadding;
   align-items: center;
   margin-bottom: 5em;
+
   #service-p {
     line-height: 30px;
     margin: 0;
     margin-bottom: 4em;
   }
+
   .service {
     display: flex;
     flex-direction: row;
@@ -338,6 +379,7 @@ footer {
     width: 80%;
     height: auto;
   }
+
   .service-left {
     display: flex;
     flex-direction: column;
@@ -345,34 +387,41 @@ footer {
     padding: 1em 0em 1em 1em;
     gap: 0.5em;
     justify-content: center;
+
     h3 {
       margin: 0;
       font-size: 1.25rem;
     }
+
     p {
       font-size: 1rem;
       margin: 0;
     }
   }
+
   .service-right {
     display: flex;
     width: 45%;
     align-items: center;
     justify-content: center;
     padding: 1em 1.5em;
+
     img {
       width: 90%;
       height: auto;
       border-radius: 10px;
     }
   }
+
   .service:nth-child(odd) {
     flex-direction: row-reverse;
+
     .service-left {
       padding: 1em 1em 1em 0em;
     }
   }
 }
+
 // SECTION THREE END
 
 // SECTION FOUR START
@@ -389,31 +438,38 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 2em;
+
   .testimonial-sub-container {
     display: flex;
     flex-direction: row;
     width: 70%;
     height: auto;
     gap: 2rem;
+
     .arrow {
       width: 20px;
     }
+
     .arrow:hover {
       width: 40px;
     }
+
     .testimonial-container-left {
       display: flex;
       width: 30%;
       align-items: center;
       justify-content: center;
     }
+
     .testimonial-container-right {
       display: flex;
       flex-direction: column;
       width: 70%;
+
       .message {
         font-size: 1rem;
       }
+
       .details {
         display: flex;
         flex-direction: row;
@@ -421,32 +477,38 @@ footer {
         text-decoration: none;
         color: $companyblack;
       }
+
       .name {
         font-size: 1rem;
       }
+
       .university {
         @extend .name;
         font-weight: 700;
       }
     }
   }
+
   .testimonial-nav {
     display: flex;
     flex-direction: row;
     gap: 0.5em;
     align-items: center;
     justify-content: center;
+
     .nav-bubble {
       width: 20px;
       height: 20px;
       border-radius: 50%;
       background-color: #e3e3e3;
+
       &.active {
         background-color: $companyblack;
       }
     }
   }
 }
+
 // SECTION FOUR END
 
 // SECTION FIVE START
@@ -460,26 +522,31 @@ footer {
   align-items: center;
   justify-content: center;
   margin-bottom: 5em;
+
   h2 {
     font-weight: 700;
     color: white;
   }
+
   .metrics-container {
     display: flex;
     flex-direction: row;
     gap: 2em;
   }
+
   .metric {
     display: flex;
     flex-direction: column;
     gap: 1em;
     color: white;
     width: 250px;
+
     b {
       font-size: 2.25rem;
     }
   }
 }
+
 // SECTION FIVE END
 
 // SECTION SIX START
@@ -490,9 +557,11 @@ footer {
   align-items: center;
   justify-content: center;
   padding-bottom: 5em;
+
   h2 {
     margin: 0;
   }
+
   p {
     margin-bottom: 3em;
   }
@@ -503,12 +572,14 @@ footer {
   flex-direction: row;
   gap: 2em;
   justify-content: space-evenly;
+
   .section-six-left {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 50%;
     justify-content: space-evenly;
+
     .information {
       display: flex;
       flex-direction: row;
@@ -517,18 +588,22 @@ footer {
       height: auto;
       margin: 0;
       margin-bottom: 15px;
+
       img {
         width: 25px;
         height: 25px;
         margin-top: 0.15em;
       }
+
       .details {
         width: 100%;
+
         b {
           font-size: 1.15rem;
           line-height: 10px;
           margin: 0;
         }
+
         p {
           font-size: 1rem;
           margin: 0;
@@ -536,16 +611,19 @@ footer {
       }
     }
   }
+
   .section-six-right {
     display: flex;
     flex-direction: column;
     width: 50%;
     gap: 1em;
+
     .inputs {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       gap: 2em;
+
       input {
         width: 50%;
         height: 50px;
@@ -556,11 +634,13 @@ footer {
         padding: 0em 1em;
       }
     }
+
     .inputs2 {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       flex-wrap: wrap;
+
       .file-label {
         display: flex;
         align-items: center;
@@ -568,19 +648,24 @@ footer {
         cursor: pointer;
         gap: 0.5em;
       }
+
       .file-icon {
         display: inline-block;
         margin-right: 5px;
+
         img {
           width: 30px;
         }
       }
+
       .file-name {
         display: inline-block;
       }
+
       .hidden {
         display: none;
       }
+
       .checkbox {
         display: flex;
         flex-direction: row;
@@ -588,6 +673,7 @@ footer {
         justify-content: center;
         font-size: 0.875rem;
         gap: 0.25em;
+
         input[type="checkbox"] {
           appearance: none;
           -webkit-appearance: none;
@@ -600,9 +686,11 @@ footer {
           margin: 0;
           align-items: flex-start;
         }
+
         input[type="checkbox"]:checked {
           background-color: $companyblue;
         }
+
         input[type="checkbox"]:checked::after {
           content: "\2713";
           color: #fff;
@@ -614,6 +702,7 @@ footer {
         }
       }
     }
+
     textarea {
       background-color: #f6f6f6;
       border: 0.5px solid #000000;
@@ -624,6 +713,7 @@ footer {
       font-size: 16px;
     }
   }
+
   .button-1 {
     display: flex;
     align-items: center;
@@ -636,10 +726,12 @@ footer {
     border-radius: 10px;
     font-weight: 700;
   }
+
   .button-1:hover {
     background-color: #006edb;
   }
 }
+
 // SECTION SIX END
 
 // SECTION SEVEN START
@@ -652,15 +744,14 @@ footer {
   width: 713px;
   height: 342px;
   background-color: #08437e;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(0, 64, 128, 0.9),
-      rgba(0, 64, 128, 0.9)
-    ),
+      rgba(0, 64, 128, 0.9)),
     url("../assets/newsletter.webp") center no-repeat;
   border-radius: 50px;
   gap: 1em;
   margin-bottom: 5em;
+
   h3 {
     font-weight: 700;
     font-size: 2rem;
@@ -669,12 +760,14 @@ footer {
     color: white;
     margin: 0;
   }
+
   p {
     text-align: center;
     color: white;
     letter-spacing: 0.05em;
     margin: 0rem 4rem;
   }
+
   .email-container {
     display: flex;
     flex-direction: row;
@@ -683,6 +776,7 @@ footer {
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+
     input {
       display: flex;
       flex-direction: row;
@@ -697,9 +791,11 @@ footer {
       border: 1px solid #ffffff;
       border-radius: 15px;
     }
+
     input:focus {
       outline: none;
     }
+
     button {
       display: flex;
       flex-direction: row;
@@ -716,6 +812,7 @@ footer {
     }
   }
 }
+
 // SECTION SEVEN END
 
 // SECTION EIGHT START
@@ -725,14 +822,17 @@ footer {
   padding: $desktoppadding;
   margin-bottom: 5em;
   gap: 1em;
+
   p {
     margin: 0;
   }
+
   h2 {
     @extend p;
     margin-top: 1.5em;
   }
 }
+
 // SECTION EIGHT END
 
 // SECTION NINE START
@@ -741,38 +841,46 @@ footer {
   flex-direction: column;
   padding: $desktoppadding;
   gap: 2em;
+
   h2 {
     margin: 0;
   }
+
   .section-nine-sub {
     display: flex;
     flex-direction: row;
     gap: 2em;
+
     .section-nine-left {
       display: flex;
       flex-direction: column;
       gap: 0.5em;
       width: 30%;
+
       em {
         display: flex;
         align-items: center;
         gap: 0.5em;
       }
+
       strong {
         margin: 0;
       }
     }
+
     .section-nine-right {
       display: flex;
       flex-direction: column;
       width: 70%;
       gap: 1em;
+
       p {
         margin: 0;
       }
     }
   }
 }
+
 // SECTION NINE END
 
 // SECTION TEN START
@@ -782,22 +890,27 @@ footer {
   gap: 2em;
   padding: 0em 8em;
   margin: 5em 0em;
+
   .section-ten-sub {
     display: flex;
     flex-direction: column;
     gap: 1em;
     align-items: center;
+
     .sub {
       display: flex;
       gap: 2em;
+
       .values-container {
         display: flex;
         flex-direction: column;
         gap: 0.5em;
         width: 33.333%;
+
         img {
           width: 40px;
           height: 40px;
+
           p {
             font-size: 1rem;
           }
@@ -806,6 +919,7 @@ footer {
     }
   }
 }
+
 // SECTION TEN END
 
 // SECTION ELEVEN START
@@ -818,9 +932,11 @@ footer {
   background-color: $companygreybg;
   gap: 2em;
   margin-bottom: 5em;
+
   h2 {
     margin: 0;
   }
+
   .images-container {
     display: flex;
     flex-direction: row;
@@ -830,6 +946,7 @@ footer {
     justify-content: space-evenly;
   }
 }
+
 // SECTION ELEVEN END
 
 // SECTION TWELVE START
@@ -842,9 +959,11 @@ footer {
   justify-content: center;
   background: url("../assets/students.webp") fixed center;
   background-size: cover;
+
   h2 {
     color: white;
   }
+
   button {
     display: flex;
     flex-direction: row;
@@ -857,18 +976,22 @@ footer {
     font-weight: bold;
     border: none;
     border-radius: 10px;
+
     a {
       text-decoration: none;
       color: $companyblack;
     }
   }
+
   button:hover {
     background-color: $companyblue;
+
     a {
       color: white;
     }
   }
 }
+
 // SECTION TWELVE END
 
 // SECTION THIRTEEN START
@@ -879,6 +1002,7 @@ footer {
   align-items: center;
   gap: 4em;
   margin-bottom: 5em;
+
   .event-container {
     display: flex;
     flex-direction: column;
@@ -888,25 +1012,31 @@ footer {
     border: 0.5px solid rgba(128, 128, 128, 0.315);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
     border-radius: 10px;
+
     img {
       max-width: 300px;
       border-radius: 5px;
     }
+
     strong {
       font-size: 1.25rem;
     }
+
     p {
       margin: 0;
     }
+
     .details {
       display: flex;
       flex-direction: row;
       gap: 2em;
     }
+
     a {
       text-decoration: none;
       color: #fff;
     }
+
     button {
       display: flex;
       flex-direction: row;
@@ -919,13 +1049,16 @@ footer {
       outline: none;
       border: none;
       font-weight: bold;
-      color: #fff; /* Set the text color to white */
+      color: #fff;
+      /* Set the text color to white */
     }
+
     button:hover {
       background-color: #006edb;
     }
   }
 }
+
 // SECTION THIRTEEN END
 
 // SECTION FOURTEEN START
@@ -935,6 +1068,7 @@ footer {
   padding: $desktoppadding;
   margin-bottom: 5em;
   gap: 2em;
+
   .section-fourteen-sub {
     display: flex;
     flex-direction: row;
@@ -942,6 +1076,7 @@ footer {
     gap: 2em;
     justify-content: center;
   }
+
   .blog-card {
     display: flex;
     flex-direction: column;
@@ -951,31 +1086,37 @@ footer {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
     border-radius: 20px;
     margin-bottom: 4em;
+
     img {
       max-width: 340px;
       height: 180px;
       border-top-left-radius: 20px;
       border-top-right-radius: 20px;
     }
+
     .details {
       display: flex;
       flex-direction: column;
       padding: 1em;
+
       .details-sub {
         display: flex;
         flex-direction: row;
         gap: 1em;
+
         p {
           display: flex;
           align-items: center;
           gap: 0.5em;
           font-size: 0.875rem;
         }
+
         img {
           width: 20px;
           height: 20px;
         }
       }
+
       button {
         display: flex;
         padding: 0;
@@ -985,6 +1126,7 @@ footer {
         border: none;
         outline: none;
         margin-top: 1.25em;
+
         a {
           color: $companyblue;
           text-decoration: none;
@@ -993,6 +1135,7 @@ footer {
     }
   }
 }
+
 // SECTION FOURTEEN END
 
 // SECTION FIFTEEN START
@@ -1002,13 +1145,16 @@ footer {
   padding: $desktoppadding;
   margin-bottom: 10em;
   gap: 2em;
+
   h2 {
     margin-bottom: 0;
   }
+
   p#contact {
     text-align: center;
   }
 }
+
 // SECTION FIFTEEN END
 
 // SECTION SIXTEEN START
@@ -1018,6 +1164,7 @@ footer {
   padding: $desktoppadding;
   gap: 2em;
   margin-bottom: 10em;
+
   .question-container {
     display: flex;
     flex-direction: row;
@@ -1025,23 +1172,29 @@ footer {
     justify-content: space-between;
     padding: 1em 0em;
     border-bottom: 0.5px solid #aaaaaa;
+
     .left {
       width: 90%;
+
       #question {
         font-size: 1rem;
         font-weight: 600;
         color: $companyblack;
       }
+
       p {
         font-size: 0.8735rem;
       }
+
       .visible {
         display: block;
       }
+
       .hidden {
         display: none;
       }
     }
+
     .right {
       display: flex;
       justify-content: flex-end;
@@ -1049,6 +1202,7 @@ footer {
     }
   }
 }
+
 // SECTION SIXTEEN END
 
 // SECTION SEVENTEEN START
@@ -1058,6 +1212,7 @@ footer {
   padding: $desktoppadding;
   margin-bottom: 5em;
 }
+
 // SECTION SEVENTEEN END
 
 // SECTION EIGHTEEN START
@@ -1067,6 +1222,7 @@ footer {
   padding: $desktoppadding;
   margin-bottom: 5em;
 }
+
 // SECTION EIGHTEEN END
 
 // WHATSAPP SECTION START
@@ -1076,6 +1232,7 @@ footer {
   right: 2em;
   z-index: 10;
 }
+
 // WHATSAPP SECTION END
 
 // SUBPAGES SECTION
@@ -1086,30 +1243,37 @@ footer {
   align-items: center;
   padding-bottom: 5em;
   background-color: $compangreyblue;
+
   h1 {
     text-align: center;
   }
+
   h3 {
     margin: 0;
   }
+
   #text {
     margin: 0;
     font-size: 0.875rem;
     color: rgb(66, 66, 66);
+
     a {
       color: $companyblue;
     }
   }
+
   form {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     gap: 2em;
+
     #top {
       border-top: 8px solid $companyblue;
       gap: 1em;
     }
+
     .input-container {
       display: flex;
       flex-direction: column;
@@ -1120,11 +1284,13 @@ footer {
       width: 60%;
       padding: 1.5em;
       gap: 2em;
+
       p {
         font-size: 1.25rem;
         font-weight: 600;
         margin: 0;
       }
+
       input {
         background-color: white;
         outline: none;
@@ -1180,6 +1346,7 @@ footer {
       }
     }
   }
+
   button {
     display: flex;
     flex-direction: row;
@@ -1194,6 +1361,7 @@ footer {
     border: none;
     font-weight: bold;
   }
+
   button:hover {
     background-color: #006edb;
   }
@@ -1206,16 +1374,19 @@ footer {
   flex-direction: column;
   padding: $desktoppadding;
   margin-bottom: 5em;
+
   p {
     font-size: 1rem;
     margin: 0;
   }
+
   h3 {
     margin: 0;
     margin-top: 2em;
     margin-bottom: 0.5em;
     color: $companyblue;
   }
+
   img {
     width: 100%;
     max-width: 800px;
@@ -1225,40 +1396,50 @@ footer {
     margin-top: 2em;
     margin-bottom: 2em;
   }
+
   .schools {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 2em;
     gap: 10%;
+
     img {
       max-width: 300px;
       height: 315px;
       border-radius: 10px;
       margin-bottom: 2em;
     }
-    h4, h3, ol {
+
+    h4,
+    h3,
+    ol {
       margin: 0;
     }
+
     .left {
       display: flex;
       flex-direction: column;
       width: 45%;
     }
+
     .right {
       display: flex;
       flex-direction: column;
       width: 45%;
     }
+
     .uyo {
       display: flex;
       flex-direction: column;
       width: 100%;
     }
   }
+
   a {
     text-decoration: none;
   }
+
   button {
     display: flex;
     flex-direction: row;
@@ -1273,6 +1454,7 @@ footer {
     font-weight: bold;
     margin-top: 3em;
   }
+
   button:hover {
     background-color: #006edb;
   }
@@ -1285,7 +1467,8 @@ footer {
   border: 1px solid black;
 }
 
-.event-table th, .event-table td {
+.event-table th,
+.event-table td {
   border: 1px solid rgb(24, 24, 24);
   padding: 8px;
 }
@@ -1306,6 +1489,7 @@ footer {
   flex-direction: column;
   gap: 2em;
   padding: $desktoppadding;
+
   .sub {
     display: flex;
     flex-direction: row;
@@ -1315,31 +1499,46 @@ footer {
     gap: 3em;
     width: 100%;
     height: auto;
+
     .team-member {
       display: flex;
       flex-direction: column;
       max-width: 280px;
       height: max-content;
       gap: 1em;
+      padding: 1em;
+      border: 0.5px solid rgba(128, 128, 128, 0.315);
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
+      border-radius: 10px;
+      transition: all 0.3s ease; /* Add transition for smooth effect */
+
+      &:hover {
+        transform: scale(1.05); /* Increase size on hover */
+      }
+
       img {
         width: 100%;
         height: auto;
         border-radius: 5px;
       }
+
       p {
         margin: 0;
         width: 100%;
         height: auto;
       }
+
       .title {
         font-size: 1.1rem;
         font-weight: 700;
       }
+
       .name {
         font-size: 1rem;
         font-weight: 500;
       }
     }
+
   }
 }
 
@@ -1351,26 +1550,31 @@ footer {
   justify-content: right;
   margin-bottom: 5em;
   margin-top: 2em;
+
   .left {
     display: flex;
     flex-direction: column;
     width: 60%;
     justify-content: flex-end;
     gap: 1.5em;
+
     .cover-image {
       width: 90%;
       border-radius: 10px;
     }
+
     .tags-container {
       display: flex;
       flex-direction: row;
       align-items: center;
       gap: 1.5em;
+
       span {
         color: #006edb;
         font-weight: 700;
         font-size: 0.875rem;
       }
+
       span:first-child {
         display: flex;
         flex-direction: row;
@@ -1382,6 +1586,7 @@ footer {
         font-weight: 400;
       }
     }
+
     h2 {
       font-size: 2.2rem;
       text-align: left;
@@ -1389,28 +1594,34 @@ footer {
       font-weight: 700;
       margin: 0;
     }
+
     p {
       margin: 0;
     }
+
     a {
       color: $companyblue;
     }
+
     .social-icons-2 {
       display: none;
     }
   }
+
   .right {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 20%;
     margin-top: 5em;
+
     .social-icons {
       display: flex;
       flex-direction: column;
       justify-content: left;
       gap: 2em;
       padding-left: 3em;
+
       img {
         width: 30px;
       }
