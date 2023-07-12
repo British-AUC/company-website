@@ -16,7 +16,7 @@ export default [
         image: sportsstudytour,
         title: "BRITISH AUC SPORT & STUDY EXPO 2023",
         description: "Join the Sport & Study Expo 2023 on September 12th, 14th, and 15th in Abuja and Lagos. Connect with high-profile Nigerian secondary schools and showcase your institution's robust sports and study programs. Engage with students and parents seeking sports and study opportunities abroad. Don't miss this event dedicated to high school students pursuing A Level + Sports, International Foundation Year + Sports, International Baccalaureate + Sports, US Diploma + Sports, OSSD + Sports, or Universities with strong sports presence.",
-        date: "12th, 14th and 15th September 2023",
+        date: "12th, 13th, 14th and 15th September 2023",
         link: "/sports-study-tour-2023",
     },
 ]
