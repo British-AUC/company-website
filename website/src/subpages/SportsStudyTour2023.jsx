@@ -106,19 +106,24 @@ export default function SportsStudyTour2023() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>12th September, 2023</td>
+                        <td>11th September, 2023</td>
                         <td>British AUC Sports & Study Expo 2023</td>
                         <td>Abuja Continental Hotel, Abuja, FCT</td>
                     </tr>
                     <tr>
-                        <td className="odd-row">14th September, 2023</td>
+                        <td className="odd-row">13th September, 2023</td>
                         <td className="odd-row">British AUC Sports & Study Expo 2023</td>
-                        <td className="odd-row">Radisson BLU Anchorage Hotel, Victoria Island, Lagos</td>
+                        <td className="odd-row">Golden Tulip Hotel, GRA, Port Harcourt, Rivers State</td>
                     </tr>
                     <tr>
-                        <td>15th September, 2023</td>
+                        <td>14th September, 2023</td>
                         <td>British AUC Sports & Study Expo 2023</td>
-                        <td>Radisson Hotel Lagos, Ikeja, GRA</td>
+                        <td>Radisson Hotel, GRA, Ikeja, Lagos</td>
+                    </tr>
+                    <tr>
+                        <td className="odd-row">15th September, 2023</td>
+                        <td className="odd-row">British AUC Sports & Study Expo 2023</td>
+                        <td className="odd-row">Radisson BLU Anchorage Hotel, Victoria Island, Lagos</td>
                     </tr>
                 </tbody>
             </table>
